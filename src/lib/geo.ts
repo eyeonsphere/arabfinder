@@ -84,6 +84,24 @@ export const cities: City[] = [
     blurb: "Part of the Orange County beachhead launch cluster alongside Anaheim and Irvine.",
   },
   {
+    slug: "westminster",
+    name: "Westminster",
+    countySlug: "orange-county",
+    blurb: "Home to Al-Noor Foundation, an Orange County mosque, and neighboring the Little Saigon commercial district.",
+  },
+  {
+    slug: "placentia",
+    name: "Placentia",
+    countySlug: "orange-county",
+    blurb: "Home to Holy Cross Melkite Greek Catholic Church, part of Orange County's Levantine Christian community.",
+  },
+  {
+    slug: "orange",
+    name: "Orange",
+    countySlug: "orange-county",
+    blurb: "Home to St Mary's Syrian Orthodox Church, part of Orange County's Syriac Christian community.",
+  },
+  {
     slug: "el-cajon",
     name: "El Cajon",
     countySlug: "san-diego-county",
