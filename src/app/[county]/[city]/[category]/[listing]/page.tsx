@@ -88,6 +88,12 @@ export default async function ListingPage({
                 <dd><a href={listing.website} className="text-brand-teal hover:underline">{listing.website}</a></dd>
               </div>
             )}
+            {listing.openingHours && (
+              <div>
+                <dt className="text-xs text-foreground/40">Hours</dt>
+                <dd>{listing.openingHours}</dd>
+              </div>
+            )}
           </dl>
         </div>
 

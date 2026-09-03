@@ -102,6 +102,12 @@ export const cities: City[] = [
     blurb: "Home to St Mary's Syrian Orthodox Church, part of Orange County's Syriac Christian community.",
   },
   {
+    slug: "garden-grove",
+    name: "Garden Grove",
+    countySlug: "orange-county",
+    blurb: "Directly south of Anaheim's Little Arabia district along Brookhurst Street, with Arab American-owned restaurants of its own on the same corridor.",
+  },
+  {
     slug: "el-cajon",
     name: "El Cajon",
     countySlug: "san-diego-county",

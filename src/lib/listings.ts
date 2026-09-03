@@ -499,6 +499,7 @@ export const listings: Listing[] = [
     hasPublicStorefront: true,
     countySlug: "san-diego-county",
     citySlug: "el-cajon",
+    telephone: "+1-619-332-8833",
     geo: { lat: 32.784867, lng: -116.928286 },
 
     arabOwnedSelfIdentified: "not_stated",
@@ -506,14 +507,14 @@ export const listings: Listing[] = [
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap POI (ODbL)",
+      source: "OpenStreetMap POI (ODbL); phone cross-checked against independent public business directories (Stage 2 enrichment, Sept 2026) — no official business website was found",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Tagged in OpenStreetMap as Mediterranean cuisine. No ownership or halal-certification claim is made or implied by this listing.",
+    editorialNote: "Tagged in OpenStreetMap as Mediterranean cuisine. No ownership or halal-certification claim is made or implied by this listing. No official business website found — the phone number is from third-party directory listings, not the business's own site, so treat it as unconfirmed until claimed.",
   },
   {
     listingId: "osm-al-sultan-mediterranean-grill",
@@ -715,28 +716,31 @@ export const listings: Listing[] = [
     primaryCategory: "food-drink",
     hasPublicStorefront: true,
     countySlug: "orange-county",
-    citySlug: "anaheim",
+    citySlug: "garden-grove",
     geo: { lat: 33.8026228, lng: -117.9593587 },
     address: {
-      street: "Brookhurst Street",
-      locality: "Anaheim",
+      street: "11011 Brookhurst Street",
+      locality: "Garden Grove",
       region: "CA",
-      postal: "92804",
+      postal: "92840",
     },
+    website: "https://www.sababafalafelshop.com/",
+    openingHours: "Mon–Sat 10:00 am–10:00 pm, Sun 10:00 am–8:00 pm",
 
     arabOwnedSelfIdentified: "not_stated",
 
+    halalStatus: "self_described_halal",
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap POI (ODbL) + Nominatim reverse geocode for street/postal (Stage 2 enrichment, Sept 2026)",
-      method: "Automated ingestion via Overpass API",
+      source: "OpenStreetMap POI (ODbL) + business's own website (sababafalafelshop.com) for address, hours, and halal claim (Stage 2 enrichment, Sept 2026)",
+      method: "Automated ingestion via Overpass API, cross-checked against the business's own site",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "No street number was tagged on the OpenStreetMap node. On Brookhurst Street right at the Anaheim/Garden Grove line — Nominatim's reverse geocode actually files this ZIP under Garden Grove, so the city may need correcting once an owner claims this listing.",
+    editorialNote: "Originally geocoded to Anaheim from OpenStreetMap coordinates alone; the business's own website gives its address as Garden Grove, just south of the Little Arabia corridor along the same Brookhurst Street strip, so the city has been corrected here. Its own site states its meats and chicken are \"certified by Islamic authorities\" without naming the certifying body, so this is recorded as a self-described halal claim rather than an authority-verified certification. No phone number is published on the business's own site.",
   },
 ];
 
