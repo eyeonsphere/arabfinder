@@ -185,6 +185,12 @@ export const listings: Listing[] = [
     countySlug: "orange-county",
     citySlug: "anaheim",
     geo: { lat: 33.8372222, lng: -117.8988889 },
+    address: {
+      street: "South Fahrion Place",
+      locality: "Anaheim",
+      region: "CA",
+      postal: "92805",
+    },
 
     arabOwnedSelfIdentified: "not_stated",
 
@@ -192,14 +198,14 @@ export const listings: Listing[] = [
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for city",
+      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for street/postal (Stage 2 enrichment, Sept 2026)",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Street address not yet confirmed in OpenStreetMap — city and coordinates only. Needs Stage 2 enrichment before a full address can be shown.",
+    editorialNote: "No street number was tagged on the OpenStreetMap node, so only the street name and ZIP are confirmed. An exact number is still needed before this can be treated as a mailing address.",
   },
   {
     listingId: "osm-holy-cross-melkite-placentia",
@@ -210,6 +216,12 @@ export const listings: Listing[] = [
     countySlug: "orange-county",
     citySlug: "placentia",
     geo: { lat: 33.8822222, lng: -117.8716667 },
+    address: {
+      street: "451 West Madison Avenue",
+      locality: "Placentia",
+      region: "CA",
+      postal: "92870",
+    },
 
     arabOwnedSelfIdentified: "not_stated",
 
@@ -217,14 +229,14 @@ export const listings: Listing[] = [
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for city",
+      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for street address (Stage 2 enrichment, Sept 2026)",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Street address not yet confirmed in OpenStreetMap — city and coordinates only. Needs Stage 2 enrichment before a full address can be shown.",
+    editorialNote: "In the Old Town Placentia neighborhood.",
   },
   {
     listingId: "osm-st-marys-syrian-orthodox-orange",
@@ -265,6 +277,12 @@ export const listings: Listing[] = [
     countySlug: "san-diego-county",
     citySlug: "santee",
     geo: { lat: 32.8372717, lng: -116.973916 },
+    address: {
+      street: "Cottonwood Avenue",
+      locality: "Santee",
+      region: "CA",
+      postal: "92022",
+    },
 
     arabOwnedSelfIdentified: "not_stated",
 
@@ -272,14 +290,14 @@ export const listings: Listing[] = [
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for city",
+      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for street/postal (Stage 2 enrichment, Sept 2026)",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Near Cottonwood Avenue, Santee. Street address not yet confirmed in OpenStreetMap — needs Stage 2 enrichment.",
+    editorialNote: "No street number was tagged on the OpenStreetMap node, so only the street name and ZIP are confirmed.",
   },
   {
     listingId: "osm-al-rribat-al-aslami-la-mesa",
@@ -290,20 +308,26 @@ export const listings: Listing[] = [
     countySlug: "san-diego-county",
     citySlug: "la-mesa",
     geo: { lat: 32.7708073, lng: -117.043655 },
+    address: {
+      street: "Saranac Street",
+      locality: "La Mesa",
+      region: "CA",
+      postal: "92112",
+    },
 
     arabOwnedSelfIdentified: "not_stated",
 
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for city",
+      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for street/postal (Stage 2 enrichment, Sept 2026)",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Near Saranac Street, La Mesa. OpenStreetMap itself flags this record with a \"check religion\" note (its own contributor-added fixme tag), so treat the Islamic-center classification as unconfirmed until verified. Street address not yet confirmed either — needs Stage 2 enrichment.",
+    editorialNote: "OpenStreetMap itself flags this record with a \"check religion\" note (its own contributor-added fixme tag), so treat the Islamic-center classification as unconfirmed until verified. No street number was tagged, and Nominatim's reverse geocode files this address under San Diego's unincorporated mail-service area rather than La Mesa's own ZIP — kept under La Mesa here since that's the nearest incorporated city, but worth confirming on claim.",
   },
   {
     listingId: "osm-saint-michael-chaldean-el-cajon",
@@ -314,6 +338,12 @@ export const listings: Listing[] = [
     countySlug: "san-diego-county",
     citySlug: "el-cajon",
     geo: { lat: 32.7876978, lng: -116.9522952 },
+    address: {
+      street: "East Washington Avenue",
+      locality: "El Cajon",
+      region: "CA",
+      postal: "92020",
+    },
 
     arabOwnedSelfIdentified: "not_stated",
 
@@ -321,14 +351,14 @@ export const listings: Listing[] = [
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for city",
+      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for street/postal (Stage 2 enrichment, Sept 2026)",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Near East Washington Avenue, El Cajon — the heart of San Diego County's Chaldean/Iraqi-majority community per the blueprint's demographic research. Street address not yet confirmed in OpenStreetMap — needs Stage 2 enrichment.",
+    editorialNote: "In the heart of San Diego County's Chaldean/Iraqi-majority community per the blueprint's demographic research. No street number was tagged on the OpenStreetMap node, so only the street name and ZIP are confirmed.",
   },
   {
     listingId: "osm-islamic-center-of-lakeside",
@@ -339,20 +369,26 @@ export const listings: Listing[] = [
     countySlug: "san-diego-county",
     citySlug: "lakeside",
     geo: { lat: 32.865053, lng: -116.956789 },
+    address: {
+      street: "Mountain View Lane",
+      locality: "Lakeside",
+      region: "CA",
+      postal: "92071",
+    },
 
     arabOwnedSelfIdentified: "not_stated",
 
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for city",
+      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for street/postal (Stage 2 enrichment, Sept 2026)",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Near Mountain View Lane, Lakeside. Street address not yet confirmed in OpenStreetMap — needs Stage 2 enrichment.",
+    editorialNote: "No street number was tagged on the OpenStreetMap node, so only the street name and ZIP are confirmed.",
   },
   {
     listingId: "osm-our-mother-of-perpetual-help-el-cajon",
@@ -363,6 +399,12 @@ export const listings: Listing[] = [
     countySlug: "san-diego-county",
     citySlug: "el-cajon",
     geo: { lat: 32.7798922, lng: -116.950317 },
+    address: {
+      street: "South Mollison Avenue (near 1025)",
+      locality: "El Cajon",
+      region: "CA",
+      postal: "92020",
+    },
 
     arabOwnedSelfIdentified: "not_stated",
 
@@ -370,14 +412,14 @@ export const listings: Listing[] = [
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for city",
+      source: "OpenStreetMap place-of-worship POI (ODbL) + Nominatim reverse geocode for street/postal (Stage 2 enrichment, Sept 2026)",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Near East Chase Avenue, El Cajon. Street address not yet confirmed in OpenStreetMap — needs Stage 2 enrichment.",
+    editorialNote: "The church itself has no address tagged in OpenStreetMap; the number shown is the nearest addressed parcel returned by reverse geocoding its coordinates, not a confirmed street number for the church — treat it as approximate until an owner claims this listing.",
   },
   {
     listingId: "osm-luna-grill-el-cajon",
@@ -675,20 +717,26 @@ export const listings: Listing[] = [
     countySlug: "orange-county",
     citySlug: "anaheim",
     geo: { lat: 33.8026228, lng: -117.9593587 },
+    address: {
+      street: "Brookhurst Street",
+      locality: "Anaheim",
+      region: "CA",
+      postal: "92804",
+    },
 
     arabOwnedSelfIdentified: "not_stated",
 
     claimStatus: "unclaimed",
     verificationLevel: "unverified",
     provenance: {
-      source: "OpenStreetMap POI (ODbL)",
+      source: "OpenStreetMap POI (ODbL) + Nominatim reverse geocode for street/postal (Stage 2 enrichment, Sept 2026)",
       method: "Automated ingestion via Overpass API",
       recordedAt: "2026-09-03",
     },
     closureStatus: "open",
     isSponsored: false,
     professionalDisclaimerShown: false,
-    editorialNote: "Falafel restaurant near West Ball Road / Brookhurst Street. Street address not yet confirmed in OpenStreetMap — needs Stage 2 enrichment.",
+    editorialNote: "No street number was tagged on the OpenStreetMap node. On Brookhurst Street right at the Anaheim/Garden Grove line — Nominatim's reverse geocode actually files this ZIP under Garden Grove, so the city may need correcting once an owner claims this listing.",
   },
 ];
 
