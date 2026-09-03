@@ -126,6 +126,12 @@ export const cities: City[] = [
     blurb: "Part of the San Diego County East County demand cluster.",
   },
   {
+    slug: "lakeside",
+    name: "Lakeside",
+    countySlug: "san-diego-county",
+    blurb: "Home to the Islamic Center of Lakeside, part of San Diego County's East County demand cluster.",
+  },
+  {
     slug: "los-angeles",
     name: "Los Angeles",
     countySlug: "los-angeles-county",
