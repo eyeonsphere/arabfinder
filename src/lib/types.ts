@@ -1,4 +1,4 @@
-// Arab Finder — core data model
+// Arabs Finder — core data model
 // Mirrors "Part 4: Listing Fields Schema & Data Dictionary (v1)" of the platform spec.
 // This is a static/demo implementation of the schema (JSON-backed) for the Phase 0
 // foundation build. A production build swaps this module for the Postgres-backed

@@ -11,7 +11,7 @@ export default function ThanksPage() {
         Your submission is in the queue. If you left an email, we'll follow up if we need anything else.
       </p>
       <Link href="/" className="mt-6 inline-block rounded-full bg-brand-teal px-5 py-2 text-sm font-medium text-white hover:bg-brand-teal-dark">
-        Back to Arab Finder
+        Back to Arabs Finder
       </Link>
     </div>
   );

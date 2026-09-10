@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Arab Finder — Arabic-speaking community directory, Southern California",
-    template: "%s | Arab Finder",
+    default: "Arabs Finder — Arabic-speaking community directory, Southern California",
+    template: "%s | Arabs Finder",
   },
   description:
     "A no-account-required index of Arab American and Arabic-speaking community businesses, professionals, mosques, and churches across Southern California. Ownership is self-identified, never inferred.",

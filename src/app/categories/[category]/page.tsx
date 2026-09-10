@@ -31,7 +31,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
       {category.requiresLicenseVerification && (
         <div className="mt-4 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
           License verification required{category.licenseNote ? ` — ${category.licenseNote}` : ""}. Every listing in
-          this category carries a standing disclaimer: Arab Finder does not recommend, refer, or verify professional
+          this category carries a standing disclaimer: Arabs Finder does not recommend, refer, or verify professional
           competence.
         </div>
       )}

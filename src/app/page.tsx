@@ -77,7 +77,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <h2 className="text-2xl font-semibold text-brand-teal-dark">Launch roadmap</h2>
         <p className="mt-2 max-w-3xl text-foreground/70">
-          Arab Finder is rolling out county by county, ordered by demand density and existing community
+          Arabs Finder is rolling out county by county, ordered by demand density and existing community
           infrastructure.
         </p>
         <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

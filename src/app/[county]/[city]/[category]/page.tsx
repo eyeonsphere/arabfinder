@@ -53,7 +53,7 @@ export default async function CityCategoryPage({
 
       {category.requiresLicenseVerification && (
         <div className="mt-4 max-w-2xl rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
-          Arab Finder does not recommend, refer, or verify professional competence in this category. Check any shown
+          Arabs Finder does not recommend, refer, or verify professional competence in this category. Check any shown
           license number against the relevant state licensing board.
         </div>
       )}

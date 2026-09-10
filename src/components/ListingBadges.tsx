@@ -62,7 +62,7 @@ export function LicenseDisclaimer({ listing }: { listing: Listing }) {
     <div className="rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
       <p className="font-semibold">License disclaimer</p>
       <p className="mt-1">
-        Arab Finder does not recommend, refer, or verify professional competence. Where a license number is shown,
+        Arabs Finder does not recommend, refer, or verify professional competence. Where a license number is shown,
         it reflects a lookup against the relevant state licensing board and may not be current.
         {listing.licenseState && listing.licenseType ? (
           <>

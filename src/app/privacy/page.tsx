@@ -10,9 +10,9 @@ export default function PrivacyPage() {
       <p className="mt-3 text-sm text-foreground/50">Last updated September 2026 · Written for California Consumer Privacy Act (CCPA) compliance.</p>
 
       <p className="mt-6 text-foreground/80">
-        This policy is written in plain language and describes what Arab Finder collects, why, and the choices you
+        This policy is written in plain language and describes what Arabs Finder collects, why, and the choices you
         have. It applies to individual practitioner profiles and privacy-sensitive listings as carefully as it does
-        to larger businesses, regardless of Arab Finder's own revenue.
+        to larger businesses, regardless of Arabs Finder's own revenue.
       </p>
 
       <h2 className="mt-10 text-xl font-semibold text-brand-teal-dark">What we collect</h2>
@@ -27,7 +27,7 @@ export default function PrivacyPage() {
       </h2>
       <p className="mt-3 text-foreground/80">
         You can opt out of the sale or sharing of your personal information, including via a browser-level Global
-        Privacy Control (GPC) signal, which Arab Finder honors automatically. To submit a manual opt-out, email{" "}
+        Privacy Control (GPC) signal, which Arabs Finder honors automatically. To submit a manual opt-out, email{" "}
         <a href="mailto:privacy@arabfinder.example" className="text-brand-teal hover:underline">privacy@arabfinder.example</a>.
       </p>
 
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
       <p className="mt-3 text-foreground/80">
         You may request access to, or deletion of, your personal information. Individual practitioners (solo
         dentists, attorneys, and similar) can request removal of their profile on a low-friction, take-down-on-request
-        basis regardless of Arab Finder's revenue thresholds. Requests are processed within 45 calendar days.
+        basis regardless of Arabs Finder's revenue thresholds. Requests are processed within 45 calendar days.
       </p>
       <NetlifyForm
         name="dsar-request"

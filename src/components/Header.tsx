@@ -8,7 +8,7 @@ export default function Header() {
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-brand-gold text-sm font-bold text-brand-teal-dark">
             AF
           </span>
-          <span className="text-lg font-semibold tracking-tight">Arab Finder</span>
+          <span className="text-lg font-semibold tracking-tight">Arabs Finder</span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm sm:flex">
           <Link href="/counties" className="hover:text-brand-gold-light">

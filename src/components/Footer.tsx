@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-foreground/70 sm:px-6">
         <div className="grid gap-8 sm:grid-cols-3">
           <div>
-            <p className="font-semibold text-foreground">Arab Finder</p>
+            <p className="font-semibold text-foreground">Arabs Finder</p>
             <p className="mt-2 max-w-xs">
               A web-first index for Arabic-speaking communities in Southern California. Ownership and identity are
               never assumed — only what a business tells us, itself, in its own words.
@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
         </div>
         <p className="mt-8 border-t border-border-soft pt-6 text-xs text-foreground/50">
-          © {new Date().getFullYear()} Arab Finder. Listings marked "not stated" carry no claim about the owner's
+          © {new Date().getFullYear()} Arabs Finder. Listings marked "not stated" carry no claim about the owner's
           background. Reviews, when enabled, are sorted neutrally and are never edited or removed except for legal
           takedowns.
         </p>

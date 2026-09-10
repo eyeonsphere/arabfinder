@@ -41,7 +41,7 @@ export default async function CityPage({ params }: { params: Promise<{ county: s
       {!shouldIndex(listings.length) && (
         <p className="mt-4 max-w-2xl rounded-lg border border-border-soft bg-white p-4 text-sm text-foreground/60">
           This page is not yet indexed by search engines — it will index automatically once at least 3 verified
-          listings are published here, per Arab Finder's anti-doorway-page policy.
+          listings are published here, per Arabs Finder's anti-doorway-page policy.
         </p>
       )}
 
