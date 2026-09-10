@@ -1,13 +1,19 @@
 [build]
   command = "npm run build"
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# IMPORTANT (Sept 2026 switch off static export): in the Netlify dashboard, go to
-# Site configuration -> Build & deploy -> Build settings, and clear/blank out the
-# "Publish directory" field (it was previously set to `out` for the static-export
-# build). The Next.js Runtime plugin above manages the build output itself and does
-# not use a publish directory the way a static site does — leaving `out` set there
-# will cause deploys to fail once this file ships, since `next build` no longer
-# produces an `out/` folder at all.
+# IMPORTANT (Sept 2026 switch off static export): the "Publish directory" field in
+# the Netlify dashboard (Site configuration -> Build & deploy -> Build settings)
+# must be set to `.next`, not left blank. An earlier version of this file told us to
+# blank that field out — that was wrong. Netlify resolves a blank publish directory
+# to the same path as the base directory (the repo root), and @netlify/plugin-nextjs
+# explicitly refuses to run when publish == base, which is exactly what broke the
+# first deploy after this file shipped (deploy 6aa307b9, commit 75c330d: "Your
+# publish directory cannot be the same as the base directory of your site").
+# The `publish = ".next"` line above sets this correctly for new sites, but on this
+# project the dashboard's own Build settings field currently overrides netlify.toml
+# for this value (Netlify plugin-nextjs v5 behavior) — so the dashboard field itself
+# must also be changed to `.next` for the fix to take effect.
