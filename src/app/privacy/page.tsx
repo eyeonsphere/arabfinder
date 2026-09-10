@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { NetlifyForm } from "@/components/NetlifyForm";
 
 export const metadata: Metadata = { title: "Privacy Policy" };
 
@@ -36,17 +37,11 @@ export default function PrivacyPage() {
         dentists, attorneys, and similar) can request removal of their profile on a low-friction, take-down-on-request
         basis regardless of Arab Finder's revenue thresholds. Requests are processed within 45 calendar days.
       </p>
-      <form
+      <NetlifyForm
         name="dsar-request"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        action="/thanks"
+        redirectTo="/thanks"
         className="mt-4 space-y-4 rounded-xl border border-border-soft bg-white p-6"
       >
-        <input type="hidden" name="form-name" value="dsar-request" />
-        <p className="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
-
         <div>
           <label className="text-sm font-medium text-foreground" htmlFor="dsar-type">Request type</label>
           <select id="dsar-type" name="request_type" required className="mt-1 w-full rounded-md border border-border-soft px-3 py-2 text-sm">
@@ -68,7 +63,7 @@ export default function PrivacyPage() {
           Submit request
         </button>
         <p className="text-xs text-foreground/40">We'll acknowledge your request and respond within 45 calendar days, as required by the CCPA.</p>
-      </form>
+      </NetlifyForm>
 
       <h2 className="mt-10 text-xl font-semibold text-brand-teal-dark">Outreach emails</h2>
       <p className="mt-3 text-foreground/80">

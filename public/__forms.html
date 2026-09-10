@@ -1,0 +1,49 @@
+<!--
+  Static form-schema file for Netlify Forms (Next.js Runtime v5 / @netlify/plugin-nextjs).
+
+  Netlify's deploy-time form detection only scans static HTML — it can't see forms that
+  render dynamically inside Next.js pages once the site runs on the Next.js Runtime
+  (this file exists precisely because Sept 2026's switch off static export broke that
+  detection: https://opennext.js.org/netlify/forms). Each <form> below is a schema
+  declaration only — never shown to a visitor, never submitted by anyone. The three
+  live forms on the site (src/app/claim/page.tsx, src/app/submit-a-business/page.tsx,
+  src/app/privacy/page.tsx) submit via JS fetch() to /__forms.html at runtime, using
+  the src/components/NetlifyForm.tsx wrapper; Netlify accepts that POST because the
+  form name + field names below match exactly what deploy-time scanning registered.
+
+  If you add a new field to a live form, or add a new form entirely, mirror the change
+  here too — a field Netlify never saw at deploy time is silently dropped from
+  submissions rather than causing an error, so this file has to be kept in sync by hand.
+-->
+<html>
+  <head></head>
+  <body>
+    <form name="claim-request" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="claim-request" />
+      <input name="bot-field" />
+      <input name="business" type="text" />
+      <input name="role" type="text" />
+      <input name="email" type="email" />
+    </form>
+
+    <form name="business-suggestion" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="business-suggestion" />
+      <input name="bot-field" />
+      <input name="business_name" type="text" />
+      <input name="category" type="text" />
+      <input name="city" type="text" />
+      <input name="address" type="text" />
+      <input name="contact" type="text" />
+      <input name="notes" type="text" />
+      <input name="submitter_email" type="email" />
+    </form>
+
+    <form name="dsar-request" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="dsar-request" />
+      <input name="bot-field" />
+      <input name="request_type" type="text" />
+      <input name="email" type="email" />
+      <input name="details" type="text" />
+    </form>
+  </body>
+</html>

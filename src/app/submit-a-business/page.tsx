@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { categories } from "@/lib/categories";
 import { cities } from "@/lib/geo";
+import { NetlifyForm } from "@/components/NetlifyForm";
 
 export const metadata: Metadata = { title: "Suggest a business" };
 
@@ -19,17 +20,11 @@ export default function SubmitBusinessPage() {
         as "not stated."
       </p>
 
-      <form
+      <NetlifyForm
         name="business-suggestion"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        action="/thanks"
+        redirectTo="/thanks"
         className="mt-8 space-y-4 rounded-xl border border-border-soft bg-white p-6"
       >
-        <input type="hidden" name="form-name" value="business-suggestion" />
-        <p className="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
-
         <div>
           <label className="text-sm font-medium text-foreground" htmlFor="biz-name">Business name</label>
           <input id="biz-name" name="business_name" required className="mt-1 w-full rounded-md border border-border-soft px-3 py-2 text-sm" />
@@ -77,7 +72,7 @@ export default function SubmitBusinessPage() {
         <button type="submit" className="rounded-full bg-brand-teal px-5 py-2 text-sm font-medium text-white hover:bg-brand-teal-dark">
           Submit suggestion
         </button>
-      </form>
+      </NetlifyForm>
     </div>
   );
 }

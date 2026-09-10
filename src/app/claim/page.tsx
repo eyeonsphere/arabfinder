@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { NetlifyForm } from "@/components/NetlifyForm";
 
 export const metadata: Metadata = { title: "Claim a listing" };
 
@@ -32,17 +33,11 @@ export default function ClaimPage() {
         ))}
       </ol>
 
-      <form
+      <NetlifyForm
         name="claim-request"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        action="/thanks"
+        redirectTo="/thanks"
         className="mt-10 space-y-4 rounded-xl border border-border-soft bg-white p-6"
       >
-        <input type="hidden" name="form-name" value="claim-request" />
-        <p className="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
-
         <p className="font-medium text-foreground">Start a claim</p>
         <div>
           <label className="text-sm font-medium text-foreground" htmlFor="claim-business">Business name &amp; city</label>
@@ -59,7 +54,7 @@ export default function ClaimPage() {
         <button type="submit" className="rounded-full bg-brand-teal px-5 py-2 text-sm font-medium text-white hover:bg-brand-teal-dark">
           Start claim
         </button>
-      </form>
+      </NetlifyForm>
     </div>
   );
 }
