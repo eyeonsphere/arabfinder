@@ -144,3 +144,20 @@ export interface Listing {
 
   editorialNote?: string;
 }
+
+// Part 5, Rule 4 (FTC-compliant reviews): first-party only, no seeded/staff/AI-written
+// reviews, no suppression of negative ones, no blending with third-party (Yelp/Google)
+// ratings, neutral default sort (newest first). Stored in Supabase — see supabase/schema.sql.
+export type ReviewStatus = "pending" | "approved" | "rejected";
+
+export interface Review {
+  id: string; // uuid, assigned by the database
+  listingId: string; // Listing.listingId
+  reviewerName: string;
+  reviewerEmail: string; // collected for spam/abuse contact only, never displayed
+  rating: 1 | 2 | 3 | 4 | 5;
+  reviewText: string;
+  status: ReviewStatus;
+  moderationNote?: string; // internal only, e.g. why a review was rejected
+  createdAt: string; // ISO timestamp
+}

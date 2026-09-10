@@ -11,6 +11,7 @@ import {
   ClaimStatusBadge,
   LicenseDisclaimer,
 } from "@/components/ListingBadges";
+import { ReviewsSection } from "@/components/ReviewsSection";
 
 export function generateStaticParams() {
   return listings.map((l) => ({ county: l.countySlug, city: l.citySlug!, category: l.primaryCategory, listing: l.slug }));
@@ -134,13 +135,7 @@ export default async function ListingPage({
         </Link>
       </div>
 
-      <div className="mt-10">
-        <p className="font-medium text-foreground">Reviews</p>
-        <p className="mt-2 text-sm text-foreground/60">
-          No reviews yet. Reviews, when present, are sorted neutrally by default and are never edited, removed, or
-          blended with third-party ratings.
-        </p>
-      </div>
+      <ReviewsSection listingId={listing.listingId} />
     </div>
   );
 }
