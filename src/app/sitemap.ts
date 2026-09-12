@@ -4,7 +4,7 @@ import { categories } from "@/lib/categories";
 import { listings, listingsForCategoryInCity } from "@/lib/listings";
 import { shouldIndex } from "@/lib/noindex";
 
-const BASE_URL = "https://arabfinder.example";
+const BASE_URL = "https://arabsfinder.com";
 
 export const dynamic = "force-static";
 

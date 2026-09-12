@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://arabsfinder.com"),
   title: {
     default: "Arabs Finder — Arabic-speaking community directory, Southern California",
     template: "%s | Arabs Finder",
