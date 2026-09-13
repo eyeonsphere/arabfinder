@@ -138,6 +138,18 @@ export const cities: City[] = [
     blurb: "Home to the Islamic Center of Lakeside, part of San Diego County's East County demand cluster.",
   },
   {
+    slug: "san-diego",
+    name: "San Diego",
+    countySlug: "san-diego-county",
+    blurb: "Home to a cluster of Mediterranean and Levantine restaurants along the El Cajon Boulevard corridor in the City Heights/Rolando area, adjoining El Cajon's East County Arab American community.",
+  },
+  {
+    slug: "spring-valley",
+    name: "Spring Valley",
+    countySlug: "san-diego-county",
+    blurb: "An unincorporated East County community adjoining El Cajon and Rancho San Diego.",
+  },
+  {
     slug: "los-angeles",
     name: "Los Angeles",
     countySlug: "los-angeles-county",
