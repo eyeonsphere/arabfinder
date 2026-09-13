@@ -2707,6 +2707,62 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "In Eagle Rock. Tagged in OpenStreetMap as Lebanese cuisine. A second location (Skaf's Grill, North Hollywood) is also listed separately in this directory. No phone number found. No ownership or halal-certification claim is made or implied by this listing.",
   },
+  {
+    listingId: "web-tarbosh-el-cajon",
+    name: "Tarbosh Mediterranean Restaurant",
+    slug: "tarbosh-mediterranean-restaurant-el-cajon",
+    primaryCategory: "food-drink",
+    address: { street: "1142 E Main St", locality: "El Cajon", region: "CA", postal: "92021" },
+    hasPublicStorefront: true,
+    countySlug: "san-diego-county",
+    citySlug: "el-cajon",
+    telephone: "+1-619-312-0427",
+    website: "https://tarbosh.us/",
+    openingHours: "Daily 7:00 AM–2:00 AM",
+
+    arabOwnedSelfIdentified: "not_stated",
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Business's own website (tarbosh.us) for address, phone, hours, and halal claim",
+      method: "Manual editorial entry, discovered via general web search and verified directly against the business's own site (no data taken from Google Maps or Yelp)",
+      recordedAt: "2026-09-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    professionalDisclaimerShown: false,
+    editorialNote: "Located at 1142 E Main St, El Cajon — the same address at which a Syrian restaurant called \"Gate of Damascus\" was covered by local press and food blogs in 2022, though Tarbosh's own site does not itself confirm a name change, so this is noted as an address overlap rather than a confirmed rebrand. Tarbosh's site describes its kitchen team as drawing on Lebanese, Syrian, Iraqi, Turkish, and Jordanian culinary traditions (Turkish being a non-Arab tradition among them) and states the menu is \"100% halal.\" No self-identified Arab-ownership claim is made.",
+  },
+  {
+    listingId: "web-the-palms-el-cajon",
+    name: "The Palms Restaurant & Banquet Hall",
+    slug: "the-palms-restaurant-banquet-hall-el-cajon",
+    primaryCategory: "food-drink",
+    secondaryCategories: ["shops-events-services"],
+    address: { street: "143 E Main St", locality: "El Cajon", region: "CA", postal: "92020" },
+    hasPublicStorefront: true,
+    countySlug: "san-diego-county",
+    citySlug: "el-cajon",
+    telephone: "+1-619-442-1900",
+    website: "https://thepalmssd.com/",
+    openingHours: "Lunch daily 11:00 AM–6:00 PM; dinner daily 6:00 PM–1:00 AM",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Business's own website (thepalmssd.com) for address, phone, hours, and cuisine description",
+      method: "Manual editorial entry, discovered via general web search and verified directly against the business's own site (no data taken from Google Maps or Yelp)",
+      recordedAt: "2026-09-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    professionalDisclaimerShown: false,
+    editorialNote: "Mediterranean restaurant on E Main St in El Cajon that also operates an attached banquet hall for family and corporate events. No ownership or halal-certification claim is made or implied on the business's own site.",
+  },
 ];
 
 export function listingsForCounty(countySlug: string): Listing[] {
