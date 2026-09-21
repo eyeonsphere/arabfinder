@@ -7,10 +7,13 @@ export default function AboutPage() {
     <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
       <h1 className="text-3xl font-semibold text-brand-teal-dark">About Arabs Finder</h1>
       <p className="mt-4 text-foreground/80">
-        Arabs Finder is a web-first, no-account-required index for Arabic-speaking communities in Southern
-        California. Professionals and businesses can create and manage a listing, post local offers, and connect
-        with community members. It launched in Orange County and is expanding county by county, in order of
-        documented demand density.
+        Arabs Finder is a web-first, no-account-required index for Arabic-speaking and Chaldean communities. It
+        launched in Orange County, Southern California, and is expanding county by county, in order of documented
+        demand density. A second region, Michigan — home to the country's largest Chaldean community and the
+        second-largest Middle Eastern-ancestry population of any U.S. metro area — opened as its own chapter, sourced
+        primarily from community chamber-of-commerce and business-directory partners rather than the phased ACS
+        rollout used in California. Professionals and businesses in either region can create and manage a listing,
+        post local offers, and connect with community members.
       </p>
 
       <h2 className="mt-10 text-xl font-semibold text-brand-teal-dark">How ownership is identified</h2>

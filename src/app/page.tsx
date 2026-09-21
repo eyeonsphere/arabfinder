@@ -75,19 +75,40 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-        <h2 className="text-2xl font-semibold text-brand-teal-dark">Launch roadmap</h2>
+        <h2 className="text-2xl font-semibold text-brand-teal-dark">Southern California launch roadmap</h2>
         <p className="mt-2 max-w-3xl text-foreground/70">
           Arabs Finder is rolling out county by county, ordered by demand density and existing community
           infrastructure.
         </p>
         <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {counties.map((c) => (
+          {counties.filter((c) => c.state === "CA").map((c) => (
             <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
               <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
                 {c.name}
               </Link>
               <p className="mt-1 text-xs text-foreground/50">{c.arabAncestryPopulation} Arab ancestry (ACS est.)</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 border-t border-border-soft">
+        <p className="text-sm font-medium uppercase tracking-wide text-brand-gold">Also now open</p>
+        <h2 className="mt-2 text-2xl font-semibold text-brand-teal-dark">Michigan chapter</h2>
+        <p className="mt-2 max-w-3xl text-foreground/70">
+          Metro Detroit is home to the country's largest Chaldean community and its second-largest Middle
+          Eastern-ancestry population of any U.S. metro area, after Southern California. Wayne, Oakland, and Macomb
+          counties are live now, sourced from community chamber-of-commerce and business-directory partners.
+        </p>
+        <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {counties.filter((c) => c.state === "MI").map((c) => (
+            <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
+              <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
+                {c.name}
+              </Link>
+              <p className="mt-1 text-xs text-foreground/50">{c.dialectProfile}</p>
             </li>
           ))}
         </ol>

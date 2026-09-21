@@ -9,6 +9,7 @@ export const counties: County[] = [
   {
     slug: "orange-county",
     name: "Orange County",
+    state: "CA",
     phase: 1,
     phaseLabel: "Phase 1 — Beachhead",
     arabAncestryPopulation: "~43,900",
@@ -21,6 +22,7 @@ export const counties: County[] = [
   {
     slug: "san-diego-county",
     name: "San Diego County",
+    state: "CA",
     phase: 2,
     phaseLabel: "Phase 2 — Depth",
     arabAncestryPopulation: "~44,400",
@@ -33,6 +35,7 @@ export const counties: County[] = [
   {
     slug: "los-angeles-county",
     name: "Los Angeles County",
+    state: "CA",
     phase: 3,
     phaseLabel: "Phase 3 — Scale",
     arabAncestryPopulation: "~80,600",
@@ -43,6 +46,7 @@ export const counties: County[] = [
   {
     slug: "san-bernardino-county",
     name: "San Bernardino County",
+    state: "CA",
     phase: 4,
     phaseLabel: "Phase 4 — Consolidation",
     arabAncestryPopulation: "~22,100",
@@ -53,12 +57,57 @@ export const counties: County[] = [
   {
     slug: "riverside-county",
     name: "Riverside County",
+    state: "CA",
     phase: 4,
     phaseLabel: "Phase 4 — Consolidation",
     arabAncestryPopulation: "~21,200",
     arabicSpeakersAtHome: "n/a",
     dialectProfile: "Egyptian and Syrian weighted",
     blurb: "Inland Empire suburbs, including Corona and Murrieta, launching alongside San Bernardino County.",
+  },
+
+  // Michigan — a separate region from the Southern California rollout above,
+  // added at the site owner's direction. Metro Detroit (Wayne / Oakland / Macomb
+  // counties) has the second-largest Middle Eastern-ancestry population of any
+  // U.S. metro area, after Southern California. No county-level ACS Arab-ancestry
+  // breakout was available at time of writing, so those fields are marked "n/a"
+  // rather than estimated; the city- and metro-level figures cited in each blurb
+  // are sourced and dated in-line instead.
+  {
+    slug: "wayne-county-mi",
+    name: "Wayne County",
+    state: "MI",
+    phase: 5,
+    phaseLabel: "Michigan Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Lebanese-majority in Dearborn; also home to Iraqi, Yemeni, Palestinian, and Chaldean communities",
+    blurb:
+      "Home to Dearborn, where residents of Middle Eastern or North African ancestry made up 54.5% of the population per 2020 Census data, and to the Arab American National Museum. Historically the heart of Michigan's Arab American community.",
+  },
+  {
+    slug: "oakland-county-mi",
+    name: "Oakland County",
+    state: "MI",
+    phase: 5,
+    phaseLabel: "Michigan Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Chaldean/Iraqi-majority, concentrated in West Bloomfield and Farmington Hills",
+    blurb:
+      "Home to the Chaldean American Chamber of Commerce and the Chaldean Community Foundation, both headquartered in the West Bloomfield/Farmington Hills area — the institutional center of the U.S.'s largest Chaldean community.",
+  },
+  {
+    slug: "macomb-county-mi",
+    name: "Macomb County",
+    state: "MI",
+    phase: 5,
+    phaseLabel: "Michigan Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Chaldean/Iraqi-majority, concentrated in Sterling Heights (sometimes called \"Little Baghdad\") and Warren",
+    blurb:
+      "Sterling Heights and Warren form a dense corridor of Chaldean-owned restaurants, markets, and professional offices along 15 Mile and 17 Mile Roads.",
   },
 ];
 
@@ -294,6 +343,18 @@ export const cities: City[] = [
     blurb: "A North County San Diego city, home to a Coptic Orthodox parish.",
   },
   {
+    slug: "national-city",
+    name: "National City",
+    countySlug: "san-diego-county",
+    blurb: "A South Bay San Diego County city, home to a Chaldean American Chamber of Commerce member business.",
+  },
+  {
+    slug: "jamul",
+    name: "Jamul",
+    countySlug: "san-diego-county",
+    blurb: "A rural East County community near El Cajon, home to a Chaldean American Chamber of Commerce member business.",
+  },
+  {
     slug: "san-bernardino",
     name: "San Bernardino",
     countySlug: "san-bernardino-county",
@@ -334,6 +395,70 @@ export const cities: City[] = [
     name: "Moreno Valley",
     countySlug: "riverside-county",
     blurb: "Part of the Phase 4 Inland Empire rollout.",
+  },
+
+  // Michigan cities
+  {
+    slug: "dearborn",
+    name: "Dearborn",
+    countySlug: "wayne-county-mi",
+    isCulturalDistrict: true,
+    blurb: "Home to the Arab American National Museum and, per 2020 Census data, a population that is 54.5% Middle Eastern or North African by ancestry — the highest concentration of any city in the U.S.",
+  },
+  {
+    slug: "detroit",
+    name: "Detroit",
+    countySlug: "wayne-county-mi",
+    blurb: "Home to Woodmere Cemetery's Chaldean and Arab American burial services, part of the wider Wayne County Arab American community.",
+  },
+  {
+    slug: "garden-city-mi",
+    name: "Garden City",
+    countySlug: "wayne-county-mi",
+    blurb: "A western Wayne County suburb bordering Dearborn Heights and Westland.",
+  },
+  {
+    slug: "farmington-hills",
+    name: "Farmington Hills",
+    countySlug: "oakland-county-mi",
+    blurb: "Home to the Chaldean American Chamber of Commerce's Michigan headquarters and Elite Medical Group.",
+  },
+  {
+    slug: "west-bloomfield",
+    name: "West Bloomfield",
+    countySlug: "oakland-county-mi",
+    blurb: "Home to the Chaldean Community Foundation's founding offices and a dense concentration of Chaldean-owned professional practices.",
+  },
+  {
+    slug: "commerce-township",
+    name: "Commerce Township",
+    countySlug: "oakland-county-mi",
+    blurb: "A northwest Oakland County suburb, part of the same Chaldean-community cluster as West Bloomfield.",
+  },
+  {
+    slug: "sterling-heights",
+    name: "Sterling Heights",
+    countySlug: "macomb-county-mi",
+    isCulturalDistrict: true,
+    blurb: "Home to one of the largest concentrations of Chaldean-owned businesses in Michigan along the 15 Mile and 17 Mile Road corridors, sometimes referred to locally as \"Little Baghdad.\"",
+  },
+  {
+    slug: "warren",
+    name: "Warren",
+    countySlug: "macomb-county-mi",
+    blurb: "A Macomb County city bordering Sterling Heights, part of the same Chaldean-community business corridor.",
+  },
+  {
+    slug: "centerline",
+    name: "Centerline",
+    countySlug: "macomb-county-mi",
+    blurb: "A small Macomb County city bordering Warren and Sterling Heights.",
+  },
+  {
+    slug: "clinton-township",
+    name: "Clinton Township",
+    countySlug: "macomb-county-mi",
+    blurb: "A Macomb County suburb east of Sterling Heights.",
   },
 ];
 

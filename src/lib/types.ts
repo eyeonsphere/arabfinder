@@ -31,7 +31,8 @@ export interface Category {
 export interface County {
   slug: string;
   name: string;
-  phase: 1 | 2 | 3 | 4;
+  state: "CA" | "MI";
+  phase: 1 | 2 | 3 | 4 | 5;
   phaseLabel: string;
   arabAncestryPopulation: string;
   arabicSpeakersAtHome: string;
