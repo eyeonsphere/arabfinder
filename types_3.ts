@@ -32,7 +32,7 @@ export interface County {
   slug: string;
   name: string;
   state: "CA" | "MI" | "IL";
-  phase: 1 | 2 | 3 | 4 | 5 | 6 | 7;
+  phase: 1 | 2 | 3 | 4 | 5 | 6;
   phaseLabel: string;
   arabAncestryPopulation: string;
   arabicSpeakersAtHome: string;

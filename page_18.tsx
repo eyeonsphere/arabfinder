@@ -15,13 +15,8 @@ export default function AboutPage() {
         rollout used in California. A third region, Illinois — Cook County has the largest Palestinian-American
         population of any U.S. county, alongside a longstanding Assyrian/Chaldean community on Chicago's north side
         — opened next, sourced from Chicago-area bar associations, community business directories, and
-        hospital-system provider directories. A fourth region, the San Francisco Bay Area — San Francisco's
-        Tenderloin has been the heart of Arab San Francisco since the 1960s, and Oakland is home to its own
-        10,000+ Yemeni-American community — opened next, sourced from independent Arab-American community
-        directories, hospital-system provider directories, and news coverage of named business owners; this region
-        had fewer compliant sources available than the others, so its coverage launched thinner and more
-        restaurant/cafe-weighted. Professionals and businesses in any region can create and manage a listing, post
-        local offers, and connect with community members.
+        hospital-system provider directories. Professionals and businesses in any region can create and manage a
+        listing, post local offers, and connect with community members.
       </p>
 
       <h2 className="mt-10 text-xl font-semibold text-brand-teal-dark">How ownership is identified</h2>

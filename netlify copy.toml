@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# IMPORTANT (Sept 2026 switch off static export): in the Netlify dashboard, go to
+# Site configuration -> Build & deploy -> Build settings, and clear/blank out the
+# "Publish directory" field (it was previously set to `out` for the static-export
+# build). The Next.js Runtime plugin above manages the build output itself and does
+# not use a publish directory the way a static site does — leaving `out` set there
+# will cause deploys to fail once this file ships, since `next build` no longer
+# produces an `out/` folder at all.

@@ -81,7 +81,7 @@ export default function Home() {
           infrastructure.
         </p>
         <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {counties.filter((c) => c.state === "CA" && c.phase !== 7).map((c) => (
+          {counties.filter((c) => c.state === "CA").map((c) => (
             <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
               <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
@@ -126,28 +126,6 @@ export default function Home() {
         </p>
         <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {counties.filter((c) => c.state === "IL").map((c) => (
-            <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
-              <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
-                {c.name}
-              </Link>
-              <p className="mt-1 text-xs text-foreground/50">{c.dialectProfile}</p>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 border-t border-border-soft">
-        <p className="text-sm font-medium uppercase tracking-wide text-brand-gold">Also now open</p>
-        <h2 className="mt-2 text-2xl font-semibold text-brand-teal-dark">Bay Area chapter</h2>
-        <p className="mt-2 max-w-3xl text-foreground/70">
-          San Francisco's Tenderloin neighborhood has been the heart of Arab San Francisco since the 1960s, home to
-          the largest Yemeni community in Northern California. Oakland has its own 10,000+ Yemeni-American
-          community, and San Jose's Silicon Valley hosts a more recent wave of Arab American tech professionals. San
-          Francisco, Alameda, and Santa Clara counties are live now.
-        </p>
-        <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {counties.filter((c) => c.state === "CA" && c.phase === 7).map((c) => (
             <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
               <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">

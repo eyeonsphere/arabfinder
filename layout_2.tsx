@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Arabs Finder",
   },
   description:
-    "A no-account-required index of Arab American and Arabic-speaking community businesses, professionals, mosques, and churches across Southern California, Michigan, Illinois, and the San Francisco Bay Area. Ownership is self-identified, never inferred.",
+    "A no-account-required index of Arab American and Arabic-speaking community businesses, professionals, mosques, and churches across Southern California, Michigan, and Illinois. Ownership is self-identified, never inferred.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

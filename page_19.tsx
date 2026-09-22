@@ -29,20 +29,18 @@ function CountyCard({ county }: { county: (typeof counties)[number] }) {
 }
 
 export default function CountiesPage() {
-  const caCounties = counties.filter((c) => c.state === "CA" && c.phase !== 7);
+  const caCounties = counties.filter((c) => c.state === "CA");
   const miCounties = counties.filter((c) => c.state === "MI");
   const ilCounties = counties.filter((c) => c.state === "IL");
-  const bayAreaCounties = counties.filter((c) => c.state === "CA" && c.phase === 7);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
       <h1 className="text-3xl font-semibold text-brand-teal-dark">Browse by region</h1>
       <p className="mt-2 max-w-2xl text-foreground/70">
-        Arabs Finder covers four regions so far: Southern California, where it launched; Michigan, home to the
-        country's largest Chaldean and Arab American community outside the Middle East; Illinois, home to the
-        largest Palestinian-American population of any U.S. county; and the San Francisco Bay Area, home to the
-        largest Yemeni community in Northern California. Rollout within each region is phased by demand density and
-        existing community infrastructure — not all counties are live yet.
+        Arabs Finder covers three regions so far: Southern California, where it launched; Michigan, home to the
+        country's largest Chaldean and Arab American community outside the Middle East; and Illinois, home to the
+        largest Palestinian-American population of any U.S. county. Rollout within each region is phased by demand
+        density and existing community infrastructure — not all counties are live yet.
       </p>
 
       <section className="mt-10">
@@ -79,20 +77,6 @@ export default function CountiesPage() {
         </p>
         <div className="mt-6 grid gap-5 sm:grid-cols-2">
           {ilCounties.map((county) => (
-            <CountyCard key={county.slug} county={county} />
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-14">
-        <h2 className="text-xl font-semibold text-brand-teal-dark">San Francisco Bay Area counties</h2>
-        <p className="mt-1 max-w-2xl text-sm text-foreground/60">
-          San Francisco's Tenderloin has been the heart of Arab San Francisco since the 1960s, home to the largest
-          Yemeni community in Northern California; Oakland has its own 10,000+ Yemeni-American community; and San
-          Jose's Silicon Valley hosts a more recent wave of Arab American tech professionals.
-        </p>
-        <div className="mt-6 grid gap-5 sm:grid-cols-2">
-          {bayAreaCounties.map((county) => (
             <CountyCard key={county.slug} county={county} />
           ))}
         </div>

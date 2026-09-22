@@ -8,9 +8,9 @@ export default function Footer() {
           <div>
             <p className="font-semibold text-foreground">Arabs Finder</p>
             <p className="mt-2 max-w-xs">
-              A web-first index for Arabic-speaking and Chaldean communities in Southern California, Michigan,
-              Illinois, and the San Francisco Bay Area. Ownership and identity are never assumed — only what a
-              business tells us, itself, in its own words.
+              A web-first index for Arabic-speaking and Chaldean communities in Southern California, Michigan, and
+              Illinois. Ownership and identity are never assumed — only what a business tells us, itself, in its own
+              words.
             </p>
           </div>
           <div>
