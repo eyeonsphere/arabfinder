@@ -12,8 +12,11 @@ export default function AboutPage() {
         demand density. A second region, Michigan — home to the country's largest Chaldean community and the
         second-largest Middle Eastern-ancestry population of any U.S. metro area — opened as its own chapter, sourced
         primarily from community chamber-of-commerce and business-directory partners rather than the phased ACS
-        rollout used in California. Professionals and businesses in either region can create and manage a listing,
-        post local offers, and connect with community members.
+        rollout used in California. A third region, Illinois — Cook County has the largest Palestinian-American
+        population of any U.S. county, alongside a longstanding Assyrian/Chaldean community on Chicago's north side
+        — opened next, sourced from Chicago-area bar associations, community business directories, and
+        hospital-system provider directories. Professionals and businesses in any region can create and manage a
+        listing, post local offers, and connect with community members.
       </p>
 
       <h2 className="mt-10 text-xl font-semibold text-brand-teal-dark">How ownership is identified</h2>

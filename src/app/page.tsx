@@ -113,6 +113,29 @@ export default function Home() {
           ))}
         </ol>
       </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 border-t border-border-soft">
+        <p className="text-sm font-medium uppercase tracking-wide text-brand-gold">Also now open</p>
+        <h2 className="mt-2 text-2xl font-semibold text-brand-teal-dark">Illinois chapter</h2>
+        <p className="mt-2 max-w-3xl text-foreground/70">
+          Cook County is home to the largest Palestinian-American population of any U.S. county, concentrated along
+          the Harlem Avenue corridor in Bridgeview, alongside a longstanding Assyrian/Chaldean community on Chicago's
+          north side and north suburbs. Cook, DuPage, and Will counties are live now, sourced from the Arab American
+          Bar Association of Illinois, the Assyrian American Bar Association, arabchicago-il.com, and hospital-system
+          provider directories.
+        </p>
+        <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {counties.filter((c) => c.state === "IL").map((c) => (
+            <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
+              <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
+                {c.name}
+              </Link>
+              <p className="mt-1 text-xs text-foreground/50">{c.dialectProfile}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
     </div>
   );
 }

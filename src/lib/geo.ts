@@ -109,6 +109,54 @@ export const counties: County[] = [
     blurb:
       "Sterling Heights and Warren form a dense corridor of Chaldean-owned restaurants, markets, and professional offices along 15 Mile and 17 Mile Roads.",
   },
+
+  // Illinois — a third region, added at the site owner's direction after he
+  // supplied a set of Chicago-area community directory and chamber URLs.
+  // Cook County has the largest Palestinian-American population of any U.S.
+  // county (18,000+), concentrated along the Harlem Avenue corridor in
+  // Bridgeview, which received an honorary "Little Palestine Way" street
+  // designation from the Illinois legislature. A separate, longstanding
+  // Assyrian/Chaldean community is concentrated in the north-side/north-suburb
+  // corridor (Skokie, Niles, Lincolnwood, Rogers Park/West Ridge). As with
+  // Michigan, no county-level ACS Arab-ancestry breakout was available, so
+  // those fields are marked "n/a"; the Cook County population figure in the
+  // blurb is sourced and dated in-line instead.
+  {
+    slug: "cook-county-il",
+    name: "Cook County",
+    state: "IL",
+    phase: 6,
+    phaseLabel: "Illinois Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Palestinian-majority in the Bridgeview/Harlem Ave corridor; also a large Assyrian/Chaldean (Iraqi Christian) community on the north side and north suburbs, plus Yemeni, Egyptian, Syrian, and Jordanian communities",
+    blurb:
+      "Home to the largest Palestinian-American population of any U.S. county — over 18,000 residents per 2026 reporting — concentrated along Harlem Avenue in Bridgeview, honorarily designated \"Little Palestine Way\" by the Illinois legislature. Also home to a longstanding Assyrian/Chaldean community centered on Chicago's north side and the Skokie/Niles/Lincolnwood corridor.",
+  },
+  {
+    slug: "dupage-county-il",
+    name: "DuPage County",
+    state: "IL",
+    phase: 6,
+    phaseLabel: "Illinois Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Mixed Levantine and Iraqi, concentrated along the Lombard/Villa Park corridor",
+    blurb:
+      "A cluster of Arab-owned bakeries, markets, and professional offices has grown along Roosevelt Road in Lombard and Villa Park, just west of Cook County's Harlem Avenue corridor.",
+  },
+  {
+    slug: "will-county-il",
+    name: "Will County",
+    state: "IL",
+    phase: 6,
+    phaseLabel: "Illinois Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Small, dispersed Arab American presence in the Frankfort area",
+    blurb:
+      "A small but growing exurban presence southwest of Chicago, in and around Frankfort.",
+  },
 ];
 
 export const cities: City[] = [
@@ -603,6 +651,279 @@ export const cities: City[] = [
     name: "Roseville",
     countySlug: "macomb-county-mi",
     blurb: "A southern Macomb County city bordering Warren, home to a small number of Chaldean-owned medical practices.",
+  },
+
+  // Illinois cities — Cook County
+  {
+    slug: "chicago",
+    name: "Chicago",
+    countySlug: "cook-county-il",
+    blurb: "Home to a dispersed Arab American community across multiple neighborhoods, from the Devon Avenue corridor's Assyrian and Middle Eastern grocers to Wicker Park, River North, and the Loop's independently-owned Arab restaurants.",
+  },
+  {
+    slug: "bridgeview",
+    name: "Bridgeview",
+    countySlug: "cook-county-il",
+    isCulturalDistrict: true,
+    blurb: "Home to the Mosque Foundation and the dense Harlem Avenue commercial corridor, honorarily designated \"Little Palestine Way\" by the Illinois legislature — the institutional and commercial heart of Chicago's Palestinian-American community.",
+  },
+  {
+    slug: "oak-lawn",
+    name: "Oak Lawn",
+    countySlug: "cook-county-il",
+    blurb: "A southwest suburb bordering Bridgeview and Chicago Ridge, home to a growing number of Arab American-owned medical practices and grocers.",
+  },
+  {
+    slug: "chicago-ridge",
+    name: "Chicago Ridge",
+    countySlug: "cook-county-il",
+    blurb: "A southwest suburb along the Harlem Avenue corridor, home to Arab American-owned restaurants, cafes, and physician practices.",
+  },
+  {
+    slug: "burbank-il",
+    name: "Burbank",
+    countySlug: "cook-county-il",
+    blurb: "A southwest suburb bordering Bridgeview, home to a cluster of Arab American-owned jewelry stores and restaurants along Harlem Avenue.",
+  },
+  {
+    slug: "worth",
+    name: "Worth",
+    countySlug: "cook-county-il",
+    blurb: "A southwest suburb along the Harlem Avenue corridor, home to Arab American Family Services and a dense cluster of Arab-owned restaurants and grocers.",
+  },
+  {
+    slug: "justice",
+    name: "Justice",
+    countySlug: "cook-county-il",
+    blurb: "A small southwest suburb bordering Bridgeview, home to a handful of Arab American-owned bakeries.",
+  },
+  {
+    slug: "palos-hills",
+    name: "Palos Hills",
+    countySlug: "cook-county-il",
+    blurb: "A southwest suburb along Harlem Avenue, home to a concentration of Arab American-owned bakeries, restaurants, and law offices.",
+  },
+  {
+    slug: "palos-heights",
+    name: "Palos Heights",
+    countySlug: "cook-county-il",
+    blurb: "Home to the Arab American Chamber of Commerce Illinois Chapter's headquarters.",
+  },
+  {
+    slug: "orland-park",
+    name: "Orland Park",
+    countySlug: "cook-county-il",
+    blurb: "A southwest suburb with a growing number of Arab American-owned medical, legal, and retail businesses.",
+  },
+  {
+    slug: "orland-hills",
+    name: "Orland Hills",
+    countySlug: "cook-county-il",
+    blurb: "A small southwest suburb bordering Orland Park.",
+  },
+  {
+    slug: "hometown",
+    name: "Hometown",
+    countySlug: "cook-county-il",
+    blurb: "A small southwest suburb near Oak Lawn, home to a family-owned Arab American furniture store.",
+  },
+  {
+    slug: "evergreen-park",
+    name: "Evergreen Park",
+    countySlug: "cook-county-il",
+    blurb: "A southwest suburb bordering Oak Lawn, home to a small number of Arab American-owned medical practices.",
+  },
+  {
+    slug: "hickory-hills",
+    name: "Hickory Hills",
+    countySlug: "cook-county-il",
+    blurb: "A southwest suburb near Palos Hills, home to a couple of Arab American-owned bakeries.",
+  },
+  {
+    slug: "cicero",
+    name: "Cicero",
+    countySlug: "cook-county-il",
+    blurb: "A near-west suburb with a small Arab American-owned grocery presence.",
+  },
+  {
+    slug: "skokie",
+    name: "Skokie",
+    countySlug: "cook-county-il",
+    blurb: "A north suburb home to Mar Sargis Church and the co-located Assyrian Community Center, along with a cluster of Assyrian/Chaldean and broader Middle Eastern restaurants and grocers along Dempster Street.",
+  },
+  {
+    slug: "niles",
+    name: "Niles",
+    countySlug: "cook-county-il",
+    blurb: "A north suburb bordering Skokie, home to a number of Middle Eastern and Assyrian-owned restaurants and a physician practice serving the Assyrian community.",
+  },
+  {
+    slug: "morton-grove",
+    name: "Morton Grove",
+    countySlug: "cook-county-il",
+    blurb: "A north suburb bordering Niles and Skokie, part of the same Assyrian/Chaldean community cluster.",
+  },
+  {
+    slug: "des-plaines",
+    name: "Des Plaines",
+    countySlug: "cook-county-il",
+    blurb: "A north suburb near O'Hare, home to a Middle Eastern grocery market.",
+  },
+  {
+    slug: "lincolnwood",
+    name: "Lincolnwood",
+    countySlug: "cook-county-il",
+    blurb: "A north suburb home to the Assyrian American Bar Association's headquarters and MIRA (Middle Eastern Immigrant & Refugee Alliance).",
+  },
+  {
+    slug: "evanston",
+    name: "Evanston",
+    countySlug: "cook-county-il",
+    blurb: "A north suburb home to a rheumatologist and a family medicine clinic serving Arab and Assyrian patients.",
+  },
+  {
+    slug: "rolling-meadows",
+    name: "Rolling Meadows",
+    countySlug: "cook-county-il",
+    blurb: "A northwest suburb, home to an Arab American-owned law office.",
+  },
+  {
+    slug: "mount-prospect",
+    name: "Mount Prospect",
+    countySlug: "cook-county-il",
+    blurb: "A northwest suburb, home to an Arab American-owned dental implant practice.",
+  },
+  {
+    slug: "tinley-park",
+    name: "Tinley Park",
+    countySlug: "cook-county-il",
+    blurb: "A south suburb with a small cluster of Arab American-owned bakeries and grocers.",
+  },
+  {
+    slug: "hoffman-estates",
+    name: "Hoffman Estates",
+    countySlug: "cook-county-il",
+    blurb: "A northwest suburb, home to an Arab American OB-GYN practice.",
+  },
+  {
+    slug: "elmwood-park",
+    name: "Elmwood Park",
+    countySlug: "cook-county-il",
+    blurb: "A near-west suburb, home to an Arab American-owned law firm.",
+  },
+  {
+    slug: "elk-grove-village",
+    name: "Elk Grove Village",
+    countySlug: "cook-county-il",
+    blurb: "A northwest suburb near O'Hare, home to an Arab American-owned construction company.",
+  },
+  {
+    slug: "hanover-park",
+    name: "Hanover Park",
+    countySlug: "cook-county-il",
+    blurb: "A northwest suburb, home to an Arabic-language and Islamic studies academy.",
+  },
+
+  // Illinois cities — DuPage County
+  {
+    slug: "lombard",
+    name: "Lombard",
+    countySlug: "dupage-county-il",
+    blurb: "Home to a cluster of Arab American-owned bakeries, markets, and a law office along Roosevelt Road, just west of Cook County.",
+  },
+  {
+    slug: "villa-park",
+    name: "Villa Park",
+    countySlug: "dupage-county-il",
+    blurb: "Home to St. John the Baptist Melkite Catholic Church, serving Chicago's Lebanese/Syrian Melkite community, and a Mediterranean grocery market.",
+  },
+  {
+    slug: "winfield",
+    name: "Winfield",
+    countySlug: "dupage-county-il",
+    blurb: "A DuPage County suburb, home to a halal Arab grocery store.",
+  },
+  {
+    slug: "westmont",
+    name: "Westmont",
+    countySlug: "dupage-county-il",
+    blurb: "Mailing address for the Ramallah Club of Chicago, a local chapter of the American Federation of Ramallah, Palestine.",
+  },
+  {
+    slug: "willowbrook",
+    name: "Willowbrook",
+    countySlug: "dupage-county-il",
+    blurb: "A DuPage County suburb, home to a halal Middle Eastern grocery store.",
+  },
+  {
+    slug: "oakbrook-terrace",
+    name: "Oakbrook Terrace",
+    countySlug: "dupage-county-il",
+    blurb: "A DuPage County suburb, home to an Arab American real estate agent.",
+  },
+  {
+    slug: "hinsdale",
+    name: "Hinsdale",
+    countySlug: "dupage-county-il",
+    blurb: "An affluent DuPage County suburb, home to an Arab American real estate agent.",
+  },
+  {
+    slug: "glen-ellyn",
+    name: "Glen Ellyn",
+    countySlug: "dupage-county-il",
+    blurb: "A DuPage County suburb, home to an Arab American general surgeon.",
+  },
+
+  // Illinois cities — Will County
+  {
+    slug: "frankfort",
+    name: "Frankfort",
+    countySlug: "will-county-il",
+    blurb: "An exurban southwest suburb, home to a halal farm market and a small number of Arab American-owned businesses.",
+  },
+  {
+    slug: "homer-glen",
+    name: "Homer Glen",
+    countySlug: "will-county-il",
+    blurb: "A Will County suburb near Orland Park, home to an Arab American-owned professional office.",
+  },
+
+  // Illinois cities — additional suburbs identified during business-listing curation
+  {
+    slug: "norridge",
+    name: "Norridge",
+    countySlug: "cook-county-il",
+    blurb: "A small Cook County suburb near O'Hare, home to a handful of Middle Eastern-owned restaurants and shops.",
+  },
+  {
+    slug: "lyons",
+    name: "Lyons",
+    countySlug: "cook-county-il",
+    blurb: "A near-southwest Cook County suburb along the Harlem Avenue corridor, home to a small Arab-owned restaurant.",
+  },
+  {
+    slug: "forest-park",
+    name: "Forest Park",
+    countySlug: "cook-county-il",
+    blurb: "A near-west Cook County suburb, home to a small Arab-owned restaurant.",
+  },
+  {
+    slug: "countryside",
+    name: "Countryside",
+    countySlug: "cook-county-il",
+    blurb: "A southwest Cook County suburb near La Grange, home to a small Arab-owned restaurant.",
+  },
+  {
+    slug: "summit",
+    name: "Summit",
+    countySlug: "cook-county-il",
+    blurb: "A near-southwest Cook County suburb, home to an Arab American-owned law office.",
+  },
+  {
+    slug: "burr-ridge",
+    name: "Burr Ridge",
+    countySlug: "dupage-county-il",
+    blurb: "An affluent DuPage County suburb, home to a Coptic Orthodox church serving Chicago's Egyptian community.",
   },
 ];
 

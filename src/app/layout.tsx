@@ -6,11 +6,11 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL("https://arabsfinder.com"),
   title: {
-    default: "Arabs Finder — Arabic-speaking community directory, Southern California",
+    default: "Arabs Finder — Arabic-speaking community directory",
     template: "%s | Arabs Finder",
   },
   description:
-    "A no-account-required index of Arab American and Arabic-speaking community businesses, professionals, mosques, and churches across Southern California. Ownership is self-identified, never inferred.",
+    "A no-account-required index of Arab American and Arabic-speaking community businesses, professionals, mosques, and churches across Southern California, Michigan, and Illinois. Ownership is self-identified, never inferred.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

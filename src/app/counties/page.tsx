@@ -31,14 +31,16 @@ function CountyCard({ county }: { county: (typeof counties)[number] }) {
 export default function CountiesPage() {
   const caCounties = counties.filter((c) => c.state === "CA");
   const miCounties = counties.filter((c) => c.state === "MI");
+  const ilCounties = counties.filter((c) => c.state === "IL");
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
       <h1 className="text-3xl font-semibold text-brand-teal-dark">Browse by region</h1>
       <p className="mt-2 max-w-2xl text-foreground/70">
-        Arabs Finder covers two regions so far: Southern California, where it launched, and Michigan, home to the
-        country's largest Chaldean and Arab American community outside the Middle East. Rollout within each region
-        is phased by demand density and existing community infrastructure — not all counties are live yet.
+        Arabs Finder covers three regions so far: Southern California, where it launched; Michigan, home to the
+        country's largest Chaldean and Arab American community outside the Middle East; and Illinois, home to the
+        largest Palestinian-American population of any U.S. county. Rollout within each region is phased by demand
+        density and existing community infrastructure — not all counties are live yet.
       </p>
 
       <section className="mt-10">
@@ -61,6 +63,20 @@ export default function CountiesPage() {
         </p>
         <div className="mt-6 grid gap-5 sm:grid-cols-2">
           {miCounties.map((county) => (
+            <CountyCard key={county.slug} county={county} />
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-14">
+        <h2 className="text-xl font-semibold text-brand-teal-dark">Illinois counties</h2>
+        <p className="mt-1 max-w-2xl text-sm text-foreground/60">
+          Cook County has the largest Palestinian-American population of any U.S. county, concentrated along the
+          Harlem Avenue corridor in Bridgeview, alongside a longstanding Assyrian/Chaldean community on Chicago's
+          north side and north suburbs.
+        </p>
+        <div className="mt-6 grid gap-5 sm:grid-cols-2">
+          {ilCounties.map((county) => (
             <CountyCard key={county.slug} county={county} />
           ))}
         </div>
