@@ -203,6 +203,63 @@ export const counties: County[] = [
     blurb:
       "Home to the Arab American Cultural Center of the Silicon Valley (AACC-SV) in San Jose, serving a professional Arab American community concentrated in the South Bay's tech sector — a distinct, more recent wave of immigration than the historic Tenderloin and Oakland communities.",
   },
+
+  // Fifth region, added Oct 13, 2026: Sacramento and the surrounding capital
+  // region. Unlike the Bay Area, no single historic ethnic enclave anchors this
+  // community — it is smaller and more dispersed, built up through Iraqi/Chaldean
+  // refugee resettlement into Sacramento County since the 1990s-2000s (SALAM
+  // Islamic Center, Our Lady of Perpetual Help Chaldean and Assyrian Catholic
+  // Church) and newer suburban growth into Placer, El Dorado, and Yolo counties.
+  // No county-level ACS Arab-ancestry breakout was available, matching the
+  // Michigan/Illinois/Bay Area pattern.
+  {
+    slug: "sacramento-county",
+    name: "Sacramento County",
+    state: "CA",
+    phase: 8,
+    phaseLabel: "Sacramento Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Iraqi/Chaldean-majority refugee-origin community, alongside a broader multi-ethnic Arab and Muslim population",
+    blurb:
+      "Home to Our Lady of Perpetual Help Chaldean and Assyrian Catholic Church in Orangevale — formed when the area's Chaldean community, worshiping in the Diocese of Sacramento for over 30 years, roughly doubled in size as about 40 Iraqi refugee families arrived in the late 2000s — and to the SALAM Islamic Center, serving the greater Sacramento area's Muslim community since the 1990s.",
+  },
+  {
+    slug: "placer-county",
+    name: "Placer County",
+    state: "CA",
+    phase: 8,
+    phaseLabel: "Sacramento Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Mixed, smaller and more dispersed than Sacramento County",
+    blurb:
+      "Roseville and Rocklin's rapid suburban growth has drawn a smaller, more recently arrived Arab American population than Sacramento County's longer-established refugee-origin community.",
+  },
+  {
+    slug: "el-dorado-county",
+    name: "El Dorado County",
+    state: "CA",
+    phase: 8,
+    phaseLabel: "Sacramento Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Small Chaldean/Iraqi presence historically centered on El Dorado Hills",
+    blurb:
+      "El Dorado Hills was the original home of what's now Orangevale's Chaldean and Assyrian Catholic parish before the congregation outgrew the property and relocated into Sacramento County.",
+  },
+  {
+    slug: "yolo-county",
+    name: "Yolo County",
+    state: "CA",
+    phase: 8,
+    phaseLabel: "Sacramento Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Small, university- and tech-corridor-linked population in Davis and West Sacramento",
+    blurb:
+      "Davis, home to UC Davis, and West Sacramento, directly across the river from downtown Sacramento, anchor a smaller Arab American presence on the region's west side.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1119,6 +1176,117 @@ export const cities: City[] = [
     name: "Los Altos",
     countySlug: "santa-clara-county",
     blurb: "Home to the Antiochian Orthodox Church of the Redeemer, founded 1962, which holds bilingual Arabic-English liturgy.",
+  },
+
+  // Sacramento region cities
+  {
+    slug: "sacramento",
+    name: "Sacramento",
+    countySlug: "sacramento-county",
+    isCulturalDistrict: true,
+    blurb: "Home to the SALAM Islamic Center, serving the greater Sacramento area's Muslim community since the 1990s, and to a growing cluster of Iraqi/Chaldean-owned restaurants and markets.",
+  },
+  {
+    slug: "orangevale",
+    name: "Orangevale",
+    countySlug: "sacramento-county",
+    blurb: "Home to Our Lady of Perpetual Help Chaldean and Assyrian Catholic Church, consecrated in 2011 after the local Chaldean congregation roughly doubled with the arrival of about 40 Iraqi refugee families.",
+  },
+  {
+    slug: "elk-grove",
+    name: "Elk Grove",
+    countySlug: "sacramento-county",
+    blurb: "A fast-growing Sacramento County suburb with several halal markets and restaurants serving its Iraqi and broader Middle Eastern community.",
+  },
+  {
+    slug: "rancho-cordova",
+    name: "Rancho Cordova",
+    countySlug: "sacramento-county",
+    blurb: "A Sacramento County suburb with a small Arab American-owned business presence.",
+  },
+  {
+    slug: "citrus-heights",
+    name: "Citrus Heights",
+    countySlug: "sacramento-county",
+    blurb: "A Sacramento County suburb with a small Arab American-owned business presence.",
+  },
+  {
+    slug: "carmichael",
+    name: "Carmichael",
+    countySlug: "sacramento-county",
+    blurb: "A Sacramento County suburb with a small Arab American-owned business presence.",
+  },
+  {
+    slug: "folsom",
+    name: "Folsom",
+    countySlug: "sacramento-county",
+    blurb: "An affluent eastern Sacramento County suburb with a small Arab American professional presence.",
+  },
+  {
+    slug: "fair-oaks",
+    name: "Fair Oaks",
+    countySlug: "sacramento-county",
+    blurb: "A Sacramento County community near Orangevale's Chaldean and Assyrian Catholic parish.",
+  },
+  {
+    slug: "roseville-ca",
+    name: "Roseville",
+    countySlug: "placer-county",
+    blurb: "Placer County's largest city, with a small but growing Arab American-owned business presence tied to the Sacramento area's suburban growth.",
+  },
+  {
+    slug: "rocklin",
+    name: "Rocklin",
+    countySlug: "placer-county",
+    blurb: "A fast-growing Placer County suburb adjacent to Roseville.",
+  },
+  {
+    slug: "lincoln",
+    name: "Lincoln",
+    countySlug: "placer-county",
+    blurb: "A growing Placer County city northeast of Roseville.",
+  },
+  {
+    slug: "auburn",
+    name: "Auburn",
+    countySlug: "placer-county",
+    blurb: "The Placer County seat, in the Sierra foothills northeast of Sacramento.",
+  },
+  {
+    slug: "el-dorado-hills",
+    name: "El Dorado Hills",
+    countySlug: "el-dorado-county",
+    blurb: "The original home of what's now Orangevale's Chaldean and Assyrian Catholic parish before the congregation relocated into Sacramento County.",
+  },
+  {
+    slug: "cameron-park",
+    name: "Cameron Park",
+    countySlug: "el-dorado-county",
+    blurb: "An El Dorado County community near El Dorado Hills.",
+  },
+  {
+    slug: "placerville",
+    name: "Placerville",
+    countySlug: "el-dorado-county",
+    blurb: "The El Dorado County seat, in the Sierra foothills east of Sacramento.",
+  },
+  {
+    slug: "davis",
+    name: "Davis",
+    countySlug: "yolo-county",
+    blurb: "Home to UC Davis, which draws Arab American students, faculty, and a small number of Arab-owned businesses near campus.",
+  },
+  {
+    slug: "west-sacramento",
+    name: "West Sacramento",
+    countySlug: "yolo-county",
+    blurb: "Directly across the Sacramento River from downtown Sacramento, with a small Arab American-owned business presence.",
+  },
+  {
+    slug: "woodland",
+    name: "Woodland",
+    countySlug: "yolo-county",
+    blurb: "The Yolo County seat, northwest of Sacramento.",
   },
 ];
 

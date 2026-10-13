@@ -26062,6 +26062,943 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Arabic translation/interpretation/localization firm serving legal, medical, business and technical clients; fits translation/interpreting subcategory well.",
   },
+  // ─── PHASE 8: SACRAMENTO CHAPTER ────────────────────────────────────────────
+  // Counties: Sacramento, Placer, El Dorado, Yolo
+  // Sourcing: Zabihah (halal status only), Rakwa (Arab-American directory),
+  // business own sites, news coverage (whatnow.com / Sacramento Bee / CBS Sac),
+  // hospital-system physician directories, denominational directories (Eparchy,
+  // gcatholic.org), IRS GuideStar nonprofit filings.
+  // Rule 1: arabOwnedSelfIdentified is "documented_public_claim" only where a
+  // specific citable public source states Arab identity — never inferred from
+  // name, cuisine, or language alone.
+  // Rule 3: Zero data from Google Maps or Yelp.
+  // recordedAt: 2026-10-13
+
+  // ── FOOD & DRINK ────────────────────────────────────────────────────────────
+  {
+    listingId: "sac-meza-california-sacramento",
+    name: "Meza California",
+    slug: "meza-california-sacramento",
+    primaryCategory: "food-drink",
+    address: {
+      street: "1413 16th St",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95816",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Yahoo News / whatnow.com coverage of the Arab-Mexican fusion restaurant names owner Kasandra Kachakji and describes her concept as an expression of her 'Syrian and Mexican heritage'; exploremidtown.org team page describes the restaurant as 'Rooted in both Arabic and Latin heritage'.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source:
+        "Yahoo News (Arab-Mexican fusion restaurant article); exploremidtown.org; Sacramento Bee video featuring owner Kasandra Kachakji",
+      method:
+        "Manual editorial entry from news coverage and business promotional materials. Arab ownership is documented_public_claim based on owner's own stated heritage in press coverage, not inferred. Rule 3 compliant — no Google Maps or Yelp data used.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Arab-Mexican fusion restaurant in midtown Sacramento, filling the former Simon's Bar & Cafe space. Owner Kasandra Kachakji describes the concept as rooted in her Syrian and Mexican heritage. Exact street number varies across sources (1413 vs 1415 16th St, same block) — verify before claiming.",
+  },
+  {
+    listingId: "sac-kasbah-lounge-sacramento",
+    name: "Kasbah Lounge",
+    slug: "kasbah-lounge-sacramento",
+    primaryCategory: "food-drink",
+    address: {
+      street: "2115 J St Ste 101",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95816",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    telephone: "(916) 442-4388",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "GoFundMe campaign 'Help Kasbah Lounge Rebuild' run by the business/owner explicitly describes Kasbah as 'woman owned, chef owned, Palestinian owned,' naming chef/owner Tanya Azar.",
+
+    halalStatus: "not_stated",
+    alcoholServed: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source:
+        "GoFundMe campaign by owner (documented_public_claim source); CBS News Sacramento fire coverage (Jan 2024); Sacramento News & Review profile",
+      method:
+        "Manual editorial entry from news coverage and owner-run fundraising campaign. Arab ownership is documented_public_claim based on the owner's own public statement. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Palestinian-owned Mediterranean restaurant and hookah lounge in midtown Sacramento. Chef/owner Tanya Azar. Sustained ~$600K damage in a kitchen fire in January 2024 and ran a GoFundMe rebuild campaign; current operating-hours aggregators show regular weekly hours, suggesting it has reopened — confirm status when claiming.",
+  },
+  {
+    listingId: "sac-babylon-city-market-sacramento",
+    name: "Babylon City Market",
+    slug: "babylon-city-market-sacramento",
+    primaryCategory: "food-drink",
+    address: {
+      street: "1745 Watt Ave",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Listed on Zabihah as a Middle Eastern/Mediterranean bakery, grocery, and halal-meat market with dine-in. Muslim-owned per Zabihah; no Arab-specific ethnicity statement found.",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Zabihah.com listing; business email babyloncitymarket@yahoo.com per Zabihah",
+      method:
+        "Manual editorial entry from Zabihah (halal-food directory). Halal status from Zabihah owner confirmation. Ownership not stated beyond Muslim. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Iraqi-named Middle Eastern/Mediterranean bakery, grocery, halal-meat market, and dine-in restaurant on Watt Ave, Sacramento.",
+  },
+  {
+    listingId: "sac-international-market-sacramento",
+    name: "International Market",
+    slug: "international-market-sacramento",
+    primaryCategory: "food-drink",
+    address: {
+      street: "1345 Fulton Ave",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Listed on Zabihah as a halal meat market/deli with Middle Eastern specialty groceries and lunch specials. No ownership statement found.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Zabihah.com listing",
+      method:
+        "Manual editorial entry from Zabihah. Listing is unclaimed; no ownership statement. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "sac-red-sea-food-market-sacramento",
+    name: "Red Sea Food Market & Halal Meat",
+    slug: "red-sea-food-market-sacramento",
+    primaryCategory: "food-drink",
+    address: {
+      street: "6968 65th Street, Unit E",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    telephone: "(916) 391-2224",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Listed on Zabihah and LocalWiki (Sacramento). Muslim-owned per Zabihah; no Arab-specific ethnicity statement. Name 'Red Sea' alone is not treated as evidence of Arab vs. other Red-Sea-region ownership per sourcing rules.",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Zabihah.com listing; LocalWiki Sacramento",
+      method:
+        "Manual editorial entry from Zabihah and LocalWiki. Halal status from Zabihah owner confirmation. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "sac-mediterranean-market-sacramento",
+    name: "Mediterranean Market",
+    slug: "mediterranean-market-sacramento",
+    primaryCategory: "food-drink",
+    address: {
+      street: "1547 Fulton Ave #B",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    telephone: "(916) 972-1237",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Listed on Zabihah and LocalWiki Sacramento as an ethnic grocery/meat market/small restaurant. No ownership statement found; customer reviews offer conflicting and unverifiable claims about ownership — excluded per Rule 1.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Zabihah.com listing; LocalWiki Sacramento",
+      method:
+        "Manual editorial entry from Zabihah and LocalWiki. Rule 3 compliant. Ownership not stated.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Ethnic grocery/meat market/small restaurant on Fulton Ave, Sacramento, carrying Mediterranean staples (falafel, hummus, hookah/molasses). Ownership ethnicity not documented.",
+  },
+  {
+    listingId: "sac-adams-international-market-elk-grove",
+    name: "Adam's International Market",
+    slug: "adams-international-market-elk-grove",
+    primaryCategory: "food-drink",
+    address: {
+      street: "9175 Elk Grove Florin Rd",
+      locality: "Elk Grove",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "elk-grove",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Listed on Zabihah as a Mediterranean grocery/halal meat market. No ownership statement found.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Zabihah.com listing",
+      method:
+        "Manual editorial entry from Zabihah. No ownership claim. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "sac-haraz-coffee-house-roseville-ca",
+    name: "Haraz Coffee House — Roseville",
+    slug: "haraz-coffee-house-roseville-ca",
+    primaryCategory: "food-drink",
+    address: {
+      street: "3031 Foothills Blvd",
+      locality: "Roseville",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "placer-county",
+    citySlug: "roseville-ca",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "whatnow.com coverage describes Haraz Coffee House as an 'authentic Yemeni coffee brand' founded in 2021 by Hamzah Nasser (Dearborn, MI); Roseville location named as operated by franchisee Assad Albaijat (whatnow.com, Aug 2025).",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "whatnow.com (Sacramento-area business coverage, Aug 2025); Zabihah.com listing",
+      method:
+        "Manual editorial entry. Arab identity is documented at the brand level (Yemeni-founded concept); Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Yemeni coffee franchise. Grand opening Aug 30, 2025 per whatnow.com. Franchisee Assad Albaijat. Arab-identity claim applies to the brand's Yemeni founding; no personal heritage statement from the local franchisee found.",
+  },
+  {
+    listingId: "sac-haraz-coffee-house-folsom",
+    name: "Haraz Coffee House — Folsom",
+    slug: "haraz-coffee-house-folsom",
+    primaryCategory: "food-drink",
+    address: {
+      street: "194 Blue Ravine Rd",
+      locality: "Folsom",
+      region: "CA",
+      postal: "95630",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "folsom",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Same Yemeni-coffee-brand claim as the Roseville location. Franchisee Assad Albaijat per whatnow.com.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "whatnow.com (Sacramento-area business coverage, Aug 2025)",
+      method:
+        "Manual editorial entry. Opening targeted for mid-October 2025 per the source article; likely open by now (Oct 2026). Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Yemeni coffee franchise, second Sacramento-area Haraz location. Franchisee Assad Albaijat. Opening was targeted for mid-October 2025 — confirm current status when claiming.",
+  },
+  {
+    listingId: "sac-qamaria-yemeni-coffee-folsom",
+    name: "Qamaria Yemeni Coffee Co. — Folsom",
+    slug: "qamaria-yemeni-coffee-folsom",
+    primaryCategory: "food-drink",
+    address: {
+      street: "13405 Folsom Blvd, Suite 950",
+      locality: "Folsom",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "folsom",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "News coverage (syndicated via AOL): 'Yemeni-style coffee chain opening first Northern California location in Folsom' — names regional franchisee Najla Althaibani, running it with daughter Fayruz Ali and niece Amal Abdulla. Opened in 2024.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "AOL-syndicated local news; joe.coffee location listing",
+      method:
+        "Manual editorial entry. Arab identity documented at brand level (Yemeni-founded franchise) and via named Yemeni-American franchisee. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "First Northern California Qamaria location, opened 2024. Regional franchisee Najla Althaibani (with family members Fayruz Ali and Amal Abdulla). 13405 Folsom Blvd, Suite 950.",
+  },
+  {
+    listingId: "sac-qamaria-yemeni-coffee-north-natomas",
+    name: "Qamaria Yemeni Coffee Co. — North Natomas",
+    slug: "qamaria-yemeni-coffee-north-natomas",
+    primaryCategory: "food-drink",
+    address: {
+      street: "3501 Del Paso Rd",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Same Yemeni-coffee-brand/franchisee claim as the Folsom location; regional franchise led by Najla Althaibani. Source: whatnow.com, Aug 10, 2026.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "whatnow.com Aug 10, 2026 (citing Sacramento Councilmember Lisa Kaplan's Facebook post)",
+      method:
+        "Manual editorial entry. As of Aug 2026 source article the location was 'set to open' with no firm date. Included as open pending owner claim confirmation. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Second Sacramento-area Qamaria location, North Natomas. As of August 2026 news coverage this site was 'set to open' — verify current operating status when claiming.",
+  },
+  {
+    listingId: "sac-sanaa-cafe-downtown-sacramento",
+    name: "Sana'a Cafe",
+    slug: "sana-a-cafe-downtown-sacramento",
+    primaryCategory: "food-drink",
+    address: {
+      street: "901 K St",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "whatnow.com: 'A New Yemeni Coffee and Pastries Cafe is Taking Over a Vacant Space on K Street' — Sana'a Cafe is named for Yemen's capital city; Sacramento-area partner named as Hesham Hussain.",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "whatnow.com Sacramento business coverage; Zabihah.com",
+      method:
+        "Manual editorial entry. Arab identity is documented at brand level (Yemeni coffee concept). Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Yemeni coffee and pastries cafe named for Yemen's capital. Sacramento-area partner Hesham Hussain. Open for close to a year as of a Sept 2025 article. 901 K Street, downtown Sacramento.",
+  },
+  {
+    listingId: "sac-sanaa-cafe-elk-grove",
+    name: "Sana'a Cafe — Elk Grove",
+    slug: "sana-a-cafe-elk-grove",
+    primaryCategory: "food-drink",
+    address: {
+      street: "9135 W Stockton Blvd, Suite 140",
+      locality: "Elk Grove",
+      region: "CA",
+      postal: "95758",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "elk-grove",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Same Yemeni-cafe-brand claim as K Street location; whatnow.com names Hesham Hussain as local partner for this second Sacramento-area Sana'a location.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "whatnow.com Sacramento business coverage (follow-up article on Elk Grove expansion)",
+      method:
+        "Manual editorial entry. Projected to open 'before the end of 2025' per the source article. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Second Sacramento-area Sana'a location, Elk Grove. In the former Kung Fu Tea space at Laguna Gateway. Opening was projected for end of 2025 — confirm current status when claiming.",
+  },
+  {
+    listingId: "sac-bayt-al-mocha-sacramento",
+    name: "Bayt Al Mocha",
+    slug: "bayt-al-mocha-sacramento",
+    primaryCategory: "food-drink",
+    address: {
+      street: "6306 Garfield Ave, Unit 250",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95841",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "whatnow.com (May 22, 2026): 'Bayt Al Mocha Bringing Yemeni Coffee Concept to Sacramento' — name translates to 'House of Mocha,' referencing the Yemeni port city; operator Rayna Al-Shaybani confirmed the address to the publication.",
+
+    halalStatus: "not_stated",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "whatnow.com May 22, 2026 article",
+      method:
+        "Manual editorial entry. As of article date the cafe had not yet opened, targeting late summer 2026. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Yemeni coffee concept. Operator Rayna Al-Shaybani. Targeting late-summer 2026 opening as of a May 2026 article — verify current operating status. Greenback Corners shopping center; address sits near the Sacramento/Citrus Heights boundary (ZIP 95841 is Sacramento).",
+  },
+  {
+    listingId: "sac-arz-lebanese-restaurant-folsom",
+    name: "ARZ Lebanese Restaurant",
+    slug: "arz-lebanese-restaurant-folsom",
+    primaryCategory: "food-drink",
+    address: {
+      street: "705 Gold Lake Dr Ste 390",
+      locality: "Folsom",
+      region: "CA",
+      postal: "95630",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "folsom",
+    telephone: "(916) 936-4242",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Lebanese restaurant billed as 'The Original Lebanese Experience in Folsom,' with belly dancing on Fri/Sat nights. Alignable profile associated with 'Moe Yehia,' but no official ownership statement meeting the documented_public_claim bar was found.",
+
+    halalStatus: "not_stated",
+    alcoholServed: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Alignable business profile; Allmenus.com menu listing",
+      method:
+        "Manual editorial entry. Cuisine/restaurant-name signal alone does not meet Rule 1 bar; ownership marked not_stated. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+
+  // ── HEALTH & MEDICAL ────────────────────────────────────────────────────────
+  {
+    listingId: "sac-dr-salma-shabaik-sacramento",
+    name: "Dr. Salma A. Shabaik, MD — Sutter Health",
+    slug: "dr-salma-shabaik-sutter-sacramento",
+    primaryCategory: "health-medical",
+    address: {
+      street: "1996 Del Paso Rd., Suite 176",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95834",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    telephone: "916-546-5320",
+    website: "https://www.sutterhealth.org/find-doctor/dr-salma-a-shabaik",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Sutter Health physician directory lists Arabic as a spoken language. Arabic-language signal alone is the only evidence; medical training (UC San Diego / Long Beach Memorial) does not independently confirm Arab heritage, so ownership defaults to not_stated per Rule 1.",
+
+    languagesSpoken: ["Arabic", "Spanish", "English"],
+    arabicServiceAdvertised: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "contact_verified",
+    professionalDisclaimerShown: true,
+    provenance: {
+      source: "Sutter Health physician-directory profile (sutterhealth.org/find-doctor)",
+      method:
+        "Manual editorial entry sourced from hospital-system physician directory. Arabic-language listing is a real, citable signal for Arabic-speaking patients but is insufficient alone for a documented_public_claim under Rule 1. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "sac-dr-fouad-darwish-elk-grove",
+    name: "Dr. Fouad Darwish, MD — Dignity Health",
+    slug: "dr-fouad-darwish-dignity-health-elk-grove",
+    primaryCategory: "health-medical",
+    address: {
+      street: "9381 E Stockton Blvd, Suite 216",
+      locality: "Elk Grove",
+      region: "CA",
+      postal: "95624",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "elk-grove",
+    telephone: "916-423-3084",
+    website: "https://www.commonspirit.org/find-a-doctor/fouad-darwish-1285698902",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "CommonSpirit/Dignity Health Find-a-Doctor profile lists Arabic as a spoken language AND lists medical school as Ain Shams University Faculty of Medicine, Cairo, Egypt — training in an Arab country provides an independent citable basis per compliance guidelines.",
+
+    languagesSpoken: ["Arabic", "English"],
+    arabicServiceAdvertised: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "contact_verified",
+    professionalDisclaimerShown: true,
+    provenance: {
+      source:
+        "CommonSpirit/Dignity Health Find-a-Doctor profile (commonspirit.org/find-a-doctor/fouad-darwish-1285698902)",
+      method:
+        "Manual editorial entry. Arab identity is documented_public_claim based on Arabic-language listing plus medical training at Ain Shams University, Cairo. Hospital affiliation: Dignity Health — Methodist Hospital of Sacramento. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "sac-dr-sanaz-abderrahmane-sacramento",
+    name: "Dr. Sanaz Abderrahmane, MD — Mercy Medical Group",
+    slug: "dr-sanaz-abderrahmane-mercy-sacramento",
+    primaryCategory: "health-medical",
+    address: {
+      street: "3000 Q St",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95816",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    telephone: "916-733-3440",
+    website: "https://www.commonspirit.org/find-a-doctor/sanaz-abderrahmane-1902039902",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "CommonSpirit/Dignity Health (Mercy Medical Group) directory lists Arabic among spoken languages (Arabic, English, French, Persian). Medical school is Ross University (not an Arab country); no heritage statement found — Arabic-language signal alone insufficient for documented_public_claim per Rule 1.",
+
+    languagesSpoken: ["Arabic", "English", "French", "Persian"],
+    arabicServiceAdvertised: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "contact_verified",
+    professionalDisclaimerShown: true,
+    provenance: {
+      source:
+        "CommonSpirit/Dignity Health Find-a-Doctor profile (commonspirit.org)",
+      method:
+        "Manual editorial entry from hospital-system physician directory. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Infectious Disease / HIV specialist, Mercy Medical Group Midtown. Arabic, English, French, and Persian spoken. Ownership/heritage not stated.",
+  },
+  {
+    listingId: "sac-delight-dental-group-roseville",
+    name: "Delight Dental Group",
+    slug: "delight-dental-group-roseville-ca",
+    primaryCategory: "health-medical",
+    address: {
+      street: "1280 Laysan Teal Dr",
+      locality: "Roseville",
+      region: "CA",
+      postal: "95747",
+    },
+    hasPublicStorefront: true,
+    countySlug: "placer-county",
+    citySlug: "roseville-ca",
+    website: "https://delightdentalgroup.com",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Dental practice listing includes Arabic among staff languages (Arabic, Armenian, English, Farsi, Russian, Spanish, Ukrainian). Provider Dr. Fady Khalil. No heritage statement for the provider specifically; language listing attributed to staff generally. Ownership defaults to not_stated per Rule 1.",
+
+    languagesSpoken: ["Arabic", "Armenian", "English", "Farsi", "Russian", "Spanish", "Ukrainian"],
+    arabicServiceAdvertised: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    professionalDisclaimerShown: true,
+    provenance: {
+      source: "practicefinder.newpatientsinc.com dental-practice listing; delightdentalgroup.com",
+      method:
+        "Manual editorial entry. Language signal from practice-finder listing. Phone listed in source has a NJ area code despite CA address — verify before publishing. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "General/cosmetic dentistry. Arabic among languages spoken by staff. Provider Dr. Fady Khalil. Verify phone number — the source listed a New Jersey area code.",
+  },
+
+  // ── FAITH & COMMUNITY ───────────────────────────────────────────────────────
+  {
+    listingId: "sac-our-lady-perpetual-help-orangevale",
+    name: "Our Lady of Perpetual Help Chaldean and Assyrian Catholic Church",
+    slug: "our-lady-perpetual-help-chaldean-orangevale",
+    primaryCategory: "faith-community",
+    address: {
+      street: "7625 Hazel Ave",
+      locality: "Orangevale",
+      region: "CA",
+      postal: "95662",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "orangevale",
+    telephone: "916-990-0150",
+    website:
+      "https://www.stpeterdiocese.org/churches/our-lady-of-perpetual-help-chaldean-church/",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Chaldean Catholic Eparchy of St. Peter the Apostle parish page (stpeterdiocese.org) and CNEWA reporting confirm this is a Chaldean and Assyrian Catholic parish. Sunday Mass is celebrated in Chaldean and Arabic per the diocese's own parish page.",
+
+    faithCommunityAffiliation: "Chaldean Catholic — Eparchy of St. Peter the Apostle",
+    prayerSpace: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "contact_verified",
+    provenance: {
+      source:
+        "Chaldean Catholic Eparchy of St. Peter the Apostle (stpeterdiocese.org); CNEWA reporting; gcatholic.org",
+      method:
+        "Manual editorial entry from denominational directory and independent news reporting (CNEWA). Arab/Chaldean identity documented via the diocese's own parish description. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Pastor: Fr. Lucian Babaka. Sunday Mass at 11am in Chaldean and Arabic. Jurisdiction: Chaldean Diocese of St. Peter the Apostle (San Diego), within the territory of the Roman Catholic Diocese of Sacramento.",
+  },
+  {
+    listingId: "sac-salam-islamic-center-sacramento",
+    name: "SALAM Islamic Center",
+    slug: "salam-islamic-center-sacramento",
+    primaryCategory: "faith-community",
+    address: {
+      street: "4545 College Oak Dr",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95841",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    telephone: "916-979-1933",
+    website: "https://www.salamcenter.org/",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "SALAM (Sacramento Area League of Associated Muslims) describes a broad, multi-ethnic Muslim community with no Arab-specific programming language per its own website. Per project guidelines, generic mosques whose own materials describe a broad multi-ethnic community with no Arab-specific language are not marked as Arab-owned. GuideStar EIN 68-0110471 confirms this is the same incorporated entity as the 'Sacramento Area League of Associated Muslims' at the same address.",
+
+    faithCommunityAffiliation: "Islamic — multi-ethnic",
+    prayerSpace: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "contact_verified",
+    provenance: {
+      source:
+        "salamcenter.org; GuideStar (EIN 68-0110471); satellite locations confirmed at Arden Center (985 Enterprise Dr, Sacramento 95825) and Masjid Fulton (1852 Fulton Ave, Sacramento 95825)",
+      method:
+        "Manual editorial entry. Included as a major Islamic center serving Sacramento's Muslim community (which includes a significant Arab/Iraqi refugee population), with ownership not stated per Rule 1. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Sacramento's largest Islamic center. Also operates satellite prayer locations at Arden Center (985 Enterprise Dr) and Masjid Fulton (1852 Fulton Ave). Also runs a weekend school program (included in this listing, not a separate entry). 'Sacramento Area League of Associated Muslims' is the legal name — same entity, not a separate listing.",
+  },
+  {
+    listingId: "sac-st-george-melkite-sacramento",
+    name: "St. George Melkite Greek Catholic Church",
+    slug: "st-george-melkite-greek-catholic-sacramento",
+    primaryCategory: "faith-community",
+    address: {
+      street: "9501 Folsom Blvd",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95827",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    telephone: "916-920-2900",
+    website: "https://stgeorgemelkite.org/",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "stgeorgemelkite.org/about-us/our-history/ and stgeorgemelkite.org/middle-eastern-food-festival-and-sponsors/ — the parish's own site describes itself as 'the ancient Christians of the Holy Land, descending from...Antioch,' founded by Lebanese/Syrian-surnamed founders (Fr. Max Chalhoub, Manawel Khoury), and hosts an annual Middle Eastern Food Festival with oud music and Middle Eastern cuisine. Melkite Greek Catholic is a Levantine Byzantine-rite church historically rooted in Lebanese/Syrian communities.",
+
+    faithCommunityAffiliation: "Melkite Greek Catholic — Levantine / Lebanese-Syrian tradition",
+    prayerSpace: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "contact_verified",
+    provenance: {
+      source:
+        "stgeorgemelkite.org; byzantinecatholicsf.org (Other Eastern Catholic Communities directory); gcatholic.org",
+      method:
+        "Manual editorial entry from parish's own published history and denominational directory. Levantine/Middle Eastern identity documented via the parish's own site; note that the site does not use the specific word 'Arab' but describes Antiochian/Levantine Christian heritage. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Current pastor Fr. Hezekias Carnazzo. Annual Middle Eastern Food Festival. Note: parish's own materials use 'Middle Eastern' and 'Antiochian/Holy Land' language rather than explicitly 'Arab' — the Melkite tradition is Levantine and historically Arabic-liturgy but the parish itself does not use the 'Arab' label.",
+  },
+  {
+    listingId: "sac-accis-sacramento",
+    name: "Arab Community Center for Integration Services (ACCIS)",
+    slug: "accis-sacramento",
+    primaryCategory: "faith-community",
+    secondaryCategories: ["shops-events-services"],
+    address: {
+      street: "2740 Fulton Ave #129",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95821",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    website: "https://www.accis-sac.org/",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "California Arts Council grantee page (arts.ca.gov) states ACCIS has 'supported over 6,000 Arab refugees.' The organization's own name includes 'Arab Community Center.' GuideStar EIN 84-4603778.",
+
+    nonprofitEin: "84-4603778",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "contact_verified",
+    provenance: {
+      source:
+        "accis-sac.org; arts.ca.gov grantee database; bigdayofgiving.org/organization/accis-sac; GuideStar EIN 84-4603778",
+      method:
+        "Manual editorial entry. Arab identity is documented_public_claim from California Arts Council grantee description and the org's own name/mission. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Arab refugee/immigrant social-services nonprofit active in Sacramento since 2014 (incorporated 2019). Programs: referral/resettlement services (employment, health, immigration), women's and youth empowerment, Dabke dance workshops, and cultural integration programming. Email: info@accis-sac.org. No phone found on public sources.",
+  },
+  {
+    listingId: "sac-assyrian-aid-society-lincoln",
+    name: "Assyrian Aid Society of America — Sacramento Chapter",
+    slug: "assyrian-aid-society-sacramento-chapter",
+    primaryCategory: "faith-community",
+    address: {
+      street: "3421 Monteverde Dr",
+      locality: "Lincoln",
+      region: "CA",
+      postal: "95648",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sacramento County", "Placer County", "El Dorado County", "Yolo County"],
+    countySlug: "placer-county",
+    citySlug: "lincoln",
+    website: "https://assyrianaid.org/sacramento/",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Assyrians are a distinct Middle Eastern ethnic/linguistic (Aramaic/Syriac-speaking) Christian community; they generally do not self-identify as Arab. Included for the Sacramento Chaldean/Assyrian community presence. No Arab-ownership claim is made.",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "assyrianaid.org/sacramento/",
+      method:
+        "Manual editorial entry from the organization's own chapter-locator page. Assyrian community (not Arab self-identified); included for cultural community relevance. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Sacramento Chapter of the Assyrian Aid Society of America. Fundraising, cultural events (Night of the Arts, Open Mic Night), and Iraqi Relief Fund. Student chapter at UC Davis. Listed address (3421 Monteverde Dr, Lincoln) may be a volunteer/chapter-leader contact address rather than a public meeting facility — confirm before displaying a street address publicly. Main org: 510-527-9997.",
+  },
+
+  // ── REAL ESTATE ─────────────────────────────────────────────────────────────
+  {
+    listingId: "sac-mahdi-awadallah-real-estate-sacramento",
+    name: "Mahdi Awadallah — Berkshire Hathaway HomeServices Elite",
+    slug: "mahdi-awadallah-bhhs-sacramento",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95828",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sacramento County"],
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Active agent with Berkshire Hathaway HomeServices Elite Real Estate, Sacramento CA 95828, per RealTrends agent profile. Listed on halalwallet.us/agents/ca/sacramento (sourced from ArabAmericans.com). No heritage/ethnicity statement found in any source; Arabic-sounding name alone does not meet Rule 1 bar.",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    professionalDisclaimerShown: true,
+    provenance: {
+      source:
+        "RealTrends agent profile (realtrends.com); halalwallet.us/agents/ca/sacramento (sourced from ArabAmericans.com)",
+      method:
+        "Manual editorial entry. Active agent status confirmed via independent industry data site (RealTrends). Ownership not stated per Rule 1. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Real estate agent with Berkshire Hathaway HomeServices Elite Real Estate. Multiple phone numbers listed across sources — verify current contact details when claiming.",
+  },
+
+  // ── EDUCATION & CHILDCARE ───────────────────────────────────────────────────
+  {
+    listingId: "sac-al-arqam-islamic-school-sacramento",
+    name: "Al-Arqam Islamic School and College Preparatory",
+    slug: "al-arqam-islamic-school-sacramento",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "6990 65th St",
+      locality: "Sacramento",
+      region: "CA",
+      postal: "95823",
+    },
+    hasPublicStorefront: true,
+    countySlug: "sacramento-county",
+    citySlug: "sacramento",
+    telephone: "(916) 391-3333",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Listed in Rakwa Arab American Directory (open status, unclaimed) as an Islamic day school. Teaches Arabic as a second language integrated with Quranic/Islamic studies. School's own materials describe serving the general Muslim community, not Arab-specifically. Verified via CDE/EdJoin job postings and carelulu.com profile.",
+
+    prayerSpace: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source:
+        "Rakwa Arab American Directory (rakwa.com, open/unclaimed); CDE/EdJoin job posting; carelulu.com profile",
+      method:
+        "Manual editorial entry from Rakwa (Arab-American community directory) and cross-checked against CDE and carelulu records. Ownership not stated per Rule 1. Rule 3 compliant.",
+      recordedAt: "2026-10-13",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Pre-K–12 Islamic day school. Arabic as a second language is taught; Quranic/Islamic studies integrated into curriculum. Serves the general Sacramento Muslim community.",
+  },
 ];
 
 export function listingsForCounty(countySlug: string): Listing[] {
