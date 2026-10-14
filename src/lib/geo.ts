@@ -387,6 +387,28 @@ export const counties: County[] = [
     blurb:
       "Home to a Lebanese and Syrian-American community documented since the early 1900s, historically centered in LaVilla, Springfield, and the Eastside, with civic institutions including the Salaam Club (founded 1912 as the Syrian American Club) and the Ramallah American Club (founded 1953 by Palestinian families), alongside a Coptic Orthodox Egyptian parish and newer Lebanese and Syrian-owned restaurants.",
   },
+
+  // Jersey City — a ninth region, added at the site owner's direction.
+  // Jersey City, especially around Journal Square, is home to one of the
+  // largest Coptic Christian (Egyptian) communities in the U.S., anchored
+  // by two historic parishes (St. Mark, the first Coptic Orthodox parish
+  // founded in the U.S., and St. George & St. Shenouda), plus a smaller
+  // Syrian and Palestinian population. Hudson County also has very large
+  // South Asian and Filipino immigrant communities, which are NOT Arab and
+  // are excluded from this chapter's scope. No county-level ACS Arab-
+  // ancestry breakout was available, so those fields are marked "n/a".
+  {
+    slug: "hudson-county-nj",
+    name: "Hudson County",
+    state: "NJ",
+    phase: 14,
+    phaseLabel: "Jersey City Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Large Egyptian-American Coptic Christian community concentrated around Journal Square, alongside a smaller Syrian and Palestinian population; distinct from Hudson County's much larger (non-Arab) South Asian and Filipino communities",
+    blurb:
+      "Home to one of the largest Coptic Christian (Egyptian) communities in the U.S., anchored by two historic parishes around Journal Square — St. Mark, the first Coptic Orthodox parish founded in the U.S., and St. George & St. Shenouda — alongside a smaller Syrian and Palestinian restaurant and community presence.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1489,6 +1511,15 @@ export const cities: City[] = [
     name: "Jacksonville Beach",
     countySlug: "duval-county-fl",
     blurb: "An incorporated beach community within Duval County, home to a small number of Lebanese- and Syrian-owned businesses and professionals.",
+  },
+
+  // Jersey City
+  {
+    slug: "jersey-city",
+    name: "Jersey City",
+    countySlug: "hudson-county-nj",
+    isCulturalDistrict: true,
+    blurb: "Home to one of the largest Coptic Christian (Egyptian) communities in the U.S., anchored by two historic parishes around Journal Square — St. Mark, the first Coptic Orthodox parish founded in the U.S., and St. George & St. Shenouda — alongside a smaller Syrian and Palestinian restaurant and community presence.",
   },
 ];
 
