@@ -260,6 +260,40 @@ export const counties: County[] = [
     blurb:
       "Davis, home to UC Davis, and West Sacramento, directly across the river from downtown Sacramento, anchor a smaller Arab American presence on the region's west side.",
   },
+
+  // New York City — a fourth region, added at the site owner's direction.
+  // Scoped to the two boroughs with the city's best-documented Arab American
+  // commercial/cultural corridors: Brooklyn's Bay Ridge / Sunset Park (5th &
+  // 3rd Avenues, widely reported as home to the largest Palestinian-American
+  // population of any U.S. neighborhood, plus a large Yemeni community) and
+  // Queens's Astoria (Steinway Street, historically called "Little Egypt").
+  // No county-level ACS Arab-ancestry breakout was available, so those
+  // fields are marked "n/a"; borough/neighborhood population figures cited
+  // in each blurb are sourced and dated in-line instead.
+  {
+    slug: "kings-county-ny",
+    name: "Kings County (Brooklyn)",
+    state: "NY",
+    phase: 9,
+    phaseLabel: "New York City Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Palestinian-majority in Bay Ridge; also home to Yemeni, Egyptian, Syrian, and Lebanese communities",
+    blurb:
+      "Home to Bay Ridge, widely reported as having the largest Palestinian-American population of any neighborhood in the U.S., concentrated along 5th and 3rd Avenues, with an adjoining Yemeni American community centered on nearby Sunset Park's Fifth Avenue corridor.",
+  },
+  {
+    slug: "queens-county-ny",
+    name: "Queens County",
+    state: "NY",
+    phase: 9,
+    phaseLabel: "New York City Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Egyptian-majority in Astoria; also home to Lebanese, Syrian, Moroccan, and other North African communities",
+    blurb:
+      "Home to Astoria's Steinway Street corridor, historically called \"Little Egypt,\" one of the oldest and most established Arab American commercial districts in New York City.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1294,6 +1328,32 @@ export const cities: City[] = [
     name: "Woodland",
     countySlug: "yolo-county",
     blurb: "The Yolo County seat, northwest of Sacramento.",
+  },
+
+  // New York City neighborhoods (Kings County / Brooklyn and Queens County).
+  // NYC has no incorporated sub-cities, so "city" here represents the
+  // well-documented neighborhood-level Arab American commercial corridor,
+  // consistent with how Little Arabia (Anaheim) and similar cultural
+  // districts are already handled elsewhere on the site.
+  {
+    slug: "bay-ridge",
+    name: "Bay Ridge",
+    countySlug: "kings-county-ny",
+    isCulturalDistrict: true,
+    blurb: "A Brooklyn neighborhood widely reported as having the largest Palestinian-American population of any neighborhood in the U.S., concentrated along 5th and 3rd Avenues.",
+  },
+  {
+    slug: "sunset-park",
+    name: "Sunset Park",
+    countySlug: "kings-county-ny",
+    blurb: "A Brooklyn neighborhood adjoining Bay Ridge, home to a large Yemeni American community along its Fifth Avenue corridor.",
+  },
+  {
+    slug: "astoria",
+    name: "Astoria",
+    countySlug: "queens-county-ny",
+    isCulturalDistrict: true,
+    blurb: "A Queens neighborhood whose Steinway Street corridor has long been known as \"Little Egypt,\" one of the oldest Arab American commercial districts in New York City.",
   },
 ];
 

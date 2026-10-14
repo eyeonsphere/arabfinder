@@ -29176,6 +29176,2162 @@ export const listings: Listing[] = [
     editorialNote:
       "Listed as 'Any language' (includes Arabic).",
   },
+  // ─── PHASE 9: NEW YORK CITY CHAPTER ─────────────────────────────────────────
+  // Scoped to Bay Ridge & Sunset Park (Brooklyn/Kings County) and Astoria
+  // (Queens County) — NYC's best-documented Arab American commercial corridors.
+  // recordedAt: 2026-10-14
+
+  {
+    listingId: "ny-tanoreen-bay-ridge",
+    name: "Tanoreen",
+    slug: "tanoreen-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "7523 3rd Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    telephone: "718-748-5600",
+    website: "https://tanoreen.com/",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "CT Public (2025): chef/owner Rawia Bishara and co-owner Jumana Bishara, Palestinian; corroborated by NYC Tourism and Brooklyn Paper profiles.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "ctpublic.org; nyctourism.com; brooklynpaper.com; Michelin Guide",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Nationally known Palestinian fine-dining anchor of the Bay Ridge corridor.",
+  },
+  {
+    listingId: "ny-yemen-cafe-bay-ridge",
+    name: "Yemen Cafe & Restaurant (Bay Ridge)",
+    slug: "yemen-cafe-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "7317 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    website: "https://yemencafe.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "NYT (2023) and The New Yorker (2016) via Wikipedia: founded/owned by Yahya Alsubai and Muthana Nassir and their families, Yemeni.",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Wikipedia; NYT; The New Yorker; zabihah.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Second location of the 1986 Atlantic Ave original; family-run.",
+  },
+  {
+    listingId: "ny-qahwah-house-bay-ridge",
+    name: "Qahwah House (Bay Ridge)",
+    slug: "qahwah-house-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "8602 4th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    website: "https://qahwahhouse.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "NY1 (2020): chain founder Ibrahim Alhasbani, 8th-generation Yemeni coffee farming family. New Lines Magazine corroborates.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "NY1; bkreader.com; New Lines Magazine; zabihah.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Franchise location of the Yemeni-founded national chain; local managers named as Waleed Hassan and Sameer Al-Asbahi.",
+  },
+  {
+    listingId: "ny-yemenat-bay-ridge",
+    name: "Yemenat",
+    slug: "yemenat-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "7721 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    telephone: "718-491-5600",
+    website: "https://www.yemenat.rest/",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michelin Guide; helpnewyork.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Described only as 'small, family-run' Yemeni restaurant; no named owner/nationality citation found.",
+  },
+  {
+    listingId: "ny-united-yemen-wahdah-bay-ridge",
+    name: "United Yemen Restaurant (Wahdah)",
+    slug: "united-yemen-restaurant-wahdah-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "6726 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "helpnewyork.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Originally on Court St downtown; family-run since 1988 per article, no owner named.",
+  },
+  {
+    listingId: "ny-famous-yemen-sweets-bay-ridge",
+    name: "Famous Yemen Sweets",
+    slug: "famous-yemen-sweets-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "6708 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "helpnewyork.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-asal-yemen-coffee-bay-ridge",
+    name: "Asal Yemen Coffee",
+    slug: "asal-yemen-coffee-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "7616 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Some listings mislabel this as 'Sunset Park' but the street number places it in Bay Ridge.",
+  },
+  {
+    listingId: "ny-beit-almaqdis-poultry-bay-ridge",
+    name: "Beit Almaqdis Live Poultry",
+    slug: "beit-almaqdis-live-poultry-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "551 63rd St",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Sits near the Bay Ridge/Sunset Park border. Name references Jerusalem but ownership not independently documented beyond the name.",
+  },
+  {
+    listingId: "ny-yemen-unity-bay-ridge",
+    name: "Yemen Unity Restaurant",
+    slug: "yemen-unity-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave near 67th St",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com; barrypopik.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Small Yemeni restaurant a few doors from the Yemeni American Merchants Association. Approximate address from a neighborhood walking-tour article — verify exact street number.",
+  },
+  {
+    listingId: "ny-paradise-sweets-bay-ridge",
+    name: "Paradise Sweets",
+    slug: "paradise-sweets-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "6739 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "away.mta.info; untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Halal bakery/sweets shop known for kunafeh.",
+  },
+  {
+    listingId: "ny-al-aqsa-bakery-bay-ridge",
+    name: "Al-Aqsa Bakery & Restaurant",
+    slug: "al-aqsa-bakery-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "6917 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "away.mta.info; untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Described as 'a popular Palestinian spot' by neighborhood guides, but no named owner/explicit ownership statement found — cuisine descriptor only, kept not_stated per Rule 1.",
+  },
+  {
+    listingId: "ny-nablus-sweets-bay-ridge",
+    name: "Nablus Sweets",
+    slug: "nablus-sweets-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "6812 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "away.mta.info; untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Bakery named after Nablus, West Bank.",
+  },
+  {
+    listingId: "ny-balady-bay-ridge",
+    name: "Balady",
+    slug: "balady-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "middleeasteye.net; untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Middle Eastern grocery/market, one block south of the Arab American Association of New York. Exact street number not found — verify before publishing.",
+  },
+  {
+    listingId: "ny-el-zahra-halal-bay-ridge",
+    name: "El-Zahra Halal Meat & Restaurant",
+    slug: "el-zahra-halal-meat-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Halal butcher/market known for fresh poultry and lamb. Exact street number not found.",
+  },
+  {
+    listingId: "ny-bahary-fish-market-bay-ridge",
+    name: "Bahary Fish Market",
+    slug: "bahary-fish-market-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave near Bay Ridge Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-shawarma-al-sham-bay-ridge",
+    name: "Shawarma Al-Sham",
+    slug: "shawarma-al-sham-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave (high 70s)",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-al-sada-yemeni-bay-ridge",
+    name: "Al-Sada Yemeni Restaurant",
+    slug: "al-sada-yemeni-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "4th Ave near 68th St",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-lamoza-bay-ridge",
+    name: "Lamoza",
+    slug: "lamoza-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "3rd Ave (high 70s)",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Mediterranean restaurant near Tanoreen.",
+  },
+  {
+    listingId: "ny-karam-restaurant-bay-ridge",
+    name: "Karam Restaurant",
+    slug: "karam-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "4th Ave (80s)",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-ayat-bay-ridge",
+    name: "Ayat",
+    slug: "ayat-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "3rd Ave (80s)",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Possible Palestinian ownership reported elsewhere but could not be independently verified with a citable source.",
+  },
+  {
+    listingId: "ny-le-sajj-bay-ridge",
+    name: "Le Sajj Restaurant",
+    slug: "le-sajj-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave (80s)",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-yemen-house-bay-ridge",
+    name: "Yemen House Restaurant",
+    slug: "yemen-house-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave, two blocks south of Bay Ridge Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-alsalam-restaurant-bay-ridge",
+    name: "Alsalam Restaurant",
+    slug: "alsalam-restaurant-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave, two blocks south of Bay Ridge Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-hazar-kebab-bay-ridge",
+    name: "Hazar Kebab",
+    slug: "hazar-kebab-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave, two blocks south of Bay Ridge Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-beit-jeddo-cafe-bay-ridge",
+    name: "Beit Jeddo Cafe",
+    slug: "beit-jeddo-cafe-bay-ridge",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5th Ave, above Al-Aqsa Bakery",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-sahadis-sunset-park",
+    name: "Sahadi's (Industry City)",
+    slug: "sahadis-industry-city-sunset-park",
+    primaryCategory: "food-drink",
+    address: {
+      street: "34 35th St",
+      locality: "Sunset Park",
+      region: "NY",
+      postal: "11232",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "sunset-park",
+    website: "https://www.sahadis.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Wikipedia (citing Eater NY 2017 and James Beard Foundation 'America's Classic'): founded by Abrahim Sahadi, a Lebanese immigrant, in Manhattan's 'Little Syria'; now run by the Sahadi family.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org; brooklyneagle.com; Eater NY; James Beard Foundation",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Second location of the historic Atlantic Ave Brooklyn institution, opened at Industry City in 2019.",
+  },
+  {
+    listingId: "ny-sahadi-spirits-sunset-park",
+    name: "Sahadi Spirits",
+    slug: "sahadi-spirits-sunset-park",
+    primaryCategory: "food-drink",
+    address: {
+      street: "Industry City, 34 35th St (adjacent unit)",
+      locality: "Sunset Park",
+      region: "NY",
+      postal: "11232",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "sunset-park",
+    website: "https://www.sahadis.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Same Lebanese-founded Sahadi family business as Sahadi's.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Wine/spirits counterpart to the main Sahadi's store, same Industry City complex.",
+  },
+  {
+    listingId: "ny-qahwa-roots-sunset-park",
+    name: "Qahwa Roots Cafe",
+    slug: "qahwa-roots-cafe-sunset-park",
+    primaryCategory: "food-drink",
+    address: {
+      street: "6812 3rd Ave",
+      locality: "Sunset Park",
+      region: "NY",
+      postal: "11220",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "sunset-park",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "caffeatlas.com; whereyoueat.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "'Qahwa' (Arabic/Yemeni coffee) branding; no ownership documentation found. Close to the Bay Ridge border.",
+  },
+  {
+    listingId: "ny-mombar-astoria",
+    name: "Mombar",
+    slug: "mombar-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "25-22 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "718-726-2356",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Village Voice (2014) and givemeastoria.com (2021): chef/owner Moustafa El Sayed, from Alexandria, Egypt, brother of Kabab Cafe's Ali El Sayed.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "villagevoice.com; givemeastoria.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Celebrated Egyptian restaurant, anchor of Little Egypt.",
+  },
+  {
+    listingId: "ny-kabab-cafe-astoria",
+    name: "Kabab Cafe",
+    slug: "kabab-cafe-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "25-12 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Columbia News Service (2024) and Village Voice (2014): owner/chef Ali El Sayed, grew up in Alexandria, Egypt, opened c. 1987-1989.",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "columbianewsservice.com; villagevoice.com; zabihah.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Often cited as the first Egyptian-owned business on Steinway St (1987).",
+  },
+  {
+    listingId: "ny-abuqir-astoria",
+    name: "AbuQir",
+    slug: "abuqir-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "24-19 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "givemeastoria.com; airmail.news",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Egyptian seafood restaurant named for a village near Alexandria; no named owner documented.",
+  },
+  {
+    listingId: "ny-sabrys-astoria",
+    name: "Sabry's",
+    slug: "sabrys-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "24-25 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "718-721-9010",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "villagevoice.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Egyptian seafood cafe near the Al-Iman mosque.",
+  },
+  {
+    listingId: "ny-little-morocco-astoria",
+    name: "Little Morocco",
+    slug: "little-morocco-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "24-39 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "718-440-9193",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "barrypopik.com, quoting a 2008 NYT excerpt naming Magid Atif as owner/chef, who arrived in the US from Casablanca, Morocco in 1985.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "barrypopik.com (citing NYT 2008); getsauce.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "CAVEAT: the source itself could not fully confirm the 2008 NYT excerpt describes this same venue — verify before publishing.",
+  },
+  {
+    listingId: "ny-al-sham-sweets-astoria",
+    name: "Al-Sham Sweets & Pastries",
+    slug: "al-sham-sweets-pastries-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "24-39 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com; untappedcities.com; ferry.nyc Arab American Heritage Month blog",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Levantine (Damascus-named) pastry shop (baklava, knafeh, maamoul). Address given inconsistently across sources (24-39, 25-39, and 25-94 Steinway St) — verify exact address before publishing.",
+  },
+  {
+    listingId: "ny-duzan-astoria",
+    name: "Duzan",
+    slug: "duzan-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "24-11 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "718-204-7488",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "qns.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Owner named as Hasan Diab; nationality not stated in source.",
+  },
+  {
+    listingId: "ny-el-khayam-astoria",
+    name: "El Khayam Cafe",
+    slug: "el-khayam-cafe-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "25-72 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "718-267-0400",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Egyptian Streets (2021): 'the oldest Arab-owned business on Steinway Street,' owned by Gamal Dewidar.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "egyptianstreets.com; givemeastoria.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Hookah lounge/cafe serving juices, desserts and tea; longtime fixture of Astoria's Little Egypt corridor.",
+  },
+  {
+    listingId: "ny-rose-hookah-astoria",
+    name: "Rose Hookah Lounge",
+    slug: "rose-hookah-lounge-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "23-52 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "646-287-2713",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "givemeastoria.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Formerly named Isis.",
+  },
+  {
+    listingId: "ny-zyara-astoria",
+    name: "Zyara",
+    slug: "zyara-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "25-53 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Modern/traditional Middle Eastern restaurant.",
+  },
+  {
+    listingId: "ny-levant-astoria",
+    name: "Levant",
+    slug: "levant-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "25-62 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-halal-munchies-astoria",
+    name: "Halal Munchies",
+    slug: "halal-munchies-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "25-35 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "American/Middle Eastern menu.",
+  },
+  {
+    listingId: "ny-alexandria-seafood-astoria",
+    name: "Alexandria Seafood Market",
+    slug: "alexandria-seafood-market-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "25-47 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Seafood market, pick fish on ice cooked to order, Alexandria-style.",
+  },
+  {
+    listingId: "ny-el-rawsheh-astoria",
+    name: "El-Rawsheh Café",
+    slug: "el-rawsheh-cafe-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "25-48 Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Lebanese/Egyptian-style shawarma and falafel cafe.",
+  },
+  {
+    listingId: "ny-haraz-coffee-astoria",
+    name: "Haraz Coffee House (Astoria)",
+    slug: "haraz-coffee-house-astoria",
+    primaryCategory: "food-drink",
+    address: {
+      street: "Steinway St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    website: "https://harazcoffeehouse.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "qns.com (2025): Yemeni-founded national coffeehouse chain; corroborated by coverage of other Haraz locations (Axios Houston, Syracuse).",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "qns.com; axios.com; thisiscny.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Exact street number not confirmed — opened 2025.",
+  },
+  {
+    listingId: "ny-ciana-astoria",
+    name: "Center for Integration and Advancement of New Americans (CIANA)",
+    slug: "ciana-astoria",
+    primaryCategory: "legal",
+    address: {
+      street: "36-12 34th Avenue, 2nd Floor",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "(718) 545-4040",
+    website: "https://cianainc.org",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Nonprofit immigration/social-services agency with an Arabic-language version of its site (ar.cianainc.org) and an advertised Immigration Attorney position; names Middle East/North Africa among communities served but does not use the term 'Arab American.'",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "cianainc.org",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Included because it is a real, address-verified legal-services provider in Astoria and the legal category there is otherwise empty.",
+  },
+  {
+    listingId: "ny-dr-eman-al-janabi-bay-ridge",
+    name: "Eman Al-Janabi, MD (OB-GYN) — NYU Langone",
+    slug: "dr-eman-al-janabi-nyu-langone-bay-ridge",
+    primaryCategory: "health-medical",
+    address: {
+      street: "367 Bay Ridge Parkway",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    website: "https://nyulangone.org/doctors/1699733071/eman-al-janabi",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "NYU Langone physician directory profile lists 'Languages: English, Arabic.'",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "nyulangone.org",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Meets Rule 1 via hospital-system directory explicitly listing Arabic as a spoken language.",
+  },
+  {
+    listingId: "ny-dr-jamal-albdewi-bay-ridge",
+    name: "Jamal Albdewi, MD (OB-GYN) — NYU Langone",
+    slug: "dr-jamal-albdewi-nyu-langone-bay-ridge",
+    primaryCategory: "health-medical",
+    address: {
+      street: "437 88th Street, Floor 2",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    telephone: "929-574-9655",
+    website: "https://nyulangone.org/doctors/1023121704/jamal-albdewi",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "NYU Langone physician directory profile lists 'Languages: English, Arabic'; medical education/internship at Damascus University, Syria.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "nyulangone.org",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-dr-waleed-saidi-astoria",
+    name: "Waleed Saidi, DDS — Dental Smile PC",
+    slug: "dr-waleed-saidi-dental-smile-astoria",
+    primaryCategory: "health-medical",
+    address: {
+      street: "3003 30th Avenue, Ste 2",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11102",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "(917) 582-0802",
+    website: "http://saididentalpc.com",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Practice profile states 'Staff members speak Arabic and Spanish' — a language capability, not an ownership/heritage claim.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "saididentalpc.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-dr-adel-nasser-astoria",
+    name: "Adel Nasser, DDS",
+    slug: "dr-adel-nasser-dds-astoria",
+    primaryCategory: "health-medical",
+    address: {
+      street: "3096 35th Street",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "(718) 956-8812",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Practice profile lists 'Staff members speak English, Arabic, and Spanish' — language capability only.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "practice listing",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-dr-nabil-farra-samarneh-astoria",
+    name: "Nabil Farra Samarneh, DDS",
+    slug: "dr-nabil-farra-samarneh-dds-astoria",
+    primaryCategory: "health-medical",
+    address: {
+      street: "2543 Steinway Street",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "(718) 545-6562",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Appears in a general 'Arabic-speaking dentists in Astoria' directory category, but the practice's own bio makes no explicit heritage claim.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Arabic-speaking dentists directory",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-aaany-bay-ridge",
+    name: "Arab American Association of New York (AAANY)",
+    slug: "arab-american-association-new-york-bay-ridge",
+    primaryCategory: "faith-community",
+    secondaryCategories: ["legal", "education-childcare"],
+    address: {
+      street: "6803 5th Avenue",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    telephone: "(718) 745-3523",
+    website: "https://www.arabamericanny.org",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "NYC Districting Commission community profile describes AAANY as 'a services and advocacy organization rooted in the Bay Ridge Arab community'; Wikipedia and Untapped Cities corroborate.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "nyc.gov districting commission profile; en.wikipedia.org; untappedcities.com; catholicmigration.org (legal clinic partnership); idealist.org (Staff Attorney/Immigration Program Manager postings)",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "One of the most prominent Arab-American nonprofits in NYC — runs an in-house immigration legal program and adult ESOL/education programs, hence the secondary categories. Address given inconsistently across sources as 6803 5th Ave (two independent sources, used here) vs 7111 5th Ave (one source) — verify before publishing. Postal code conflicts also appeared (11209 vs 11220); 11209 (Bay Ridge) used since sources consistently describe it as a Bay Ridge institution.",
+  },
+  {
+    listingId: "ny-islamic-society-bay-ridge",
+    name: "Islamic Society of Bay Ridge",
+    slug: "islamic-society-of-bay-ridge",
+    primaryCategory: "faith-community",
+    address: {
+      street: "6807 5th Avenue",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    telephone: "(718) 680-0121",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Brooklyn Paper coverage describes Arabic-speaking congregants, an Arabic interpreter for the imam, and the mosque's centrality to the neighborhood's Arab/Muslim immigrant population; Untapped Cities places it on the 5th Ave Arab-business strip.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Sunni Islam — Arab/Muslim immigrant congregation",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "brooklynpaper.com (three articles); untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Evidence is from news coverage, not the mosque's own published materials — its website could not be located.",
+  },
+  {
+    listingId: "ny-yemeni-american-merchants-assoc-bay-ridge",
+    name: "Yemeni American Merchants Association",
+    slug: "yemeni-american-merchants-association-bay-ridge",
+    primaryCategory: "faith-community",
+    address: {
+      street: "5th Avenue near 67th Street",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Untapped Cities (2022): a Yemeni American Merchants Association storefront on 5th Avenue near 67th Street, within Bay Ridge's 'Little Yemen' commercial corridor.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Functions as a Yemeni-community business/civic association. Exact street number and current operating status not independently verified beyond one feature article.",
+  },
+  {
+    listingId: "ny-beit-el-maqdis-sunset-park",
+    name: "Beit El-Maqdis Islamic Center",
+    slug: "beit-el-maqdis-islamic-center-sunset-park",
+    primaryCategory: "faith-community",
+    address: {
+      street: "6th Avenue & 63rd Street (corner)",
+      locality: "Sunset Park",
+      region: "NY",
+      postal: "11220",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "sunset-park",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "NYT (Oct 2023, via jfrej.org): congregation 'comes from many Arab countries' while its board is entirely Palestinian, per board vice president Naim Jawad; CBS New York (Nov 2023) confirms the location in coverage of a vandalism attack.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Sunni Islam — Palestinian-led board, broader Arab congregation",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "nytimes.com (via jfrej.org republication); cbsnews.com/newyork",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Exact street number not given in available sources, only the cross-street — verify before publishing.",
+  },
+  {
+    listingId: "ny-st-marys-antiochian-bay-ridge",
+    name: "St. Mary's Antiochian Orthodox Church",
+    slug: "st-marys-antiochian-orthodox-bay-ridge",
+    primaryCategory: "faith-community",
+    address: {
+      street: "Ridge Boulevard near 81st Street",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Brooklyn Eagle (2017) covers the parish's 100th anniversary, noting its move from Brooklyn's historic Syrian immigrant quarter (Boerum Hill/Atlantic Ave) to this site in 1951.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Antiochian Orthodox — historic Syrian/Lebanese Brooklyn lineage",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "brooklyneagle.com; orthodoxhistory.org",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "CAVEAT: current coverage does not explicitly state the present-day congregation is Arab/Syrian-majority; the Arab-origin signal rests on documented historical lineage and denominational identity rather than a present-tense claim. Church's own website could not be located — verify before publishing.",
+  },
+  {
+    listingId: "ny-masjid-el-ber-astoria",
+    name: "Masjid El-Ber (Al-Birr)",
+    slug: "masjid-el-ber-al-birr-astoria",
+    primaryCategory: "faith-community",
+    address: {
+      street: "36-05 30th Street",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11106",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "(718) 784-0336",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "CUNY Macaulay Honors ethnographic profile describes the congregation as predominantly Egyptian (also Bengali, Caribbean, Moroccan), services conducted in Arabic; director named as Atef Mohamed.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Sunni Islam — Egyptian-majority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "eportfolios.macaulay.cuny.edu (Houses of Worship neighborhood profile)",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Source is an academic/student ethnographic profile rather than the mosque's own site.",
+  },
+  {
+    listingId: "ny-al-iman-mosque-astoria",
+    name: "Al-Iman Mosque (Al Marwa Center)",
+    slug: "al-iman-mosque-al-marwa-center-astoria",
+    primaryCategory: "faith-community",
+    address: {
+      street: "24-30 Steinway Street",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "NPR (April 2023) profiles the mosque as located in Astoria's 'Little Egypt' district and interviews an Egyptian congregant; Brownstoner confirms the address.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Sunni Islam — Little Egypt district, Egyptian-linked congregation",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "npr.org; brownstoner.com; citylore.org",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Congregation serves Astoria's broader Muslim immigrant population; Egyptian/Arab signal comes from its Little Egypt location and a quoted Egyptian worshipper rather than a single-nationality claim by the mosque itself.",
+  },
+  {
+    listingId: "ny-amana-brokerage-astoria",
+    name: "Amana Brokerage",
+    slug: "amana-brokerage-astoria",
+    primaryCategory: "financial-insurance",
+    address: {
+      street: "23-15 Steinway Street",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11105",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "(718) 777-7040",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "ProgressiveAgent.com Astoria insurance agent listing",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Located directly on Steinway Street in the Little Egypt corridor; business name has Arabic/Islamic connotation but no citable ownership claim found.",
+  },
+  {
+    listingId: "ny-anwar-insurance-astoria",
+    name: "Anwar Insurance Agency",
+    slug: "anwar-insurance-agency-astoria",
+    primaryCategory: "financial-insurance",
+    address: {
+      street: "37-08 28th Avenue, Suite 202",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "(646) 760-9288",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "TheBlueBook.com; ProgressiveAgent.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-lejemalik-salon-bay-ridge",
+    name: "Le'Jemalik Salon and Boutique",
+    slug: "lejemalik-salon-boutique-bay-ridge",
+    primaryCategory: "beauty-personal-care",
+    secondaryCategories: ["shops-events-services"],
+    address: {
+      street: "6915 5th Avenue",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Brooklyn Paper ('Salon alaykum: ladies-only beauty shop caters to Muslim modesty') and Dawn.com/Khaleej Times wire coverage: owner Huda Quhshi, Yemeni-American.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "brooklynpaper.com (two articles); nylon.com; refinery29.com; dawn.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Women-only, hijab-friendly salon with a basement consignment boutique selling Palestinian, Moroccan and Pakistani modest garments (hence the shops-events-services secondary category). Not confirmed still open as of 2026 — verify before publishing.",
+  },
+  {
+    listingId: "ny-chezhadi-barbershop-sunset-park",
+    name: "Chezhadi Barbershop",
+    slug: "chezhadi-barbershop-sunset-park",
+    primaryCategory: "beauty-personal-care",
+    address: {
+      street: "51 35th St (Industry City)",
+      locality: "Sunset Park",
+      region: "NY",
+      postal: "11232",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "sunset-park",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "business listing/profile (owner listed as Hadi Elferri)",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Owner surname may be North African/Arab in origin but no citable source documents Arab identity, so marked not_stated per Rule 1.",
+  },
+  {
+    listingId: "ny-al-madinah-school-astoria",
+    name: "Al Madinah School",
+    slug: "al-madinah-school-astoria",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "18-24 Astoria Blvd",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11102",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "(718) 222-4986",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "childcarecenter.us; atly.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Islamic school-based child care (ages 2-5) in Astoria's Egyptian/Arab 'Little Egypt' area. Current licensing/operating status should be verified directly.",
+  },
+  {
+    listingId: "ny-elber-islamic-school-astoria",
+    name: "Elber Islamic School",
+    slug: "elber-islamic-school-astoria",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "25-42 49th St",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+    telephone: "917-362-1130",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "insideschools.org; eportfolios.macaulay.cuny.edu",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Pre-K/3-K Islamic school. Name suggests a possible link to nearby Masjid El-Ber (majority Egyptian/Moroccan congregation), but no source confirms formal affiliation.",
+  },
+  {
+    listingId: "ny-urban-modesty-bay-ridge",
+    name: "Urban Modesty",
+    slug: "urban-modesty-bay-ridge",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "7712 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+    website: "urbanmodesty.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Brooklyn Paper (2016) and AboutIslam.net: founder Sherihan Moustafa, Egyptian-born, raised in Bensonhurst.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "brooklynpaper.com; aboutislam.net; away.mta.info",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Modest-wear clothing brand founded 2013; primarily known as an e-commerce label with bazaar/pop-up presence in Bay Ridge — physical storefront address from a single tourism source, verify before publishing.",
+  },
+  {
+    listingId: "ny-taj-sabaa-jewelry-bay-ridge",
+    name: "Taj Sabaa Jewelry",
+    slug: "taj-sabaa-jewelry-bay-ridge",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "7125 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "atly.com; away.mta.info",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "ny-hookah-nuts-bay-ridge",
+    name: "Hookah Nuts",
+    slug: "hookah-nuts-bay-ridge",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "7214 5th Ave",
+      locality: "Bay Ridge",
+      region: "NY",
+      postal: "11209",
+    },
+    hasPublicStorefront: true,
+    countySlug: "kings-county-ny",
+    citySlug: "bay-ridge",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "away.mta.info; untappedcities.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Specialty shop selling imported chocolates/nuts and hookah supplies.",
+  },
+  {
+    listingId: "ny-menatique-astoria",
+    name: "Menatique Shop",
+    slug: "menatique-shop-astoria",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Lower East Side Tenement Museum 'Your Story' profile: owner 'Mena' described as an Egyptian entrepreneur.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "yourstory.tenement.org",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Modest women's clothing store with two locations on Steinway St. Exact street numbers not found — verify before publishing.",
+  },
+  {
+    listingId: "ny-islam-fashion-astoria",
+    name: "Islam Fashion",
+    slug: "islam-fashion-astoria",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Astoria",
+      region: "NY",
+      postal: "11103",
+    },
+    hasPublicStorefront: true,
+    countySlug: "queens-county-ny",
+    citySlug: "astoria",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Egyptian Streets (2021): owner Mohammed Zohny, described as an Egyptian store on Steinway St.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "egyptianstreets.com",
+      method:
+        "Manual editorial entry from the New York City chapter launch research (Bay Ridge, Sunset Park, Astoria). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "General/clothing store on Steinway St. Exact street address not found — verify before publishing.",
+  },
 ];
 
 export function listingsForCounty(countySlug: string): Listing[] {
