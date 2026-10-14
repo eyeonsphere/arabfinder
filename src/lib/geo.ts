@@ -365,6 +365,28 @@ export const counties: County[] = [
     blurb:
       "Home to one of the oldest and most documented Arab-American communities in the U.S., rooted in South Philadelphia's Lebanese-American Maronite Catholic parish (St. Maron's, since the 1880s) and the Al-Aqsa mosque founded by Palestinian immigrants in Kensington, alongside a newer Levantine and North African restaurant scene in Fox Chase and Northeast Philadelphia.",
   },
+
+  // Jacksonville — an eighth region, added at the site owner's direction.
+  // Jacksonville has a documented Lebanese/Syrian-American community dating
+  // to the early 1900s (Ottoman Syria-era immigration), historically
+  // centered in LaVilla/Springfield/Eastside, with civic institutions
+  // (the Salaam Club, founded 1912 as the Syrian American Club, and the
+  // Ramallah American Club, founded 1953 by Palestinian families) still
+  // active today, plus a Coptic Orthodox (Egyptian) parish and more recent
+  // Syrian, Lebanese, and other Arab arrivals. No county-level ACS Arab-
+  // ancestry breakout was available, so those fields are marked "n/a".
+  {
+    slug: "duval-county-fl",
+    name: "Duval County",
+    state: "FL",
+    phase: 13,
+    phaseLabel: "Jacksonville Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Longstanding Lebanese and Syrian-American community dating to the early 1900s, with Coptic Orthodox (Egyptian) and more recent Syrian/Lebanese arrivals",
+    blurb:
+      "Home to a Lebanese and Syrian-American community documented since the early 1900s, historically centered in LaVilla, Springfield, and the Eastside, with civic institutions including the Salaam Club (founded 1912 as the Syrian American Club) and the Ramallah American Club (founded 1953 by Palestinian families), alongside a Coptic Orthodox Egyptian parish and newer Lebanese and Syrian-owned restaurants.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1452,6 +1474,21 @@ export const cities: City[] = [
     countySlug: "philadelphia-county-pa",
     isCulturalDistrict: true,
     blurb: "Home to one of the oldest and most documented Arab-American communities in the U.S., rooted in South Philadelphia's Lebanese-American Maronite Catholic parish and the Al-Aqsa mosque founded by Palestinian immigrants in Kensington, alongside a newer Levantine and North African restaurant scene in Fox Chase and Northeast Philadelphia.",
+  },
+
+  // Jacksonville
+  {
+    slug: "jacksonville",
+    name: "Jacksonville",
+    countySlug: "duval-county-fl",
+    isCulturalDistrict: true,
+    blurb: "Home to a Lebanese and Syrian-American community documented since the early 1900s, with civic institutions including the Salaam Club (founded 1912) and the Ramallah American Club (founded 1953 by Palestinian families), a Coptic Orthodox Egyptian parish, and a historic Arab American sandwich-shop lineage along Main Street and Beach Boulevard.",
+  },
+  {
+    slug: "jacksonville-beach",
+    name: "Jacksonville Beach",
+    countySlug: "duval-county-fl",
+    blurb: "An incorporated beach community within Duval County, home to a small number of Lebanese- and Syrian-owned businesses and professionals.",
   },
 ];
 
