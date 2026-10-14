@@ -318,6 +318,31 @@ export const counties: County[] = [
     blurb:
       "Home to the Nolensville Pike corridor in South Nashville/Antioch, nationally known as the center of the largest Kurdish-American population in the U.S., which also hosts a smaller Iraqi Arab, Syrian, and broader Middle Eastern refugee-origin business community.",
   },
+
+  // Columbus — a sixth region, added at the site owner's direction.
+  // Franklin County's Northland/Morse Road-Cleveland Ave corridor is home to
+  // one of the largest Somali-American populations in the U.S. Somalis are
+  // a distinct ethnic/linguistic community and are NOT counted as Arab per
+  // this site's Rule 1 (even though Somalia is an Arab League member
+  // state), so Somali-specific businesses and institutions are excluded
+  // entirely rather than marked not_stated. This chapter's actual scope is
+  // Columbus's longstanding Lebanese-American Maronite/Melkite Catholic
+  // community (one of Ohio's oldest Arab-American communities) plus a
+  // smaller, more recently arrived Syrian, Iraqi Arab, Egyptian, and Yemeni
+  // population. No county-level ACS Arab-ancestry breakout was available,
+  // so those fields are marked "n/a".
+  {
+    slug: "franklin-county-oh",
+    name: "Franklin County",
+    state: "OH",
+    phase: 11,
+    phaseLabel: "Columbus Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Longstanding Lebanese-American Maronite/Melkite Catholic community, alongside a smaller Syrian, Iraqi Arab, Egyptian, and Yemeni population; distinct from the much larger (non-Arab) Somali-American community",
+    blurb:
+      "Home to one of Ohio's oldest Arab-American communities, rooted in Lebanese-American Maronite and Melkite Catholic parishes, alongside a smaller and more recently arrived Syrian, Iraqi Arab, Egyptian, and Yemeni business community concentrated along the Northland/Cleveland Avenue and Bethel Road corridors.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1387,6 +1412,15 @@ export const cities: City[] = [
     countySlug: "davidson-county-tn",
     isCulturalDistrict: true,
     blurb: "Home to the Nolensville Pike corridor in South Nashville and Antioch, nationally known as the center of the largest Kurdish-American population in the U.S., alongside a smaller Iraqi Arab, Syrian, and broader Arab refugee-origin business community.",
+  },
+
+  // Columbus
+  {
+    slug: "columbus",
+    name: "Columbus",
+    countySlug: "franklin-county-oh",
+    isCulturalDistrict: true,
+    blurb: "Home to one of Ohio's oldest Arab-American communities, rooted in Lebanese-American Maronite and Melkite Catholic parishes, alongside a smaller Syrian, Iraqi Arab, Egyptian, and Yemeni business community along the Northland/Cleveland Avenue and Bethel Road corridors — distinct from the city's much larger Somali-American population.",
   },
 ];
 
