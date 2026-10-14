@@ -557,6 +557,13 @@ export const cities: City[] = [
     blurb: "Home to the Arab American National Museum and, per 2020 Census data, a population that is 54.5% Middle Eastern or North African by ancestry — the highest concentration of any city in the U.S.",
   },
   {
+    slug: "hamtramck",
+    name: "Hamtramck",
+    countySlug: "wayne-county-mi",
+    isCulturalDistrict: true,
+    blurb: "A small, dense city entirely surrounded by Detroit, home to a large Yemeni American community (concentrated along the Caniff Ave and Joseph Campau Ave corridors) alongside Bangladeshi and Bosnian communities, and the first U.S. city to elect an all-Muslim city council.",
+  },
+  {
     slug: "detroit",
     name: "Detroit",
     countySlug: "wayne-county-mi",

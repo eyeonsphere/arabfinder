@@ -26999,6 +26999,2183 @@ export const listings: Listing[] = [
     editorialNote:
       "Pre-K–12 Islamic day school. Arabic as a second language is taught; Quranic/Islamic studies integrated into curriculum. Serves the general Sacramento Muslim community.",
   },
+  // ─── MICHIGAN CHAPTER GAP-FILL + HAMTRAMCK (new city) ──────────────────────
+  // recordedAt: 2026-10-14
+
+  {
+    listingId: "mi-remas-restaurant-hamtramck",
+    name: "Rema's (Remas Restaurant)",
+    slug: "remas-restaurant-hamtramck",
+    primaryCategory: "food-drink",
+    address: {
+      street: "11444 Joseph Campau St",
+      locality: "Hamtramck",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "hamtramck",
+    telephone: "313-707-0920",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Detroit Metro Times: owner Fahmi Alfarei/Alfreri described as Yemeni; a follow-up review notes the owner employs Yemeni chefs and serves Yemeni dishes (fahsah, malawah).",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Detroit Metro Times (multiple articles); order.online storefront listing",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Yemeni cuisine restaurant (ghallaba, fahsah, haneeth, Yemeni bread).",
+  },
+  {
+    listingId: "mi-al-haramain-international-foods-hamtramck",
+    name: "Al-Haramain International Foods (Hamtramck)",
+    slug: "al-haramain-international-foods-hamtramck",
+    primaryCategory: "food-drink",
+    address: {
+      street: "9329 Joseph Campau St",
+      locality: "Hamtramck",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "hamtramck",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Deadline Detroit and tostadamagazine.com name owners Ali Alaudi and Abdo Nasher as 'Yemeni-born business partners.'",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Deadline Detroit; tostadamagazine.com; Detroit Metro Times",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "International grocery with an all-halal butcher counter and carry-out restaurant. A separate, unrelated Al-Haramain Fresh Meat Market (Dearborn) and Al-Haramain International Foods (Farmington) already exist on the site at different addresses — this is a third, distinct Hamtramck location.",
+  },
+  {
+    listingId: "mi-boostan-hamtramck",
+    name: "Boostan",
+    slug: "boostan-hamtramck",
+    primaryCategory: "food-drink",
+    address: {
+      street: "3468 Holbrook Ave",
+      locality: "Hamtramck",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "hamtramck",
+    telephone: "313-456-8100",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Detroit Metro Times ('Immigrant-owned restaurants in metro Detroit you should have tried by now') describes Boostan Cafe as a 'Yemeni-run restaurant.'",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Detroit Metro Times; Zabihah.com (listed fully halal with certificate on file)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Counter-serve shawarma/kebab spot.",
+  },
+  {
+    listingId: "mi-taj-al-yemen-family-donut-hamtramck",
+    name: "Taj Al-Yemen / Family Donut",
+    slug: "taj-al-yemen-family-donut-hamtramck",
+    primaryCategory: "food-drink",
+    address: {
+      street: "11300 Conant St",
+      locality: "Hamtramck",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "hamtramck",
+    telephone: "313-368-9214",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Detroit Metro Times (2024) describes the merged Taj Al-Yemen/Family Donut operation as 'run by Yemeni-American folks'; manager named as Nivil Al-Haiga.",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Detroit Metro Times (2024)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Decades-old doughnut shop (Family Donut) merged with Yemeni restaurant Taj Al-Yemen roughly a year before the 2024 article.",
+  },
+  {
+    listingId: "mi-royal-kabob-hamtramck",
+    name: "Royal Kabob (Hamtramck)",
+    slug: "royal-kabob-hamtramck",
+    primaryCategory: "food-drink",
+    address: {
+      street: "3236 Caniff Ave",
+      locality: "Hamtramck",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "hamtramck",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Belt Magazine/Model D: 'Arab-American investors originally from Yemen also have key footprints on Caniff in Al-Haramain market, Royal Kabob restaurant, and Delite Cafe.'",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Belt Magazine/Model D (2016); Zabihah.com (listed fully halal with certificate on file)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Middle Eastern restaurant/grill open since 2008. Source reporting is from 2016 — recommend re-verifying current ownership before publishing.",
+  },
+  {
+    listingId: "mi-delite-cafe-deli-hamtramck",
+    name: "Delite Café & Deli",
+    slug: "delite-cafe-deli-hamtramck",
+    primaryCategory: "food-drink",
+    address: {
+      street: "3135 Caniff Ave",
+      locality: "Hamtramck",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "hamtramck",
+    telephone: "313-305-4244",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Belt Magazine/Model D names Delite Café as a Caniff St. business with 'Arab-American investors originally from Yemen.'",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Belt Magazine/Model D (2016); trip.com listing",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Listed elsewhere as a general 'Western cuisine' cafe/deli. Arab/Yemeni ownership claim is from 2016 reporting — recommend re-verifying before publishing.",
+  },
+  {
+    listingId: "mi-sheeba-hamtramck",
+    name: "Sheeba (Hamtramck)",
+    slug: "sheeba-hamtramck",
+    primaryCategory: "food-drink",
+    address: {
+      street: "8752 Joseph Campau Ave",
+      locality: "Hamtramck",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "hamtramck",
+    telephone: "313-874-0299",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Detroit Metro Times repeatedly describes this as a Yemeni-cuisine restaurant serving a mainly Arabic-speaking clientele, but no source names or identifies the owner's nationality.",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Detroit Metro Times",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Distinct from the existing Sheeba Restaurant entries in Dearborn and Sterling Heights — this is the Hamtramck, Joseph Campau Ave location.",
+  },
+  {
+    listingId: "mi-yemen-cafe-hamtramck",
+    name: "Yemen Cafe (Hamtramck)",
+    slug: "yemen-cafe-hamtramck",
+    primaryCategory: "food-drink",
+    address: {
+      street: "8740 Joseph Campau Ave",
+      locality: "Hamtramck",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "hamtramck",
+    telephone: "313-871-4349",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Menu described by Detroit Metro Times as blending Arab, Turkish, and Indian flavors; no source confirms the owner's identity.",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Detroit Metro Times",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "A separate, unrelated 'Yemen Cafe' may exist elsewhere in metro Detroit — this is the Hamtramck, Joseph Campau Ave location only.",
+  },
+  {
+    listingId: "mi-access-dearborn",
+    name: "ACCESS (Arab Community Center for Economic and Social Services)",
+    slug: "access-dearborn",
+    primaryCategory: "faith-community",
+    address: {
+      street: "2651 Saulino Court",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "48120",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    telephone: "(313) 842-7010",
+    website: "https://www.accesscommunity.org",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "ACCESS's own site and Wikipedia describe it as 'the largest Arab American human services nonprofit in the United States,' founded by Arab American volunteers in Dearborn's South End in 1971.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "accesscommunity.org; en.wikipedia.org/wiki/Arab_Community_Center_for_Economic_and_Social_Services",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Administrative HQ address; ACCESS operates many additional program sites across Dearborn.",
+  },
+  {
+    listingId: "mi-islamic-center-of-america-dearborn",
+    name: "Islamic Center of America",
+    slug: "islamic-center-of-america-dearborn",
+    primaryCategory: "faith-community",
+    address: {
+      street: "19500 Ford Road",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "48128",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Shia Muslim congregation founded by Middle Eastern Muslims seeking clergy from the Arab world; first imam Mohamad Jawad Chirri was from Lebanon.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Shia Islam — Lebanese-founded",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org/wiki/Islamic_Center_of_America",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Could not independently confirm current phone/website — verify before publishing.",
+  },
+  {
+    listingId: "mi-american-moslem-society-dearborn",
+    name: "American Moslem Society (Dearborn Mosque)",
+    slug: "american-moslem-society-dearborn",
+    primaryCategory: "faith-community",
+    address: {
+      street: "9945 West Vernor Highway",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "48120",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    website: "https://amsdearborn.org",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Founded 1937-38 chiefly by Sunni Muslim immigrants from Lebanon's Bekaa Valley; the Detroit Historical Museum's encyclopedia entry additionally notes the congregation today draws 'especially large numbers of Muslims from Yemen.'",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Sunni Islam — Lebanese-founded, large Yemeni congregation",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org/wiki/Dearborn_Mosque; amsdearborn.org/about/branches; detroithistorical.org",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Sometimes called the 'Dix Mosque' locally.",
+  },
+  {
+    listingId: "mi-karbalaa-islamic-education-center-dearborn",
+    name: "Karbalaa Islamic Education Center",
+    slug: "karbalaa-islamic-education-center-dearborn",
+    primaryCategory: "faith-community",
+    secondaryCategories: ["education-childcare"],
+    address: {
+      street: "15332 West Warren Avenue",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Congregation described as largely of Iraqi and Lebanese Shia descent; many Iraqi members arrived after the Gulf War, and the center actively sponsors Iraqi refugees.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Shia Islam — Iraqi/Lebanese",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org/wiki/Karbalaa_Islamic_Education_Center; address via zabihah.com",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Also sponsors a weekend school teaching Arabic, Quran, and Arabic culture/history (secondary category: education-childcare). Address sourced from Zabihah, not independently cross-verified.",
+  },
+  {
+    listingId: "mi-naya-behavioral-health-dearborn",
+    name: "National Association of Yemeni Americans (NAYA) Behavioral Health & Human Services",
+    slug: "naya-behavioral-health-dearborn",
+    primaryCategory: "faith-community",
+    address: {
+      street: "10415 Dix",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "48120",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "A Michigan Senate legislatively-directed-spending request describes NAYA's mission as supporting the Yemeni community, with case management, behavioral health and resettlement services for Yemeni Americans.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "senate.michigan.gov/information/legislatively-directed-spending-items/2026/national-association-of-yemeni-americans-dba-naya-behavioral-health-human-services/",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Successor-type org to the historic Yemeni Benevolent Association, which originally purchased ACCESS's Saulino Court building in 1973.",
+  },
+  {
+    listingId: "mi-american-druze-society-dearborn-heights",
+    name: "American Druze Society (Detroit Chapter / National HQ)",
+    slug: "american-druze-society-dearborn-heights",
+    primaryCategory: "faith-community",
+    address: {
+      street: "4945 South Beech Daly Street",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "48125",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 799-3789",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "A Detroit-area immigrant/community-resource directory (welcomematdetroit.org) lists the American Druze Society with cultures 'Arabic, Iraqi, Lebanese, and Syrian'; traces Detroit Druze Branch #2 to 1917. The City of Detroit's 2025 Arab & Chaldean Communities Historic Context Study also documents the Druze as a historic Arab (Lebanese/Syrian) community organization.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "welcomematdetroit.org; detroitmi.gov 2025 Arab and Chaldean Communities Historic Context Study",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Fills a near-total gap in Dearborn Heights faith-community listings.",
+  },
+  {
+    listingId: "mi-st-maron-maronite-detroit",
+    name: "St. Maron Maronite Catholic Church",
+    slug: "st-maron-maronite-catholic-detroit",
+    primaryCategory: "faith-community",
+    address: {
+      street: "11466 Kercheval Avenue",
+      locality: "Detroit",
+      region: "MI",
+      postal: "48214",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Maronite Catholic parish (Lebanese Christian rite) documented in the City of Detroit's 2025 'Detroit's Arab and Chaldean Communities Historic Context Study' and gcatholic.org.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Maronite Catholic — Lebanese",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "detroitmi.gov 2025 Arab and Chaldean Communities Historic Context Study; gcatholic.org; maronitevoice.org",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "One of the few historic Detroit Arab-Christian parishes confirmed still active in the city proper.",
+  },
+  {
+    listingId: "mi-masjid-muath-bin-jabal-detroit",
+    name: "Masjid Mu'ath Bin Jabal",
+    slug: "masjid-muath-bin-jabal-detroit",
+    primaryCategory: "faith-community",
+    address: {
+      street: "6096 Dorothy Street",
+      locality: "Detroit",
+      region: "MI",
+      postal: "48211",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "City of Detroit's 2025 Arab & Chaldean Communities Historic Context Study: this mosque serves the Yemeni community, beginning as a Yemeni-run coffeehouse/prayer space on Chene Street in 1972, then purchasing a former Catholic church at this address in 1990.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Sunni Islam — Yemeni",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "detroitmi.gov 2025 Arab and Chaldean Communities Historic Context Study; GuideStar EIN 38-3495151",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Current activity status could not be confirmed beyond the historic survey and a GuideStar nonprofit registration — recommend a direct check before publishing.",
+  },
+  {
+    listingId: "mi-al-zahraa-islamic-center-detroit",
+    name: "Al-Zahraa Islamic Center",
+    slug: "al-zahraa-islamic-center-detroit",
+    primaryCategory: "faith-community",
+    address: {
+      street: "15571 Joy Road",
+      locality: "Detroit",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "City of Detroit's 2025 Arab & Chaldean Communities Historic Context Study identifies Al-Zahraa Islamic Center as an Iraqi Shi'i congregation that purchased the Joy Road mosque building (formerly Islamic Center of Detroit) in 2009.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Shia Islam — Iraqi",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "detroitmi.gov 2025 Arab and Chaldean Communities Historic Context Study",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Street address is inferred from the source's description of the building transfer, not independently confirmed via the center's own materials — verify before publishing.",
+  },
+  {
+    listingId: "mi-holy-martyrs-chaldean-sterling-heights",
+    name: "Holy Martyrs Chaldean Catholic Church",
+    slug: "holy-martyrs-chaldean-catholic-sterling-heights",
+    primaryCategory: "faith-community",
+    address: {
+      street: "43700 Merrill Road",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Chaldean Catholic parish (Assyrian/Chaldean Catholics from Iraq), part of the Chaldean Catholic Eparchy of St. Thomas the Apostle of Detroit — the eparchy's only parish located in Sterling Heights per its own parish list, and profiled by Detroit Catholic (archdiocesan news outlet).",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Chaldean Catholic — Eparchy of St. Thomas the Apostle",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "detroitcatholic.com; en.wikipedia.org/wiki/Chaldean_Catholic_Eparchy_of_Saint_Thomas_the_Apostle_of_Detroit",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Distinct from the flagship Mother of God Cathedral, which is in Southfield, outside this chapter's 4 target cities.",
+  },
+  {
+    listingId: "mi-american-islamic-community-center-sterling-heights",
+    name: "American Islamic Community Center",
+    slug: "american-islamic-community-center-sterling-heights",
+    primaryCategory: "faith-community",
+    address: {
+      street: "5005 15 Mile Road",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "University of Michigan's 'Halal Metropolis' digital studies archive describes AICC's congregation as predominantly Shia and Arab American, with primary ethnicity listed as Lebanese American.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Shia Islam — Lebanese American",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalmetropolis.digitalstudies.lsa.umich.edu; candgnews.com; justice.gov/usao-edmi (DOJ v. City of Sterling Heights settlement)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Relocated from Madison Heights to this Sterling Heights address after a long RLUIPA zoning dispute (DOJ v. City of Sterling Heights). Address is from 2017-2021-era coverage of the settlement — recommend confirming the center has completed its move before publishing.",
+  },
+  {
+    listingId: "mi-vernay-kassab-mortgage-sterling-heights",
+    name: "Vernay Kassab Mortgage & Real Estate",
+    slug: "vernay-kassab-mortgage-real-estate-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "4171 15 Mile Road",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "48310",
+    },
+    hasPublicStorefront: true,
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(586) 457-6416",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Chaldean American Chamber of Commerce member directory, Real Estate / Broker / Development / Management category — listed under principal surname Kassab.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Chaldean American Chamber of Commerce member directory (members.chaldeanchamber.com)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Chaldean is a distinct Iraqi Christian ethnic/religious community; included per this project's established treatment of Chaldean chamber membership as a documented community-affiliation signal in the Michigan chapter.",
+  },
+  {
+    listingId: "mi-sesi-realty-sterling-heights",
+    name: "Sesi Realty",
+    slug: "sesi-realty-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "48314",
+    },
+    hasPublicStorefront: true,
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(248) 617-7777",
+    website: "sesirealty.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Chaldean American Chamber of Commerce member directory, Real Estate / Broker / Development / Management category — Sesi is a prominent Chaldean family name.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Chaldean American Chamber of Commerce member directory",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "No street address published in chamber listing.",
+  },
+  {
+    listingId: "mi-ali-sobh-dearborn",
+    name: "Ali Sobh — RE/MAX",
+    slug: "ali-sobh-dearborn",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    telephone: "(313) 918-6000",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-bill-darwich-dearborn-heights",
+    name: "Bill Darwich — Century 21 Curran & Oberski",
+    slug: "bill-darwich-dearborn-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 715-2020",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-wafaa-diab-dearborn-heights",
+    name: "Wafaa Diab — Century 21 Curran & Oberski",
+    slug: "wafaa-diab-dearborn-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(734) 968-6303",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-abe-aljabur-dearborn-heights",
+    name: "Abe Aljabur — Century 21 Curran & Oberski",
+    slug: "abe-aljabur-dearborn-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 995-6448",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-ahmad-hamade-dearborn-heights",
+    name: "Ahmad Hamade — Real Estate Agent",
+    slug: "ahmad-hamade-dearborn-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 443-2976",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-al-baydoun-dearborn-heights",
+    name: "Al Baydoun — Real Estate Agent",
+    slug: "al-baydoun-dearborn-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 671-9596",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-ali-eldirani-dearborn-heights",
+    name: "Ali Eldirani — Real Estate Agent",
+    slug: "ali-eldirani-dearborn-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 277-7777",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-ali-makled-dearborn-heights",
+    name: "Ali Makled — Real Estate Agent",
+    slug: "ali-makled-dearborn-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 903-6868",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-abdel-ali-dearborn-heights",
+    name: "Abdel Ali — Real Estate Agent",
+    slug: "abdel-ali-dearborn-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 565-0000",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-alexander-mansour-sterling-heights",
+    name: "Alexander Mansour — Real Estate Agent",
+    slug: "alexander-mansour-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(313) 622-9641",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-andy-salama-sterling-heights",
+    name: "Andy Salama — Real Estate Agent",
+    slug: "andy-salama-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(586) 274-1111",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-john-el-khoury-sterling-heights",
+    name: "John El-Khoury — Real Estate Agent",
+    slug: "john-el-khoury-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(248) 632-3088",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-john-namo-sterling-heights",
+    name: "John Namo — Real Estate Agent",
+    slug: "john-namo-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(586) 823-8788",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-joseph-abdelnour-sterling-heights",
+    name: "Joseph Abdelnour — Real Estate Agent",
+    slug: "joseph-abdelnour-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(313) 412-0602",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-rimon-hanna-sterling-heights",
+    name: "Rimon Hanna — Real Estate Agent",
+    slug: "rimon-hanna-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(248) 633-7916",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-ronnie-mansour-sterling-heights",
+    name: "Ronnie Mansour — CENTURY 21 AAA North",
+    slug: "ronnie-mansour-sterling-heights",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-abeer-horvoth-detroit",
+    name: "Abeer Horvoth — Prestige Realty Group, LLC",
+    slug: "abeer-horvoth-detroit",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Detroit",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Detroit, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-david-dawood-detroit",
+    name: "David Dawood — Real Estate Agent",
+    slug: "david-dawood-detroit",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Detroit",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Detroit, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+    telephone: "(248) 722-7555",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-sherri-saad-detroit",
+    name: "Sherri Saad — RE/MAX",
+    slug: "sherri-saad-detroit",
+    primaryCategory: "real-estate",
+    address: {
+      street: "",
+      locality: "Detroit",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Detroit, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+    telephone: "(313) 598-5322",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "halalwallet.us agent directory (citing ArabAmericans.com, which uses an algorithmic 'Arabic (likely)' language inference, not a stated heritage claim)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
+  },
+  {
+    listingId: "mi-brightway-mustapha-dearborn",
+    name: "Brightway Insurance — The Mustapha Family Agency",
+    slug: "brightway-insurance-mustapha-family-dearborn",
+    primaryCategory: "financial-insurance",
+    address: {
+      street: "10619 West Warren Avenue",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    telephone: "313-416-9060",
+    website: "BrightwayMustapha.com",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Owner Ghada Mustapha described only as an 'insurance veteran' and Dearborn community member in the Brightway agency announcement — no heritage statement found.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "brightway.com agency announcement",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Located on the West Warren Ave corridor.",
+  },
+  {
+    listingId: "mi-hana-abboud-dearborn",
+    name: "Hana Abboud (formerly L'Amour Bridal)",
+    slug: "hana-abboud-bridal-dearborn",
+    primaryCategory: "beauty-personal-care",
+    secondaryCategories: ["shops-events-services"],
+    address: {
+      street: "650 N Telegraph Rd",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "WDET: 'Dearborn bridal boutique owner uses her Lebanese American identity to connect with community' — owner Hana Abboud is a first-generation Lebanese American whose parents immigrated from Lebanon.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "wdet.org/?p=140299; theknot.com/marketplace/hana-abboud-dearborn-mi-894540",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Bridal boutique on the Michigan Ave/Dearborn bridal corridor. Renamed from L'Amour Bridal to Hana Abboud Detroit. Postal code not confirmed.",
+  },
+  {
+    listingId: "mi-ace-of-fades-dearborn-heights",
+    name: "Ace of Fades Factory Barber Shop",
+    slug: "ace-of-fades-factory-barber-dearborn-heights",
+    primaryCategory: "beauty-personal-care",
+    address: {
+      street: "24619 W Warren St",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    website: "aceoffadesfactory.glossgenius.com",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Co-owner named as Ali Alwaily per whatnow.com; article makes no heritage statement.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "whatnow.com: 'Ace of Fades Factory Barber Shop Planning Expansion into West Dearborn'",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "A second, not-yet-open location is planned at 23001 Michigan Ave, Dearborn (Westborn Mall plaza) — not included until confirmed open.",
+  },
+  {
+    listingId: "mi-international-islamic-academy-detroit",
+    name: "International Islamic Academy (Lonyo Arabic School)",
+    slug: "international-islamic-academy-lonyo-detroit",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "4612 Lonyo St",
+      locality: "Detroit",
+      region: "MI",
+      postal: "48210",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+    telephone: "(313) 406-4352",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    prayerSpace: true,
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "amsdearborn.org/international-islamic-academy",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Runs the Lonyo Arabic School (opened 2017) teaching Arabic, Quran, and Islamic principles. Located in Detroit, not Dearborn.",
+  },
+  {
+    listingId: "mi-universal-academy-detroit",
+    name: "Universal Academy",
+    slug: "universal-academy-detroit",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "4833 Ogden St",
+      locality: "Detroit",
+      region: "MI",
+      postal: "48210",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+    telephone: "(313) 581-5006",
+    website: "universalpsa.org",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "oakland.edu/psa/the-ou-academies/universal",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Oakland University-authorized public charter academy serving Detroit's Arab American community; a publicly funded institution, so ownership is not applicable/not_stated.",
+  },
+  {
+    listingId: "mi-al-ikhlas-training-academy-detroit",
+    name: "Al-Ikhlas Training Academy",
+    slug: "al-ikhlas-training-academy-detroit",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "12555 McDougall St",
+      locality: "Detroit",
+      region: "MI",
+      postal: "48212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "mieddirectory.com/mied-pro/non-public-school/al-ikhlas-training-academy",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Private Islamic/non-public school in Detroit.",
+  },
+  {
+    listingId: "mi-dreamy-islamic-academy-dearborn-heights",
+    name: "Dreamy Islamic Academy",
+    slug: "dreamy-islamic-academy-dearborn-heights",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "27335 W Warren St",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "48127",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "mieddirectory.com/mied-pro/non-public-school/dreamy-islamic-academy",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Private Islamic school in Dearborn Heights.",
+  },
+  {
+    listingId: "mi-islamic-institute-of-knowledge-dearborn",
+    name: "Islamic Institute of Knowledge (American Islamic Academy)",
+    slug: "islamic-institute-of-knowledge-dearborn",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "6345 Schaefer Rd",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "48126",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "guidestar.org/profile/38-2414342; zabihah.com",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Also known as American Islamic Academy. Mission is religious education/Islamic schooling and community integration.",
+  },
+  {
+    listingId: "mi-arab-american-children-center-dearborn",
+    name: "Arab American Children Center",
+    slug: "arab-american-children-center-dearborn",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "7051 Chase St",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "48126",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    telephone: "(313) 846-8278",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Name indicates community focus, but no documented individual ownership claim found — name alone is insufficient per Rule 1.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "carelulu.com/childcare-in-dearborn-mi-48126/arab-american-children-center/62433; childcarecenter.us",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "State childcare license (DC820255763) shown active through Dec 9, 2026.",
+  },
+  {
+    listingId: "mi-maya-school-dearborn",
+    name: "Muslim American Youth Academy (MAYA School)",
+    slug: "maya-school-dearborn",
+    primaryCategory: "education-childcare",
+    address: {
+      street: "19500 Ford Rd",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "48128",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "carelulu.com/childcare-in-dearborn-mi-48128/muslim-american-youth-academy/64861; welcomematdetroit.org",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Islamic preschool/childcare academy in Dearborn.",
+  },
+  {
+    listingId: "mi-alseerat-dearborn-heights",
+    name: "Alseerat",
+    slug: "alseerat-dearborn-heights",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "24618 Ford Rd",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    website: "alseerat.com",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "atly.com/location/Alseerat",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Islamic gift shop/bookstore selling books in Arabic, Farsi and English, prayer supplies, decorative art and home decor on the Ford Rd corridor.",
+  },
+  {
+    listingId: "mi-my-bakhoor-perfumes-dearborn",
+    name: "My Bakhoor & Perfumes",
+    slug: "my-bakhoor-perfumes-dearborn",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "7653 Wyoming Ave",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    telephone: "(313) 270-8022",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "giftly.com/gift-card/my-bakhoor-and-perfumes-dearborn",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Bakhoor (Middle Eastern incense) and perfume/gift shop.",
+  },
+  {
+    listingId: "mi-dearborn-gold-market-dearborn",
+    name: "Dearborn Gold Market",
+    slug: "dearborn-gold-market-dearborn",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "15228 W Warren Ave",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "atly.com/location/Dearborn-Gold-Market",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Jewelry/gold store on the Warren Ave corridor; Arabic name translates to 'Gold Market.'",
+  },
+  {
+    listingId: "mi-bint-jebail-cultural-center-dearborn",
+    name: "Bint Jebail Cultural Center",
+    slug: "bint-jebail-cultural-center-dearborn",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "6220 Miller Rd",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "48126",
+    },
+    hasPublicStorefront: true,
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "A cultural-center nonprofit tied to Dearborn's Lebanese Shia community rather than an individually owned business.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "thevendry.com/venue/167493/bint-jebail-cultural-center-dearborn-mi; patch.com",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Large (up to ~700 seats) event/banquet hall.",
+  },
+  {
+    listingId: "mi-rainbow-visa-and-passport-services-dearborn",
+    name: "Rainbow Visa and Passport Services",
+    slug: "rainbow-visa-and-passport-services-dearborn",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    telephone: "(313) 582-3322",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Offers Arabic, Chaldean, and French visa/passport and translation services.",
+  },
+  {
+    listingId: "mi-salman-translation-&-immigration-dearborn",
+    name: "Salman Translation & Immigration",
+    slug: "salman-translation-&-immigration-dearborn",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    telephone: "(313) 333-2421",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Arabic translation/immigration services.",
+  },
+  {
+    listingId: "mi-united-international-services-1-inc-dearborn",
+    name: "United International Services 1 Inc",
+    slug: "united-international-services-1-inc-dearborn",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Dearborn",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn",
+    telephone: "(313) 846-6903",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Arabic translation services.",
+  },
+  {
+    listingId: "mi-american-interpreters-&-research-services-dearborn-heights",
+    name: "American Interpreters & Research Services",
+    slug: "american-interpreters-&-research-services-dearborn-heights",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 712-5477",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Listed as 'Any language' (includes Arabic).",
+  },
+  {
+    listingId: "mi-world-of-immigration-passport-visas-and-translation-services-dearborn-heights",
+    name: "World of Immigration, Passport, Visas and Translation Services",
+    slug: "world-of-immigration-passport-visas-and-translation-services-dearborn-heights",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Dearborn Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Dearborn Heights, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "dearborn-heights",
+    telephone: "(313) 406-5747",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Immigration/visa/translation services; listed as 'Any language' (includes Arabic).",
+  },
+  {
+    listingId: "mi-nusair-service-detroit",
+    name: "Nusair Service",
+    slug: "nusair-service-detroit",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Detroit",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Detroit, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+    telephone: "(313) 922-6000",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Arabic translation/interpreting service.",
+  },
+  {
+    listingId: "mi-annaseeha-consultants-detroit",
+    name: "Annaseeha Consultants",
+    slug: "annaseeha-consultants-detroit",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Detroit",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Detroit, MI"],
+    countySlug: "wayne-county-mi",
+    citySlug: "detroit",
+    telephone: "(313) 923-2905",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Arabic and Somali translation/interpreting consultancy.",
+  },
+  {
+    listingId: "mi-horizon-solutions3-inc-sterling-heights",
+    name: "Horizon Solutions3, Inc.",
+    slug: "horizon-solutions3-inc-sterling-heights",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(586) 978-8333",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Arabic translation/interpreting service.",
+  },
+  {
+    listingId: "mi-global-atr-inc-sterling-heights",
+    name: "Global ATR, Inc.",
+    slug: "global-atr-inc-sterling-heights",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(586) 795-8100",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Listed as 'Any language' (includes Arabic).",
+  },
+  {
+    listingId: "mi-kne-translating-services-sterling-heights",
+    name: "KNE Translating Services",
+    slug: "kne-translating-services-sterling-heights",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(586) 979-5229",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Listed as 'Any language' (includes Arabic).",
+  },
+  {
+    listingId: "mi-worldwide-translating-interpreting-service-inc-sterling-heights",
+    name: "WorldWide Translating/Interpreting Service, Inc.",
+    slug: "worldwide-translating-interpreting-service-inc-sterling-heights",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Sterling Heights, MI"],
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    telephone: "(313) 873-7905",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Michigan DOT Translators Resource List; City of Detroit Translators Resource List (devtraining.detroitmi.gov)",
+      method:
+        "Manual editorial entry from gap-fill research across the existing Michigan chapter (Dearborn, Dearborn Heights, Detroit, Sterling Heights) plus the new Hamtramck city. Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Listed as 'Any language' (includes Arabic).",
+  },
 ];
 
 export function listingsForCounty(countySlug: string): Listing[] {
