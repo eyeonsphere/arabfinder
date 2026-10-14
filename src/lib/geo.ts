@@ -343,6 +343,28 @@ export const counties: County[] = [
     blurb:
       "Home to one of Ohio's oldest Arab-American communities, rooted in Lebanese-American Maronite and Melkite Catholic parishes, alongside a smaller and more recently arrived Syrian, Iraqi Arab, Egyptian, and Yemeni business community concentrated along the Northland/Cleveland Avenue and Bethel Road corridors.",
   },
+
+  // Philadelphia — a seventh region, added at the site owner's direction.
+  // South Philadelphia is home to one of the oldest, most nationally
+  // documented Arab-American communities in the U.S., historically Lebanese
+  // and Palestinian, anchored by St. Maron's Maronite Catholic parish
+  // (dating to the 1880s) and the Al-Aqsa mosque founded by Palestinian
+  // immigrants in Kensington (1992), with more recent Syrian, Egyptian,
+  // Yemeni, Tunisian, and Jordanian populations spreading into Fox Chase
+  // and Northeast Philadelphia. No county-level ACS Arab-ancestry breakout
+  // was available, so those fields are marked "n/a".
+  {
+    slug: "philadelphia-county-pa",
+    name: "Philadelphia County",
+    state: "PA",
+    phase: 12,
+    phaseLabel: "Philadelphia Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Historic Lebanese and Palestinian-American community (one of the oldest in the U.S.), concentrated in South Philadelphia and Fox Chase, alongside a smaller and more recently arrived Syrian, Egyptian, Yemeni, Tunisian, and Jordanian population",
+    blurb:
+      "Home to one of the oldest and most documented Arab-American communities in the U.S., rooted in South Philadelphia's Lebanese-American Maronite Catholic parish (St. Maron's, since the 1880s) and the Al-Aqsa mosque founded by Palestinian immigrants in Kensington, alongside a newer Levantine and North African restaurant scene in Fox Chase and Northeast Philadelphia.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1421,6 +1443,15 @@ export const cities: City[] = [
     countySlug: "franklin-county-oh",
     isCulturalDistrict: true,
     blurb: "Home to one of Ohio's oldest Arab-American communities, rooted in Lebanese-American Maronite and Melkite Catholic parishes, alongside a smaller Syrian, Iraqi Arab, Egyptian, and Yemeni business community along the Northland/Cleveland Avenue and Bethel Road corridors — distinct from the city's much larger Somali-American population.",
+  },
+
+  // Philadelphia
+  {
+    slug: "philadelphia",
+    name: "Philadelphia",
+    countySlug: "philadelphia-county-pa",
+    isCulturalDistrict: true,
+    blurb: "Home to one of the oldest and most documented Arab-American communities in the U.S., rooted in South Philadelphia's Lebanese-American Maronite Catholic parish and the Al-Aqsa mosque founded by Palestinian immigrants in Kensington, alongside a newer Levantine and North African restaurant scene in Fox Chase and Northeast Philadelphia.",
   },
 ];
 
