@@ -294,6 +294,30 @@ export const counties: County[] = [
     blurb:
       "Home to Astoria's Steinway Street corridor, historically called \"Little Egypt,\" one of the oldest and most established Arab American commercial districts in New York City.",
   },
+
+  // Nashville — a fifth region, added at the site owner's direction.
+  // Davidson County's Nolensville Pike corridor in South Nashville is
+  // nationally known as home to the largest Kurdish-American population in
+  // the U.S. ("Little Kurdistan"); Kurds are a distinct ethnic/linguistic
+  // community and are NOT counted as Arab per this site's Rule 1, so
+  // Kurdish-specific institutions are excluded or marked not_stated. The
+  // same refugee-resettlement corridor also brought a smaller but
+  // well-documented Iraqi Arab, Syrian, and other Arab population, which is
+  // this chapter's actual scope. No county-level ACS Arab-ancestry
+  // breakout was available, so those fields are marked "n/a"; corridor-
+  // level figures cited in the blurb are sourced and dated in-line instead.
+  {
+    slug: "davidson-county-tn",
+    name: "Davidson County",
+    state: "TN",
+    phase: 10,
+    phaseLabel: "Nashville Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Iraqi Arab and Syrian refugee-origin population along the Nolensville Pike corridor, alongside the much larger (non-Arab) Kurdish-American community",
+    blurb:
+      "Home to the Nolensville Pike corridor in South Nashville/Antioch, nationally known as the center of the largest Kurdish-American population in the U.S., which also hosts a smaller Iraqi Arab, Syrian, and broader Middle Eastern refugee-origin business community.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1354,6 +1378,15 @@ export const cities: City[] = [
     countySlug: "queens-county-ny",
     isCulturalDistrict: true,
     blurb: "A Queens neighborhood whose Steinway Street corridor has long been known as \"Little Egypt,\" one of the oldest Arab American commercial districts in New York City.",
+  },
+
+  // Nashville
+  {
+    slug: "nashville",
+    name: "Nashville",
+    countySlug: "davidson-county-tn",
+    isCulturalDistrict: true,
+    blurb: "Home to the Nolensville Pike corridor in South Nashville and Antioch, nationally known as the center of the largest Kurdish-American population in the U.S., alongside a smaller Iraqi Arab, Syrian, and broader Arab refugee-origin business community.",
   },
 ];
 

@@ -31332,6 +31332,957 @@ export const listings: Listing[] = [
     editorialNote:
       "General/clothing store on Steinway St. Exact street address not found — verify before publishing.",
   },
+  // ─── PHASE 10: NASHVILLE CHAPTER ────────────────────────────────────────────
+  // Davidson County / Nolensville Pike corridor — scoped to the genuinely Arab
+  // (Egyptian Coptic, Lebanese, Palestinian) population, distinct from the much
+  // larger Kurdish-American community ('Little Kurdistan') on the same corridor.
+  // recordedAt: 2026-10-14
+
+  {
+    listingId: "tn-deir-cafe-nashville",
+    name: "Deir Cafe",
+    slug: "deir-cafe-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "711 Hagan Street",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37203",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    telephone: "(615) 686-4229",
+    website: "https://deircafe.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "WPLN/Nashville Public Radio: owner Yousef Gumiza explicitly identified as Arab/Palestinian, born in Nashville and raised in Gaza.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "WPLN; Nashville Guru; Hoodline; What Now Nashville",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Main location is in Wedgewood-Houston (South Nashville), not directly on Nolensville Pike, but within Davidson County. Owner has filed permits for a second location at 105 Haywood Lane, Antioch (former La Princesa Market site, on the Nolensville Pike corridor) — not yet confirmed open, so not listed separately.",
+  },
+  {
+    listingId: "tn-king-tuts-nashville",
+    name: "King Tut's Food Truck and Patio",
+    slug: "king-tuts-food-truck-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "3716 Nolensville Pike",
+      locality: "Nashville",
+      region: "TN",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Oxford American magazine (Feb 2025): owner/chef Ragab Rashwan grew up on his family's farm on the Nile and describes missing Egypt.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Oxford American magazine; The Pamphleteer newsletter",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Directly on the Nolensville Pike corridor. No phone/website located.",
+  },
+  {
+    listingId: "tn-epice-nashville",
+    name: "Epice",
+    slug: "epice-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "2902 12th Ave S",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37204",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Nashville Scene: owner Maher Fawaz described as 'a native of Lebanon'; What Now Nashville confirms as 'The Lebanese bistro.'",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Nashville Scene; What Now Nashville",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Located in 12South, not on Nolensville Pike — included as a well-documented Lebanese restaurant elsewhere in Nashville. Planning to relocate to Green Hills around 2027; current location still operating.",
+  },
+  {
+    listingId: "tn-haraz-coffee-nashville",
+    name: "Haraz Coffee House (Nashville)",
+    slug: "haraz-coffee-house-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "901 Woodland Street",
+      locality: "Nashville",
+      region: "TN",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Nashville Post; zabihah.com; What Now Nashville",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Yemeni-branded coffee chain, but this is a franchise; local franchisees named as Abdelrahman Abdelwahed and Jobran Mohamed with no source confirming their personal Arab/Yemeni nationality — kept not_stated pending direct confirmation.",
+  },
+  {
+    listingId: "tn-jerusalem-reebar-nashville",
+    name: "Jerusalem Reebar",
+    slug: "jerusalem-reebar-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "360 Elysian Fields Ct",
+      locality: "Nashville",
+      region: "TN",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Zabihah tags the cuisine as Palestinian (lamb shawarma, kibbeh, foul madammas, mandi); no Kurdish signal, but no source names an owner.",
+  },
+  {
+    listingId: "tn-al-sanabil-nashville",
+    name: "Al Sanabil Bakery & Market",
+    slug: "al-sanabil-bakery-market-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "18 East Thompson Lane",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37211",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Middle Eastern grocery/bakery with fresh Arabic bread; described as family- and Muslim-owned, no Kurdish branding, but no stated national origin.",
+  },
+  {
+    listingId: "tn-baraka-bakery-nashville",
+    name: "Baraka Bakery & Grocery",
+    slug: "baraka-bakery-grocery-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5596 Nolensville Pike",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37211",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Grocery/bakery with an attached 'Arabic restaurant,' halal meat and fresh bread; no Kurdish branding found, but no stated owner nationality.",
+  },
+  {
+    listingId: "tn-jihan-market-nashville",
+    name: "Jihan International Market",
+    slug: "jihan-international-market-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "4647 Nolensville Road",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37211",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "certified_by_authority",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Mediterranean/Middle Eastern grocery; no Kurdish signal, but no stated owner nationality. 'Jihan' is a given name used by both Kurdish and Arab communities, so the name alone is not evidence either way.",
+  },
+  {
+    listingId: "tn-fattoush-cafe-nashville",
+    name: "Fattoush Cafe",
+    slug: "fattoush-cafe-nashville",
+    primaryCategory: "food-drink",
+    address: {
+      street: "1716 Charlotte Avenue",
+      locality: "Nashville",
+      region: "TN",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "not_stated",
+
+    halalStatus: "self_described_halal",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "zabihah.com; Edible Nashville; Hoodline",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Edible Nashville labels the cuisine Palestinian/Lebanese, but no source names the owner or states nationality.",
+  },
+  {
+    listingId: "tn-dr-naji-abumrad-nashville",
+    name: "Naji N. Abumrad, MD, FACS — Vanderbilt University Medical Center",
+    slug: "dr-naji-abumrad-vumc-nashville",
+    primaryCategory: "health-medical",
+    address: {
+      street: "Light Hall, Suite 10435, 2215 Garland Ave",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37232",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    telephone: "(615) 936-6645",
+    website: "https://vumc.org/surgical-oncology/node/131",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Wikipedia and Siloam Health honoree profile both describe him as a 'Lebanese-American surgeon'; MD from American University of Beirut, 1971.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Wikipedia; Siloam Health; VUMC Surgical Oncology faculty page",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Long-tenured Vanderbilt Professor of Surgery, publicly and repeatedly identified as Lebanese-American across independent sources.",
+  },
+  {
+    listingId: "tn-dr-bola-soliman-nashville",
+    name: "Bola Soliman, MD — Vanderbilt University Medical Center",
+    slug: "dr-bola-soliman-vumc-nashville",
+    primaryCategory: "health-medical",
+    address: {
+      street: "1211 Medical Center Drive",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37232",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    telephone: "(615) 322-5000",
+    website: "https://www.vumc.org/anesthesiology/person/bola-soliman-md",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "VUMC's own bio states she was 'born in Giza, Egypt' and lived there until age ten.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "VUMC Department of Anesthesiology bio page",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "CAUTION: page identifies her as a CA-3 anesthesiology resident, not an independently practicing attending — verify current practice status before publishing.",
+  },
+  {
+    listingId: "tn-dr-remy-fadel-nashville",
+    name: "Remy Fadel, MD — Vanderbilt Hepatology and Liver and Kidney Transplant Center",
+    slug: "dr-remy-fadel-vumc-nashville",
+    primaryCategory: "health-medical",
+    address: {
+      street: "1500 21st Avenue South, Suite 3400",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37212",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    telephone: "(615) 875-6540",
+    website: "https://www.vanderbilthealth.com/doctors/fadel-remy",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Profile lists Arabic, English, French as spoken languages; surname is a common Lebanese/Syrian Arabic surname, not Kurdish. No personal heritage statement on record.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Vanderbilt Health provider profile",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "tn-dr-milad-matta-nashville",
+    name: "Milad Matta, MD — Vanderbilt Heart and Vascular Institute",
+    slug: "dr-milad-matta-vumc-nashville",
+    primaryCategory: "health-medical",
+    address: {
+      street: "1215 21st Avenue South, 5th Floor",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37232",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    website: "https://www.childrenshospitalvanderbilt.org/doctors/matta-milad",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Profile lists Arabic, English, French as spoken languages. 'Matta' is a common Levantine Arabic (often Lebanese/Syrian Christian) surname, not Kurdish — no explicit heritage statement on record.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Children's Hospital Vanderbilt provider profile",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "tn-dr-yara-aboshady-nashville",
+    name: "Yara Aboshady, MD — Vanderbilt Center for Women's Health",
+    slug: "dr-yara-aboshady-vumc-nashville",
+    primaryCategory: "health-medical",
+    address: {
+      street: "719 Thompson Lane, Suite 27100",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37204",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    telephone: "(615) 343-5700",
+    website: "https://vanderbilthealth.com/doctors/aboshady-yara",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "OB-GYN; profile lists Arabic, English, Spanish. 'Aboshady' is an Egyptian Arabic surname, not Kurdish — no personal heritage claim stated.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Vanderbilt Health provider profile",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "tn-dr-said-attoussi-nashville",
+    name: "Said Attoussi, MD — Nashville Family Medical Clinic",
+    slug: "dr-said-attoussi-nashville-family-medical",
+    primaryCategory: "health-medical",
+    address: {
+      street: "476 Harding Pl",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37211",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    telephone: "(615) 315-8717",
+
+    arabOwnedSelfIdentified: "not_stated",
+    arabOwnedSource:
+      "Internal medicine; speaks Arabic and completed medical school at the Institut des Sciences Médicales in Constantine, Algeria — two converging Arab (likely Algerian) signals, but no page states his personal national origin.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "MedicalNewsToday/Connect provider profile (CMS/NPI data)",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Near the Nolensville Pike corridor. Worth a follow-up call to confirm before upgrading to documented_public_claim.",
+  },
+  {
+    listingId: "tn-elmahaba-center-nashville",
+    name: "Elmahaba Center",
+    slug: "elmahaba-center-nashville",
+    primaryCategory: "faith-community",
+    address: {
+      street: "701 Murfreesboro Pike Ste 200",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37210",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    website: "https://www.elmahabacenter.com/",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "GuideStar (EIN 84-2467001) and Egyptian Streets (2021): founded by Coptic Egyptian-Americans, prioritizing Arabic-speaking communities from Egypt, Yemen, Iraq, Syria, Morocco, and Palestine. No Kurdish affiliation.",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "guidestar.org; egyptianstreets.com",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "South Nashville nonprofit (tutoring, mutual aid, cultural programs); distinct from refugee-resettlement agencies like NICE/Catholic Charities that serve many ethnic groups including Kurdish.",
+  },
+  {
+    listingId: "tn-st-sharbel-maronite-nashville",
+    name: "St. Sharbel Maronite Catholic Mission",
+    slug: "st-sharbel-maronite-catholic-mission-nashville",
+    primaryCategory: "faith-community",
+    address: {
+      street: "",
+      locality: "Nashville",
+      region: "TN",
+      postal: "",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    telephone: "615-281-0256",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Tennessee Register (Diocese of Nashville): a Maronite Catholic mission led by Fr. Peter Raad (from Beirut, Lebanon), serving Lebanese Maronite Christians since Feb. 2022.",
+
+    faithCommunityAffiliation: "Maronite Catholic — Lebanese",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "tennesseeregister.com",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "No permanent church building — meets for monthly Divine Liturgy at a host parish on Lebanon Road in Donelson. Contact: stsharbeltn@gmail.com, mission secretary Nadine Choufani.",
+  },
+  {
+    listingId: "tn-st-mark-coptic-nashville",
+    name: "St. Mark Coptic Orthodox Church",
+    slug: "st-mark-coptic-orthodox-nashville",
+    primaryCategory: "faith-community",
+    address: {
+      street: "1931 Old Murfreesboro Pike",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37217",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    website: "https://stmarknashville.com",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "GuideStar (EIN 75-3220836); part of the Coptic Orthodox Diocese of the Southern United States, serving Nashville's Egyptian Coptic Christian community (ReligionWatch/Baylor estimates 10,000-20,000 Copts in metro Nashville).",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "guidestar.org; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "tn-st-george-coptic-nashville",
+    name: "St. George Coptic Orthodox Church",
+    slug: "st-george-coptic-orthodox-nashville",
+    primaryCategory: "faith-community",
+    address: {
+      street: "2412 Foster Ave",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37210",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Wikipedia (diocese-sourced list) and copticnashville.omeka.net confirm this Egyptian Coptic Christian parish.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org; copticnashville.omeka.net; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Address from diocese-sourced list; not independently cross-verified with a second address source.",
+  },
+  {
+    listingId: "tn-st-mary-coptic-nashville",
+    name: "St. Mary Coptic Orthodox Church",
+    slug: "st-mary-coptic-orthodox-nashville",
+    primaryCategory: "faith-community",
+    address: {
+      street: "1943 Dabbs Ct",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37217",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Wikipedia (diocese-sourced list); part of the Coptic Orthodox Diocese of the Southern United States.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Address from diocese-sourced list only; not independently cross-verified.",
+  },
+  {
+    listingId: "tn-st-mina-coptic-nashville",
+    name: "St. Mina Coptic Orthodox Church",
+    slug: "st-mina-coptic-orthodox-nashville",
+    primaryCategory: "faith-community",
+    address: {
+      street: "476 McMurray Dr",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37211",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Address independently confirmed via a food-pantry directory and the diocese-sourced Wikipedia list.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "feedam.org; en.wikipedia.org; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
+  {
+    listingId: "tn-st-verena-coptic-nashville",
+    name: "St. Verena Coptic Orthodox Church",
+    slug: "st-verena-coptic-orthodox-nashville",
+    primaryCategory: "faith-community",
+    address: {
+      street: "5240 Edmondson Pike",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37211",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+    telephone: "(262) 607-2678",
+    website: "https://www.stvnashville.org",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Confirmed via the parish's own website; an English-language parish of the Coptic Orthodox Diocese of the Southern United States.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "stvnashville.org; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Parish site does not explicitly state ethnic composition; identity inferred from Coptic Orthodox denominational affiliation (Egyptian in origin).",
+  },
+  {
+    listingId: "tn-st-joseph-coptic-nashville",
+    name: "St. Joseph Coptic Orthodox Church",
+    slug: "st-joseph-coptic-orthodox-nashville",
+    primaryCategory: "faith-community",
+    address: {
+      street: "2754 Anderson Road",
+      locality: "Nashville",
+      region: "TN",
+      postal: "37217",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Wikipedia (diocese-sourced list); diocese press release (2011) announced this new Nashville-area congregation.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Address from diocese-sourced list only; not independently cross-verified.",
+  },
+  {
+    listingId: "tn-st-pishoy-coptic-nashville",
+    name: "St. Pishoy Coptic Orthodox Church",
+    slug: "st-pishoy-coptic-orthodox-antioch",
+    primaryCategory: "faith-community",
+    address: {
+      street: "3183 Hamilton Church Rd",
+      locality: "Antioch",
+      region: "TN",
+      postal: "37013",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "copticnashville.omeka.net parish history: second Coptic congregation founded in Nashville, now the largest in the area, on 8 acres in Antioch, TN.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "copticnashville.omeka.net; en.wikipedia.org; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Located in the Antioch neighborhood of Nashville/Davidson County, in the same general corridor as Kurdish community institutions, but is a separate Egyptian Christian congregation with no Kurdish affiliation.",
+  },
+  {
+    listingId: "tn-st-kyrillos-coptic-nashville",
+    name: "St. Kyrillos the 6th Coptic Orthodox Church",
+    slug: "st-kyrillos-the-6th-coptic-orthodox-antioch",
+    primaryCategory: "faith-community",
+    address: {
+      street: "5988 Cane Ridge Rd",
+      locality: "Antioch",
+      region: "TN",
+      postal: "37013",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Wikipedia (diocese-sourced list); part of the Coptic Orthodox Diocese of the Southern United States.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Address from diocese-sourced list only; not independently cross-verified.",
+  },
+  {
+    listingId: "tn-st-macarius-coptic-nashville",
+    name: "St. Macarius the Great Coptic Orthodox Church",
+    slug: "st-macarius-the-great-coptic-orthodox-antioch",
+    primaryCategory: "faith-community",
+    address: {
+      street: "2255 Hobson Pike",
+      locality: "Antioch",
+      region: "TN",
+      postal: "37013",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "Wikipedia (diocese-sourced list) lists this Nashville-area (Antioch, TN) Coptic parish.",
+
+    prayerSpace: true,
+    faithCommunityAffiliation: "Coptic Orthodox — Egyptian",
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "en.wikipedia.org; suscopts.org",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "LOWER CONFIDENCE: could not independently cross-verify this address — a same-named GuideStar record turned out to be a distinct parish in Santa Maria, CA. Verify directly with the diocese before publishing.",
+  },
+  {
+    listingId: "tn-ah-food-nashville",
+    name: "A&H Food",
+    slug: "ah-food-antioch",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "1104 Murfreesboro Pike",
+      locality: "Antioch",
+      region: "TN",
+      postal: "37217",
+    },
+    hasPublicStorefront: true,
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "'A History of Coptic Nashville' archive item (Elmahaba Center project) describes A&H Food as 'a Palestinian-owned grocery store.'",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "copticnashville.omeka.net; atly.com",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "On Murfreesboro Pike in Antioch, an adjacent South Nashville immigrant corridor, not Nolensville Pike itself. The ownership claim comes from a secondary source describing a neighboring business rather than A&H Food's own listing — recommend independent confirmation before publishing.",
+  },
+  {
+    listingId: "tn-trust-jewelry-nashville",
+    name: "Trust Jewelry and Repair",
+    slug: "trust-jewelry-and-repair-nashville",
+    primaryCategory: "shops-events-services",
+    address: {
+      street: "",
+      locality: "Nashville",
+      region: "TN",
+      postal: "",
+    },
+    hasPublicStorefront: false,
+    serviceArea: ["Nolensville Pike, Nashville, TN"],
+    countySlug: "davidson-county-tn",
+    citySlug: "nashville",
+
+    arabOwnedSelfIdentified: "documented_public_claim",
+    arabOwnedSource:
+      "'A History of Coptic Nashville' archive (Facebook, Jan 2023): 'Located on Nolensville Pike, this Coptic-owned jewelry store is among Iraqi and Yemeni-owned stores.'",
+
+
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "copticnashville.omeka.net",
+      method:
+        "Manual editorial entry from the Nashville chapter launch research (Davidson County / Nolensville Pike corridor). Kurdish-owned/affiliated businesses and institutions were explicitly screened out and excluded, not relabeled, per Rule 1 (Kurds are a distinct ethnic group from Arabs). Rule 1 and Rule 3 compliant.",
+      recordedAt: "2026-10-14",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote:
+      "Source says 'Coptic-owned' (Egyptian Christian) rather than literally 'Egyptian' — treated as a documented national-origin signal but should be verified directly before public use. No street address located.",
+  },
 ];
 
 export function listingsForCounty(countySlug: string): Listing[] {
