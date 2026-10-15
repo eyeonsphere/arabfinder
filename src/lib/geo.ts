@@ -453,6 +453,74 @@ export const counties: County[] = [
     blurb:
       "Home to a Lebanese-American community dating to 1925, when St. George Maronite Catholic parish was founded by Lebanese immigrant families, alongside a newer cluster of Palestinian-, Tunisian-, Libyan-, Moroccan-, and Syrian-owned markets and restaurants along the Wurzbach Road corridor.",
   },
+
+  // Boston - a twelfth region, added at the site owner's direction.
+  // Boston has a documented Lebanese-Syrian-American community dating to
+  // the early 1900s, historically centered in the South End (sometimes
+  // called "Little Syria" in that era) before dispersing to the suburbs
+  // over the 20th century. The Melkite Greek Catholic Eparchy of Newton
+  // (the US's national Melkite eparchy) is headquartered in the Boston
+  // area. Scope here is Suffolk County (the city of Boston itself) only -
+  // greater-Boston suburbs with their own distinct communities (e.g.
+  // Watertown's Armenian community - Armenians are not Arab - sit in
+  // different counties and are out of scope. No county-level ACS Arab-
+  // ancestry breakout was available, so those fields are marked "n/a".
+  {
+    slug: "suffolk-county-ma",
+    name: "Suffolk County",
+    state: "MA",
+    phase: 17,
+    phaseLabel: "Boston Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Historic Lebanese-Syrian-American community dating to the early 1900s South End \"Little Syria\" era, plus more recent Egyptian and Moroccan arrivals; home to the Melkite Greek Catholic Eparchy of Newton's cathedral",
+    blurb:
+      "Home to a Lebanese-Syrian-American community documented since the early 1900s, once centered in the South End, plus the cathedral of the Melkite Greek Catholic Eparchy of Newton (the Melkite church's national US eparchy) and a Maronite Catholic mission in Jamaica Plain, alongside more recent Egyptian and Moroccan-owned restaurants.",
+  },
+
+  // Fort Worth / Arlington - a thirteenth region, added at the site
+  // owner's direction. Tarrant County, Texas (Dallas-Fort Worth metro),
+  // scoped to the cities of Fort Worth and Arlington specifically (not
+  // Dallas or other DFW-metro cities in different counties). The DFW
+  // metro has a very large South Asian and Persian/Iranian population,
+  // which is NOT Arab and is excluded from this chapter's scope. No
+  // county-level ACS Arab-ancestry breakout was available, so those
+  // fields are marked "n/a".
+  {
+    slug: "tarrant-county-tx",
+    name: "Tarrant County",
+    state: "TX",
+    phase: 18,
+    phaseLabel: "Fort Worth / Arlington Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Lebanese, Palestinian, Syrian, Kuwaiti, and Egyptian-owned restaurants and markets across Fort Worth and Arlington; distinct from the much larger (non-Arab) South Asian and Persian communities in the wider DFW metro",
+    blurb:
+      "Home to a small but documented Arab-owned restaurant scene across Fort Worth and Arlington, including Palestinian-Christian-owned Prince Lebanese Grill (Arlington) and Kuwaiti-owned Tiba Grill (Arlington), alongside Lebanese and Egyptian-owned restaurants in Fort Worth.",
+  },
+
+  // Charlotte - a fourteenth region, added at the site owner's direction.
+  // Mecklenburg County, North Carolina. North Carolina had an early wave
+  // of Lebanese-Syrian immigrant peddlers and merchants in the early-to-
+  // mid 1900s; Charlotte today has a small Yemeni-American and Lebanese
+  // Maronite Catholic presence. Charlotte is also a major refugee-
+  // resettlement city with large Montagnard (Vietnamese highlander),
+  // Congolese, and other African/Southeast Asian refugee communities that
+  // are NOT Arab and are excluded from this chapter's scope. No county-
+  // level ACS Arab-ancestry breakout was available, so those fields are
+  // marked "n/a".
+  {
+    slug: "mecklenburg-county-nc",
+    name: "Mecklenburg County",
+    state: "NC",
+    phase: 19,
+    phaseLabel: "Charlotte Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Small Yemeni-American and Lebanese Maronite Catholic presence, plus the Arab American Council of the Carolinas; distinct from Charlotte's much larger (non-Arab) refugee-resettlement communities (Montagnard, Congolese, and others)",
+    blurb:
+      "Home to a small, emerging Arab-owned restaurant and coffee scene (including Yemeni-owned Qahwah House in Plaza Midwood) and the Arab American Council of the Carolinas, alongside St. Stephen Maronite Catholic Mission, a small Lebanese-rite Catholic community of roughly 40 families.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1582,6 +1650,38 @@ export const cities: City[] = [
     countySlug: "bexar-county-tx",
     isCulturalDistrict: true,
     blurb: "Home to a Lebanese-American community dating to 1925, when St. George Maronite Catholic parish was founded by Lebanese immigrant families, alongside a newer cluster of Palestinian-, Tunisian-, Libyan-, Moroccan-, and Syrian-owned markets and restaurants along the Wurzbach Road corridor.",
+  },
+
+  // Boston
+  {
+    slug: "boston",
+    name: "Boston",
+    countySlug: "suffolk-county-ma",
+    isCulturalDistrict: true,
+    blurb: "Home to a Lebanese-Syrian-American community documented since the early 1900s, once centered in the South End, plus the cathedral of the Melkite Greek Catholic Eparchy of Newton and a Maronite Catholic mission in Jamaica Plain.",
+  },
+
+  // Fort Worth / Arlington
+  {
+    slug: "fort-worth",
+    name: "Fort Worth",
+    countySlug: "tarrant-county-tx",
+    blurb: "Home to Lebanese and Egyptian-owned restaurants including Terra Mediterranean Grill and Aladdin Mediterranean Cafe.",
+  },
+  {
+    slug: "arlington",
+    name: "Arlington",
+    countySlug: "tarrant-county-tx",
+    blurb: "Home to Palestinian-Christian-owned Prince Lebanese Grill and Kuwaiti-owned Tiba Grill, both documented via City of Arlington news coverage.",
+  },
+
+  // Charlotte
+  {
+    slug: "charlotte",
+    name: "Charlotte",
+    countySlug: "mecklenburg-county-nc",
+    isCulturalDistrict: true,
+    blurb: "Home to a small, emerging Arab-owned restaurant and coffee scene (including Yemeni-owned Qahwah House in Plaza Midwood) and the Arab American Council of the Carolinas.",
   },
 ];
 
