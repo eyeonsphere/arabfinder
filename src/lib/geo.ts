@@ -433,6 +433,26 @@ export const counties: County[] = [
     blurb:
       "Home to a Lebanese-American community with roots going back to the early 1900s, alongside more recent Syrian, Egyptian, and Iraqi Arab refugee-resettlement populations, with Maronite Catholic and Antiochian Orthodox parishes, a Coptic Orthodox Egyptian parish, and a small but documented Middle Eastern grocery and restaurant scene.",
   },
+
+  // San Antonio — an eleventh region, added at the site owner's direction.
+  // San Antonio has a Lebanese-American community dating to 1925, when
+  // St. George Maronite Catholic parish was founded by the Casseb family
+  // and other Lebanese immigrants. The Wurzbach Road corridor is today
+  // home to a cluster of Palestinian-, Tunisian-, Libyan-, Moroccan-, and
+  // Syrian-owned markets and restaurants. No county-level ACS Arab-
+  // ancestry breakout was available, so those fields are marked "n/a".
+  {
+    slug: "bexar-county-tx",
+    name: "Bexar County",
+    state: "TX",
+    phase: 16,
+    phaseLabel: "San Antonio Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Historic Lebanese-American community dating to the 1920s (St. George Maronite parish), alongside more recent Palestinian, Syrian, Tunisian, Libyan, and Moroccan Arab populations concentrated along the Wurzbach Road corridor",
+    blurb:
+      "Home to a Lebanese-American community dating to 1925, when St. George Maronite Catholic parish was founded by Lebanese immigrant families, alongside a newer cluster of Palestinian-, Tunisian-, Libyan-, Moroccan-, and Syrian-owned markets and restaurants along the Wurzbach Road corridor.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1553,6 +1573,15 @@ export const cities: City[] = [
     countySlug: "maricopa-county-az",
     isCulturalDistrict: true,
     blurb: "Home to a Lebanese-American community with roots going back to the early 1900s, alongside more recent Syrian, Egyptian, and Iraqi Arab refugee-resettlement populations, with Maronite Catholic and Antiochian Orthodox parishes, a Coptic Orthodox Egyptian parish, and a small but documented Middle Eastern grocery and restaurant scene.",
+  },
+
+  // San Antonio
+  {
+    slug: "san-antonio",
+    name: "San Antonio",
+    countySlug: "bexar-county-tx",
+    isCulturalDistrict: true,
+    blurb: "Home to a Lebanese-American community dating to 1925, when St. George Maronite Catholic parish was founded by Lebanese immigrant families, alongside a newer cluster of Palestinian-, Tunisian-, Libyan-, Moroccan-, and Syrian-owned markets and restaurants along the Wurzbach Road corridor.",
   },
 ];
 
