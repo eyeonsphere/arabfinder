@@ -409,6 +409,30 @@ export const counties: County[] = [
     blurb:
       "Home to one of the largest Coptic Christian (Egyptian) communities in the U.S., anchored by two historic parishes around Journal Square — St. Mark, the first Coptic Orthodox parish founded in the U.S., and St. George & St. Shenouda — alongside a smaller Syrian and Palestinian restaurant and community presence.",
   },
+
+  // Phoenix — a tenth region, added at the site owner's direction.
+  // Phoenix has a longstanding Lebanese-American community (the Basha
+  // family, Lebanese immigrants, founded what became the Bashas' grocery
+  // chain in Arizona in the 1920s-30s, though the chain was sold to
+  // Raley's in 2021 and is no longer treated as a current Arab-owned
+  // business here), plus more recent Palestinian, Syrian, Egyptian, and
+  // Iraqi Arab refugee-resettlement populations. Phoenix also has large
+  // Somali/East African and South Asian Muslim communities, which are NOT
+  // Arab and are excluded from this chapter's scope. No county-level ACS
+  // Arab-ancestry breakout was available, so those fields are marked
+  // "n/a".
+  {
+    slug: "maricopa-county-az",
+    name: "Maricopa County",
+    state: "AZ",
+    phase: 15,
+    phaseLabel: "Phoenix Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Longstanding Lebanese-American community alongside more recent Palestinian, Syrian, Egyptian, and Iraqi Arab refugee-resettlement populations; distinct from Phoenix's much larger Somali/East African and South Asian communities",
+    blurb:
+      "Home to a Lebanese-American community with roots going back to the early 1900s, alongside more recent Syrian, Egyptian, and Iraqi Arab refugee-resettlement populations, with Maronite Catholic and Antiochian Orthodox parishes, a Coptic Orthodox Egyptian parish, and a small but documented Middle Eastern grocery and restaurant scene.",
+  },
 ];
 
 export const cities: City[] = [
@@ -1520,6 +1544,15 @@ export const cities: City[] = [
     countySlug: "hudson-county-nj",
     isCulturalDistrict: true,
     blurb: "Home to one of the largest Coptic Christian (Egyptian) communities in the U.S., anchored by two historic parishes around Journal Square — St. Mark, the first Coptic Orthodox parish founded in the U.S., and St. George & St. Shenouda — alongside a smaller Syrian and Palestinian restaurant and community presence.",
+  },
+
+  // Phoenix
+  {
+    slug: "phoenix",
+    name: "Phoenix",
+    countySlug: "maricopa-county-az",
+    isCulturalDistrict: true,
+    blurb: "Home to a Lebanese-American community with roots going back to the early 1900s, alongside more recent Syrian, Egyptian, and Iraqi Arab refugee-resettlement populations, with Maronite Catholic and Antiochian Orthodox parishes, a Coptic Orthodox Egyptian parish, and a small but documented Middle Eastern grocery and restaurant scene.",
   },
 ];
 
