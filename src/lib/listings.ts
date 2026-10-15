@@ -20,7 +20,8 @@ import { Listing } from "./types";
 // claim. Category/city pages that still sit under the 3-listing indexing
 // threshold (Part 8) remain noindexed until further ingestion or owner claims
 // populate them; see noindex.ts.
-export const listings: Listing[] = [
+
+const listingsPart1: Listing[] = [
   {
     listingId: "aabc-irvine",
     name: "Arab American Business Chamber (AABC)",
@@ -2077,11 +2078,6 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "Originally geocoded to Anaheim from OpenStreetMap coordinates alone; the business's own website gives its address as Garden Grove, just south of the Little Arabia corridor along the same Brookhurst Street strip, so the city has been corrected here. Its own site states its meats and chicken are \"certified by Islamic authorities\" without naming the certifying body, so this is recorded as a self-described halal claim rather than an authority-verified certification. No phone number is published on the business's own site.",
   },
-
-  // --- Los Angeles County (Phase 3), added Sept 2026 via the same OpenStreetMap Overpass +
-  // Nominatim method used for Orange and San Diego counties. Population here is highly
-  // dispersed (per the blueprint's demographic research), so this pass spans several
-  // incorporated cities across the county rather than one corridor.
   {
     listingId: "osm-saint-mark-coptic-la",
     name: "Saint Mark Coptic Orthodox Church",
@@ -2924,6 +2920,9 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "Included at the site owner's request. This is a Somali (East African) restaurant, not an Arab or Levantine one — its CA corporate filing lists officers with Somali names, and its own branding identifies it as Somali cuisine. Somalia is a member of the Arab League, but Somali ancestry is classified separately from Arab ancestry in U.S. Census/ACS data, and this listing does not assert any Arab-community affiliation — it is included here as a Muslim/halal East African restaurant at Tarek's direction, similar to the Kabul Kabob House precedent for Afghan cuisine. Halal status is self-described by the business per Zabihah, a halal-specific directory, not Yelp or Google.",
   },
+];
+
+const listingsPart2: Listing[] = [
   {
     listingId: "web-harvest-international-market-el-cajon",
     name: "Harvest International Market",
@@ -5974,6 +5973,9 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "Chaldean Catholic (Iraqi) parish of the Eparchy of St. Peter the Apostle.",
   },
+];
+
+const listingsPart3: Listing[] = [
   {
     listingId: "web-st-peter-chaldean-catholic-cathedral-el-cajon",
     name: "St. Peter Chaldean Catholic Cathedral",
@@ -9067,6 +9069,9 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "An independent food directory and an Arab-American media profile both reference this business, but list slightly different address details in places; the address here is the best-corroborated one. Sourced from the business's own official website (not Google Maps or Yelp).",
   },
+];
+
+const listingsPart4: Listing[] = [
   {
     listingId: "web-egyptian-kitchen-restaurant-garden-city",
     name: "Egyptian Kitchen Restaurant",
@@ -12222,6 +12227,9 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "Listed in Rakwa, an independent Arab-American community business directory (not Google Maps or Yelp); this categorizes the business as Middle Eastern/Arabic-focused but is not itself a claim about ownership.",
   },
+];
+
+const listingsPart5: Listing[] = [
   {
     listingId: "web-al-houda-supermarket-dearborn",
     name: "Al-Houda Supermarket",
@@ -14560,13 +14568,6 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "No chamber membership, Arabic-language listing, or other documented community-affiliation signal found.",
   },
-
-  // ============================================================
-  // Illinois — Chicago metro (Cook, DuPage, Will counties)
-  // Added as a third region, at the site owner's direction, after he supplied
-  // a set of Chicago-area community directory and chamber URLs (arabchicago-il.com,
-  // Arab American Bar Association of Illinois, Assyrian American Bar Association).
-  // ============================================================
   {
     listingId: "web-al-bawadi-grill-bridgeview",
     name: "Al Bawadi Grill",
@@ -15311,6 +15312,9 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Middle Eastern sweets shop; site had a connection error at fetch time, not independently confirmed beyond directory listing.",
   },
+];
+
+const listingsPart6: Listing[] = [
   {
     listingId: "web-al-rawda-market-oak-lawn",
     name: "Al-Rawda Market",
@@ -18265,6 +18269,9 @@ export const listings: Listing[] = [
     closureStatus: "open",
     isSponsored: false,
   },
+];
+
+const listingsPart7: Listing[] = [
   {
     listingId: "web-diana-s-fashions-worth",
     name: "Diana's Fashions",
@@ -21368,6 +21375,9 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "OB-GYN, affiliated with Northwestern Medicine Central DuPage Hospital and St. Anthony Hospital-Chicago; degree from University of Aleppo (Syria). Listing also gives email info@wohcc.com.",
   },
+];
+
+const listingsPart8: Listing[] = [
   {
     listingId: "web-dr-jihad-kudsi-glen-ellyn",
     name: "Dr. Jihad Kudsi",
@@ -23490,12 +23500,6 @@ export const listings: Listing[] = [
     professionalDisclaimerShown: false,
     editorialNote: "No street address or phone found in source material; exact city within the Chicago area was unspecified in the report (best-guess: Chicago). Contact: eas.chicago@outlook.com.",
   },
-
-  // ============================================================
-  // San Francisco Bay Area (San Francisco, Alameda, Santa Clara counties)
-  // Added as a fourth region, at the site owner's direction — still California,
-  // so no new state code, but launched as its own chapter like Michigan and Illinois.
-  // ============================================================
   {
     listingId: "web-yemen-kitchen-san-francisco",
     name: "Yemen Kitchen",
@@ -24425,6 +24429,9 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Popular Berkeley brunch restaurant with Palestinian-influenced menu; listed among ArabAmerica.com's related SF/Bay Area Palestinian-owned business coverage.",
   },
+];
+
+const listingsPart9: Listing[] = [
   {
     listingId: "web-shawarmaji-oakland",
     name: "Shawarmaji",
@@ -26062,19 +26069,6 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Arabic translation/interpretation/localization firm serving legal, medical, business and technical clients; fits translation/interpreting subcategory well.",
   },
-  // ─── PHASE 8: SACRAMENTO CHAPTER ────────────────────────────────────────────
-  // Counties: Sacramento, Placer, El Dorado, Yolo
-  // Sourcing: Zabihah (halal status only), Rakwa (Arab-American directory),
-  // business own sites, news coverage (whatnow.com / Sacramento Bee / CBS Sac),
-  // hospital-system physician directories, denominational directories (Eparchy,
-  // gcatholic.org), IRS GuideStar nonprofit filings.
-  // Rule 1: arabOwnedSelfIdentified is "documented_public_claim" only where a
-  // specific citable public source states Arab identity — never inferred from
-  // name, cuisine, or language alone.
-  // Rule 3: Zero data from Google Maps or Yelp.
-  // recordedAt: 2026-10-13
-
-  // ── FOOD & DRINK ────────────────────────────────────────────────────────────
   {
     listingId: "sac-meza-california-sacramento",
     name: "Meza California",
@@ -26585,8 +26579,6 @@ export const listings: Listing[] = [
     closureStatus: "open",
     isSponsored: false,
   },
-
-  // ── HEALTH & MEDICAL ────────────────────────────────────────────────────────
   {
     listingId: "sac-dr-salma-shabaik-sacramento",
     name: "Dr. Salma A. Shabaik, MD — Sutter Health",
@@ -26736,8 +26728,6 @@ export const listings: Listing[] = [
     editorialNote:
       "General/cosmetic dentistry. Arabic among languages spoken by staff. Provider Dr. Fady Khalil. Verify phone number — the source listed a New Jersey area code.",
   },
-
-  // ── FAITH & COMMUNITY ───────────────────────────────────────────────────────
   {
     listingId: "sac-our-lady-perpetual-help-orangevale",
     name: "Our Lady of Perpetual Help Chaldean and Assyrian Catholic Church",
@@ -26924,8 +26914,6 @@ export const listings: Listing[] = [
     editorialNote:
       "Sacramento Chapter of the Assyrian Aid Society of America. Fundraising, cultural events (Night of the Arts, Open Mic Night), and Iraqi Relief Fund. Student chapter at UC Davis. Listed address (3421 Monteverde Dr, Lincoln) may be a volunteer/chapter-leader contact address rather than a public meeting facility — confirm before displaying a street address publicly. Main org: 510-527-9997.",
   },
-
-  // ── REAL ESTATE ─────────────────────────────────────────────────────────────
   {
     listingId: "sac-mahdi-awadallah-real-estate-sacramento",
     name: "Mahdi Awadallah — Berkshire Hathaway HomeServices Elite",
@@ -26961,8 +26949,6 @@ export const listings: Listing[] = [
     editorialNote:
       "Real estate agent with Berkshire Hathaway HomeServices Elite Real Estate. Multiple phone numbers listed across sources — verify current contact details when claiming.",
   },
-
-  // ── EDUCATION & CHILDCARE ───────────────────────────────────────────────────
   {
     listingId: "sac-al-arqam-islamic-school-sacramento",
     name: "Al-Arqam Islamic School and College Preparatory",
@@ -26999,9 +26985,6 @@ export const listings: Listing[] = [
     editorialNote:
       "Pre-K–12 Islamic day school. Arabic as a second language is taught; Quranic/Islamic studies integrated into curriculum. Serves the general Sacramento Muslim community.",
   },
-  // ─── MICHIGAN CHAPTER GAP-FILL + HAMTRAMCK (new city) ──────────────────────
-  // recordedAt: 2026-10-14
-
   {
     listingId: "mi-remas-restaurant-hamtramck",
     name: "Rema's (Remas Restaurant)",
@@ -27766,6 +27749,9 @@ export const listings: Listing[] = [
     editorialNote:
       "Single-source listing from a secondary aggregator; no independent corroboration found. Ownership not stated per Rule 1 — recommend direct verification before publishing.",
   },
+];
+
+const listingsPart10: Listing[] = [
   {
     listingId: "mi-bill-darwich-dearborn-heights",
     name: "Bill Darwich — Century 21 Curran & Oberski",
@@ -29176,11 +29162,6 @@ export const listings: Listing[] = [
     editorialNote:
       "Listed as 'Any language' (includes Arabic).",
   },
-  // ─── PHASE 9: NEW YORK CITY CHAPTER ─────────────────────────────────────────
-  // Scoped to Bay Ridge & Sunset Park (Brooklyn/Kings County) and Astoria
-  // (Queens County) — NYC's best-documented Arab American commercial corridors.
-  // recordedAt: 2026-10-14
-
   {
     listingId: "ny-tanoreen-bay-ridge",
     name: "Tanoreen",
@@ -31013,6 +30994,9 @@ export const listings: Listing[] = [
     editorialNote:
       "Located directly on Steinway Street in the Little Egypt corridor; business name has Arabic/Islamic connotation but no citable ownership claim found.",
   },
+];
+
+const listingsPart11: Listing[] = [
   {
     listingId: "ny-anwar-insurance-astoria",
     name: "Anwar Insurance Agency",
@@ -31332,12 +31316,6 @@ export const listings: Listing[] = [
     editorialNote:
       "General/clothing store on Steinway St. Exact street address not found — verify before publishing.",
   },
-  // ─── PHASE 10: NASHVILLE CHAPTER ────────────────────────────────────────────
-  // Davidson County / Nolensville Pike corridor — scoped to the genuinely Arab
-  // (Egyptian Coptic, Lebanese, Palestinian) population, distinct from the much
-  // larger Kurdish-American community ('Little Kurdistan') on the same corridor.
-  // recordedAt: 2026-10-14
-
   {
     listingId: "tn-deir-cafe-nashville",
     name: "Deir Cafe",
@@ -32283,8 +32261,6 @@ export const listings: Listing[] = [
     editorialNote:
       "Source says 'Coptic-owned' (Egyptian Christian) rather than literally 'Egyptian' — treated as a documented national-origin signal but should be verified directly before public use. No street address located.",
   },
-
-  // Columbus (Franklin County, OH) — added at the site owner's direction.
   {
     listingId: "oh-columbus-bistrolino",
     name: "Bistrolino Old World Kitchen & Bar",
@@ -32635,8 +32611,6 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Brokerage affiliation and current license status could not be independently verified at time of research.",
   },
-
-  // Philadelphia (Philadelphia County, PA) — added at the site owner's direction.
   {
     listingId: "pa-philadelphia-bitars",
     name: "Bitar's",
@@ -33043,8 +33017,6 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Sells traditional Palestinian thobes/tatreez embroidery and modest wear; works with tailors in Ramallah. No confirmed street address found — may operate online/direct-ship; placed in the Winchester Park neighborhood per one source without a street address.",
   },
-
-  // Jacksonville (Duval County, FL) — added at the site owner's direction.
   {
     listingId: "fl-jacksonville-mandaloun",
     name: "Mandaloun Mediterranean Cuisine",
@@ -33454,8 +33426,6 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Listed office location is Jacksonville Beach, a separate incorporated city within Duval County. No street address or brokerage name found in public sources at time of research.",
   },
-
-  // Jersey City (Hudson County, NJ) — added at the site owner's direction.
   {
     listingId: "nj-jerseycity-ibbys-falafel",
     name: "Ibby's Falafel",
@@ -33638,8 +33608,6 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Pluralism Project entry last updated 2015 and marked no longer actively maintained — verify current congregation composition before relying on this listing. The only source found describing an Arab-majority mosque specifically in Jersey City, distinct from the area's larger South Asian/Latino Muslim pan-Islamic centers (excluded for lacking Arab-specific documentation).",
   },
-
-  // Phoenix (Maricopa County, AZ) — added at the site owner's direction.
   {
     listingId: "az-phoenix-elies-deli",
     name: "Elie's Deli",
@@ -33927,8 +33895,6 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "No street address is published for him.",
   },
-
-  // San Antonio (Bexar County, TX) — added at the site owner's direction.
   {
     listingId: "tx-sanantonio-saha-palestinian",
     name: "Saha Palestinian Cuisine",
@@ -34101,6 +34067,9 @@ export const listings: Listing[] = [
     isSponsored: false,
     editorialNote: "Owner named as Ghayath Reda in local news coverage, but no source states his nationality — 'Lebanese' in the name/menu describes the cuisine, not a documented ownership claim, so left not_stated per Rule 1.",
   },
+];
+
+const listingsPart12: Listing[] = [
   {
     listingId: "tx-sanantonio-al-madina-meat-market",
     name: "Al Madina Meat Market",
@@ -34284,6 +34253,22 @@ export const listings: Listing[] = [
     editorialNote: "This is a multi-ethnic mosque (members also from Bosnia, Somalia, South Asia), not an exclusively Arab congregation — included only because the archive source specifically documents a substantial, named Arab component. Source last updated 2016 per the archive itself, and the street address is inconsistently reported (Fairhaven vs. Fairfield) — verify current address/phone before publishing.",
   },
 ];
+
+export const listings: Listing[] = [
+  ...listingsPart1,
+  ...listingsPart2,
+  ...listingsPart3,
+  ...listingsPart4,
+  ...listingsPart5,
+  ...listingsPart6,
+  ...listingsPart7,
+  ...listingsPart8,
+  ...listingsPart9,
+  ...listingsPart10,
+  ...listingsPart11,
+  ...listingsPart12,
+];
+
 
 export function listingsForCounty(countySlug: string): Listing[] {
   return listings.filter((l) => l.countySlug === countySlug);
