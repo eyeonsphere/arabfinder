@@ -1,11 +1,23 @@
 import Link from "next/link";
-import { counties } from "@/lib/geo";
+import { countyRegions } from "@/lib/geo";
 import { categories } from "@/lib/categories";
 import { listings } from "@/lib/listings";
 import ListingCard from "@/components/ListingCard";
 
+const COVERED_REGIONS = new Set(["Southern California", "Michigan Chapter", "Illinois Chapter", "Bay Area Chapter"]);
+
 export default function Home() {
-  const phase1 = counties.filter((c) => c.phase === 1);
+  const regions = countyRegions();
+  const socal = regions.find((r) => r.region === "Southern California")?.counties ?? [];
+  const michigan = regions.find((r) => r.region === "Michigan Chapter")?.counties ?? [];
+  const illinois = regions.find((r) => r.region === "Illinois Chapter")?.counties ?? [];
+  const bayArea = regions.find((r) => r.region === "Bay Area Chapter")?.counties ?? [];
+  // Every region added after the original four falls into this bucket
+  // automatically — see the note on countyRegions() in src/lib/geo.ts. Do
+  // NOT hand-add a new filter here for a new state/chapter; add the county
+  // to geo.ts and it will show up below on its own.
+  const otherRegions = regions.filter((r) => !COVERED_REGIONS.has(r.region));
+  const phase1 = socal[0];
 
   return (
     <div>
@@ -38,12 +50,12 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <div className="flex items-baseline justify-between">
-          <h2 className="text-2xl font-semibold text-brand-teal-dark">Now launching: {phase1[0].name}</h2>
-          <Link href={`/${phase1[0].slug}`} className="text-sm font-medium text-brand-teal hover:underline">
+          <h2 className="text-2xl font-semibold text-brand-teal-dark">Now launching: {phase1.name}</h2>
+          <Link href={`/${phase1.slug}`} className="text-sm font-medium text-brand-teal hover:underline">
             View county →
           </Link>
         </div>
-        <p className="mt-2 max-w-3xl text-foreground/70">{phase1[0].blurb}</p>
+        <p className="mt-2 max-w-3xl text-foreground/70">{phase1.blurb}</p>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
           {listings.map((l) => (
@@ -81,7 +93,7 @@ export default function Home() {
           infrastructure.
         </p>
         <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {counties.filter((c) => c.state === "CA" && c.phase !== 7).map((c) => (
+          {socal.map((c) => (
             <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
               <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
@@ -102,7 +114,7 @@ export default function Home() {
           counties are live now, sourced from community chamber-of-commerce and business-directory partners.
         </p>
         <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {counties.filter((c) => c.state === "MI").map((c) => (
+          {michigan.map((c) => (
             <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
               <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
@@ -125,7 +137,7 @@ export default function Home() {
           provider directories.
         </p>
         <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {counties.filter((c) => c.state === "IL").map((c) => (
+          {illinois.map((c) => (
             <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
               <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
@@ -147,7 +159,7 @@ export default function Home() {
           Francisco, Alameda, and Santa Clara counties are live now.
         </p>
         <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {counties.filter((c) => c.state === "CA" && c.phase === 7).map((c) => (
+          {bayArea.map((c) => (
             <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
               <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
@@ -158,6 +170,25 @@ export default function Home() {
           ))}
         </ol>
       </section>
+
+      {otherRegions.map(({ region, counties: regionCounties }) => (
+        <section key={region} className="mx-auto max-w-6xl px-4 py-14 sm:px-6 border-t border-border-soft">
+          <p className="text-sm font-medium uppercase tracking-wide text-brand-gold">Also now open</p>
+          <h2 className="mt-2 text-2xl font-semibold text-brand-teal-dark">{region}</h2>
+          <p className="mt-2 max-w-3xl text-foreground/70">{regionCounties[0].blurb}</p>
+          <ol className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {regionCounties.map((c) => (
+              <li key={c.slug} className="rounded-lg border border-border-soft bg-white p-4">
+                <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold">{c.phaseLabel}</p>
+                <Link href={`/${c.slug}`} className="mt-1 block font-medium text-brand-teal-dark hover:underline">
+                  {c.name}
+                </Link>
+                <p className="mt-1 text-xs text-foreground/50">{c.dialectProfile}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
     </div>
   );
 }

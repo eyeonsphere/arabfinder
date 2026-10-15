@@ -1585,6 +1585,44 @@ export const cities: City[] = [
   },
 ];
 
+// Groups counties into page-level "regions" for the homepage and the
+// /counties page. Every distinct phaseLabel becomes its own region
+// automatically, EXCEPT Southern California's phases 1-4, which are merged
+// into one combined "Southern California" region (a holdover from the
+// original single-region launch). This means a brand-new state/chapter
+// added to `counties` above will automatically get its own section on both
+// pages with zero further code changes required — see the Oct 2026 bug
+// where 8 new states (plus the Sacramento chapter) were added to this file
+// but silently never appeared on either page, because both pages filtered
+// on a hardcoded list of exactly 4 states/phases instead of deriving
+// sections from the data. Keep using this helper (not a hand-written
+// per-state filter) for any future region.
+export interface CountyRegion {
+  region: string;
+  counties: County[];
+}
+
+function regionNameFor(county: County): string {
+  if (county.state === "CA" && county.phase >= 1 && county.phase <= 4) {
+    return "Southern California";
+  }
+  return county.phaseLabel;
+}
+
+export function countyRegions(): CountyRegion[] {
+  const order: string[] = [];
+  const grouped = new Map<string, County[]>();
+  for (const county of counties) {
+    const region = regionNameFor(county);
+    if (!grouped.has(region)) {
+      grouped.set(region, []);
+      order.push(region);
+    }
+    grouped.get(region)!.push(county);
+  }
+  return order.map((region) => ({ region, counties: grouped.get(region)! }));
+}
+
 export function getCounty(slug: string): County | undefined {
   return counties.find((c) => c.slug === slug);
 }
