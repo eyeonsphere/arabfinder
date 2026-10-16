@@ -40,3 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scratch transfer dir used by Claude sessions, not part of the app
+/_tmp_transfer/
