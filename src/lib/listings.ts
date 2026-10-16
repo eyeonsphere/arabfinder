@@ -35130,6 +35130,71 @@ const listingsPart13: Listing[] = [
   },
 ];
 
+const listingsPart14: Listing[] = [
+  {
+    listingId: "ca-los-angeles-dr-nour",
+    name: "Mohamed B. Nour, MD — Kaiser Permanente West Los Angeles Medical Center",
+    slug: "mohamed-nour-md-los-angeles",
+    primaryCategory: "health-medical",
+    address: {
+      street: "6041 Cadillac Ave",
+      locality: "Los Angeles",
+      region: "CA",
+      postal: "90034",
+    },
+    hasPublicStorefront: true,
+    countySlug: "los-angeles-county",
+    citySlug: "los-angeles",
+    telephone: "1-833-574-2273",
+    website: "https://healthy.kaiserpermanente.org/southern-california/physicians/mohamed-nour-0505367",
+    arabOwnedSelfIdentified: "self_identified",
+    arabOwnedSource: "Kaiser Permanente physician directory profile, direct quote: 'I am originally from Alexandria, Egypt, and moved to the United States at a young age.'",
+    languagesSpoken: ["Arabic", "English"],
+    licenseType: "Physician (California)",
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Kaiser Permanente physician directory (healthy.kaiserpermanente.org)",
+      method: "Manual curation with compliance cross-check; candidate surfaced via Rakwa.com lead discovery, then independently verified against the physician's own first-party bio before inclusion.",
+      recordedAt: "2026-10-16",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote: "Anesthesiologist at Kaiser Permanente West Los Angeles Medical Center. Ownership basis is the physician's own first-person statement of Egyptian origin on his official Kaiser Permanente bio page, not an inference from name or training location.",
+  },
+  {
+    listingId: "ca-los-angeles-dr-saby",
+    name: "Adam H. Saby, MD — UCLA Health",
+    slug: "adam-saby-md-los-angeles",
+    primaryCategory: "health-medical",
+    address: {
+      street: "200 Med Plaza, Suite 420",
+      locality: "Los Angeles",
+      region: "CA",
+      postal: "90095",
+    },
+    hasPublicStorefront: true,
+    countySlug: "los-angeles-county",
+    citySlug: "los-angeles",
+    telephone: "310-206-6232",
+    website: "https://www.uclahealth.org/providers/adam-saby",
+    arabOwnedSelfIdentified: "self_identified",
+    arabOwnedSource: "Egyptian Streets, 'What the World Cup Taught Me About Being Egyptian' (egyptianstreets.com, Sept. 2026) — direct first-person quote: 'As an Egyptian-American, my parents taught me everything about being Egyptian.'",
+    languagesSpoken: ["Arabic", "English"],
+    licenseType: "Physician (California)",
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Egyptian Streets (egyptianstreets.com); practice details from UCLA Health provider directory",
+      method: "Manual curation with compliance cross-check; candidate surfaced via Rakwa.com lead discovery, then independently verified against a first-party press self-identification before inclusion.",
+      recordedAt: "2026-10-16",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+    editorialNote: "Physical Medicine & Rehabilitation physician with UCLA Health, practicing at the Westwood 200 Primary Care, Westwood 100, and Santa Monica 16th St. locations. Ownership basis is his own first-person Egyptian-American self-identification in an Egyptian Streets feature, not an inference from name.",
+  },
+];
+
 export const listings: Listing[] = [
   ...listingsPart1,
   ...listingsPart2,
@@ -35144,6 +35209,7 @@ export const listings: Listing[] = [
   ...listingsPart11,
   ...listingsPart12,
   ...listingsPart13,
+  ...listingsPart14,
 ];
 
 
