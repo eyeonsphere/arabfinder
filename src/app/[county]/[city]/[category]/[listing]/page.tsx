@@ -61,7 +61,7 @@ export default async function ListingPage({
 
       {listing.editorialNote && <p className="mt-6 text-foreground/80">{listing.editorialNote}</p>}
 
-      <div className="mt-8 grid gap-6 sm:grid-cols-2">
+      <div className="mt-8">
         <div className="rounded-xl border border-border-soft bg-white p-5">
           <p className="text-sm font-semibold text-foreground">Contact &amp; location</p>
           <dl className="mt-3 space-y-2 text-sm">
@@ -95,24 +95,6 @@ export default async function ListingPage({
                 <dd>{listing.openingHours}</dd>
               </div>
             )}
-          </dl>
-        </div>
-
-        <div className="rounded-xl border border-border-soft bg-white p-5">
-          <p className="text-sm font-semibold text-foreground">Verification</p>
-          <dl className="mt-3 space-y-2 text-sm">
-            <div>
-              <dt className="text-xs text-foreground/40">Verification level</dt>
-              <dd className="capitalize">{listing.verificationLevel.replace(/_/g, " ")}</dd>
-            </div>
-            <div>
-              <dt className="text-xs text-foreground/40">Source</dt>
-              <dd>{listing.provenance.source}</dd>
-            </div>
-            <div>
-              <dt className="text-xs text-foreground/40">Recorded</dt>
-              <dd>{listing.provenance.recordedAt}</dd>
-            </div>
           </dl>
         </div>
       </div>
