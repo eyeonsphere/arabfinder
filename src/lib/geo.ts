@@ -4228,7 +4228,7 @@ export const cities: City[] = [
   {
     slug: "dallas",
     name: "Dallas",
-    countySlug: "denton-county-tx",
+    countySlug: "dallas-county-tx",
     blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
   },
   {
@@ -4246,7 +4246,7 @@ export const cities: City[] = [
   {
     slug: "frisco",
     name: "Frisco",
-    countySlug: "denton-county-tx",
+    countySlug: "collin-county-tx",
     blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
   },
   {
@@ -4306,7 +4306,7 @@ export const cities: City[] = [
   {
     slug: "katy",
     name: "Katy",
-    countySlug: "fort-bend-county-tx",
+    countySlug: "harris-county-tx",
     blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
   },
   {
@@ -4612,7 +4612,7 @@ export const cities: City[] = [
   {
     slug: "amarillo",
     name: "Amarillo",
-    countySlug: "randall-county-tx",
+    countySlug: "potter-county-tx",
     blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
   },
   {
@@ -4726,7 +4726,7 @@ export const cities: City[] = [
   {
     slug: "austin",
     name: "Austin",
-    countySlug: "williamson-county-tx",
+    countySlug: "travis-county-tx",
     blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
   },
   {
@@ -4757,6 +4757,64 @@ export const cities: City[] = [
     slug: "round-rock",
     name: "Round Rock",
     countySlug: "williamson-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  // === Texas city/county disambiguation fix (same-day correction, Oct 17 2026): these
+  // Texas cities straddle more than one county in reality (Dallas/Fort Worth/Houston/Austin
+  // metro sprawl); the bare slug above was corrected to the county with the majority of
+  // this batch's listings, and each minority-county portion gets its own disambiguated slug here.
+  {
+    slug: "frisco-denton-tx",
+    name: "Frisco",
+    countySlug: "denton-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "richardson-collin-tx",
+    name: "Richardson",
+    countySlug: "collin-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "dallas-collin-tx",
+    name: "Dallas",
+    countySlug: "collin-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "dallas-denton-tx",
+    name: "Dallas",
+    countySlug: "denton-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "amarillo-randall-tx",
+    name: "Amarillo",
+    countySlug: "randall-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "spring-montgomery-tx",
+    name: "Spring",
+    countySlug: "montgomery-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "katy-fort-bend-tx",
+    name: "Katy",
+    countySlug: "fort-bend-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "austin-williamson-tx",
+    name: "Austin",
+    countySlug: "williamson-county-tx",
+    blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "carrollton-denton-tx",
+    name: "Carrollton",
+    countySlug: "denton-county-tx",
     blurb: "Covered by this directory's statewide Texas expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
   },
 ];
