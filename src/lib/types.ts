@@ -31,8 +31,8 @@ export interface Category {
 export interface County {
   slug: string;
   name: string;
-  state: "CA" | "MI" | "IL" | "NY" | "TN" | "OH" | "PA" | "FL" | "NJ" | "AZ" | "TX" | "MA" | "NC";
-  phase: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28;
+  state: "CA" | "MI" | "IL" | "NY" | "TN" | "OH" | "PA" | "FL" | "NJ" | "AZ" | "TX" | "MA" | "NC" | "VA";
+  phase: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29;
   phaseLabel: string;
   arabAncestryPopulation: string;
   arabicSpeakersAtHome: string;
