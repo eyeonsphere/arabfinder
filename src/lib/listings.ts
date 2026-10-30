@@ -334473,6 +334473,33 @@ const listingsPart107: Listing[] = [
 ];
 
 export const listings: Listing[] = [
+  {
+    listingId: "rakwa-mi-samis-fattoush-express",
+    name: "Amo Sami's Shawarma",
+    slug: "samis-fattoush-express",
+    primaryCategory: "food-drink",
+    address: {
+      street: "5950 15 Mile Rd",
+      locality: "Sterling Heights",
+      region: "MI",
+      postal: "48312",
+    },
+    hasPublicStorefront: true,
+    telephone: "+1 586-275-2620",
+    countySlug: "macomb-county-mi",
+    citySlug: "sterling-heights",
+    arabOwnedSelfIdentified: "not_stated",
+    claimStatus: "unclaimed",
+    verificationLevel: "unverified",
+    provenance: {
+      source: "Rakwa.com (rakwa.com) Arab American business directory",
+      method:
+        "Bulk, unverified lead import -- found during a targeted re-check of Rakwa.com's Sterling Heights, MI listings (Oct 2026) against this site's existing Sterling Heights coverage (both the individually-researched listings and the earlier statewide Michigan Rakwa import). Of 97 distinct Rakwa.com businesses found in Sterling Heights across all ~42 categories, 96 were already present on this site under some prior listing; this was the one genuinely new business found. Street address and phone captured directly from Rakwa's own category listing page.",
+      recordedAt: "2026-10-30",
+    },
+    closureStatus: "open",
+    isSponsored: false,
+  },
   ...listingsPart102,
   ...listingsPart103,
   ...listingsPart104,
