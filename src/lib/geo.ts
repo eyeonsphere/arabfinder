@@ -12681,6 +12681,21 @@ export const cities: City[] = [
     countySlug: "wyandot-county-oh",
     blurb: "Covered by this directory's statewide Ohio expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
   },
+  // Added during the Oct/Nov 2026 Rakwa.com coverage audit top-up
+  // (CA/TX/NY/FL/MI) -- small number of newly-found cities needed for
+  // otherwise-existing states/counties.
+  {
+    slug: "patterson",
+    name: "Patterson",
+    countySlug: "stanislaus-county",
+    blurb: "Covered by this directory's Oct/Nov 2026 Rakwa.com coverage audit, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "amherst",
+    name: "Amherst",
+    countySlug: "erie-county-ny",
+    blurb: "Covered by this directory's Oct/Nov 2026 Rakwa.com coverage audit, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
 ];
 
 // Groups counties into page-level "regions" for the homepage and the
