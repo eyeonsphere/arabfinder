@@ -4730,6 +4730,81 @@ export const counties: County[] = [
     blurb:
       "Added as part of a new Washington chapter sourced from Rakwa.com's Arab American business directory (Nov 2026). Washington had no prior listings on this site; businesses and professionals here were identified through that directory and have not yet been individually verified by this site; ownership is marked not_stated pending verification.",
   },
+  // Arizona statewide expansion counties -- added Nov 2026 as part of the
+  // Rakwa.com coverage audit, extending AZ coverage beyond the original
+  // individually-verified Phoenix/Maricopa County chapter.
+  {
+    slug: "coconino-county-az",
+    name: "Coconino County",
+    state: "AZ",
+    phase: 34,
+    phaseLabel: "Arizona Statewide Rakwa Bulk Import Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Not independently assessed for this county",
+    blurb:
+      "Added as part of a statewide Arizona expansion sourced from Rakwa.com's Arab American business directory (Nov 2026), extending this directory's coverage beyond the original individually-verified Phoenix/Maricopa County chapter to the rest of the state. Businesses and professionals here were identified through that directory and have not yet been individually verified by this site; ownership is marked not_stated pending verification.",
+  },
+  {
+    slug: "mohave-county-az",
+    name: "Mohave County",
+    state: "AZ",
+    phase: 34,
+    phaseLabel: "Arizona Statewide Rakwa Bulk Import Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Not independently assessed for this county",
+    blurb:
+      "Added as part of a statewide Arizona expansion sourced from Rakwa.com's Arab American business directory (Nov 2026), extending this directory's coverage beyond the original individually-verified Phoenix/Maricopa County chapter to the rest of the state. Businesses and professionals here were identified through that directory and have not yet been individually verified by this site; ownership is marked not_stated pending verification.",
+  },
+  {
+    slug: "pima-county-az",
+    name: "Pima County",
+    state: "AZ",
+    phase: 34,
+    phaseLabel: "Arizona Statewide Rakwa Bulk Import Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Not independently assessed for this county",
+    blurb:
+      "Added as part of a statewide Arizona expansion sourced from Rakwa.com's Arab American business directory (Nov 2026), extending this directory's coverage beyond the original individually-verified Phoenix/Maricopa County chapter to the rest of the state. Businesses and professionals here were identified through that directory and have not yet been individually verified by this site; ownership is marked not_stated pending verification.",
+  },
+  {
+    slug: "pinal-county-az",
+    name: "Pinal County",
+    state: "AZ",
+    phase: 34,
+    phaseLabel: "Arizona Statewide Rakwa Bulk Import Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Not independently assessed for this county",
+    blurb:
+      "Added as part of a statewide Arizona expansion sourced from Rakwa.com's Arab American business directory (Nov 2026), extending this directory's coverage beyond the original individually-verified Phoenix/Maricopa County chapter to the rest of the state. Businesses and professionals here were identified through that directory and have not yet been individually verified by this site; ownership is marked not_stated pending verification.",
+  },
+  {
+    slug: "yavapai-county-az",
+    name: "Yavapai County",
+    state: "AZ",
+    phase: 34,
+    phaseLabel: "Arizona Statewide Rakwa Bulk Import Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Not independently assessed for this county",
+    blurb:
+      "Added as part of a statewide Arizona expansion sourced from Rakwa.com's Arab American business directory (Nov 2026), extending this directory's coverage beyond the original individually-verified Phoenix/Maricopa County chapter to the rest of the state. Businesses and professionals here were identified through that directory and have not yet been individually verified by this site; ownership is marked not_stated pending verification.",
+  },
+  {
+    slug: "yuma-county-az",
+    name: "Yuma County",
+    state: "AZ",
+    phase: 34,
+    phaseLabel: "Arizona Statewide Rakwa Bulk Import Chapter",
+    arabAncestryPopulation: "n/a (no county-level ACS breakout available)",
+    arabicSpeakersAtHome: "n/a",
+    dialectProfile: "Not independently assessed for this county",
+    blurb:
+      "Added as part of a statewide Arizona expansion sourced from Rakwa.com's Arab American business directory (Nov 2026), extending this directory's coverage beyond the original individually-verified Phoenix/Maricopa County chapter to the rest of the state. Businesses and professionals here were identified through that directory and have not yet been individually verified by this site; ownership is marked not_stated pending verification.",
+  },
 ];
 
 export const cities: City[] = [
@@ -13962,6 +14037,187 @@ export const cities: City[] = [
     name: "Snoqualmie",
     countySlug: "king-county-wa",
     blurb: "Covered by this directory's Nov 2026 Rakwa.com new-chapter build, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  // Added during the Nov 2026 Rakwa.com statewide Arizona expansion.
+  {
+    slug: "kingman",
+    name: "Kingman",
+    countySlug: "mohave-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "bullhead-city",
+    name: "Bullhead City",
+    countySlug: "mohave-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "scottsdale",
+    name: "Scottsdale",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "peoria-az",
+    name: "Peoria",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "glendale-az",
+    name: "Glendale",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "paradise-valley",
+    name: "Paradise Valley",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "apache-junction",
+    name: "Apache Junction",
+    countySlug: "pinal-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "mesa",
+    name: "Mesa",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "sun-city",
+    name: "Sun City",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "sun-city-west",
+    name: "Sun City West",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "gilbert",
+    name: "Gilbert",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "surprise",
+    name: "Surprise",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "tempe",
+    name: "Tempe",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "chandler",
+    name: "Chandler",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "avondale",
+    name: "Avondale",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "goodyear",
+    name: "Goodyear",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "florence-az",
+    name: "Florence",
+    countySlug: "pinal-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "sacaton",
+    name: "Sacaton",
+    countySlug: "pinal-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "maricopa",
+    name: "Maricopa",
+    countySlug: "pinal-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "casa-grande",
+    name: "Casa Grande",
+    countySlug: "pinal-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "eloy",
+    name: "Eloy",
+    countySlug: "pinal-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "tucson",
+    name: "Tucson",
+    countySlug: "pima-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "yuma",
+    name: "Yuma",
+    countySlug: "yuma-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "flagstaff",
+    name: "Flagstaff",
+    countySlug: "coconino-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "fountain-hills",
+    name: "Fountain Hills",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "prescott",
+    name: "Prescott",
+    countySlug: "yavapai-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "kirkland-az",
+    name: "Kirkland",
+    countySlug: "yavapai-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "cave-creek",
+    name: "Cave Creek",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "skull-valley",
+    name: "Skull Valley",
+    countySlug: "yavapai-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
+  },
+  {
+    slug: "laveen",
+    name: "Laveen",
+    countySlug: "maricopa-county-az",
+    blurb: "Covered by this directory's Nov 2026 statewide Arizona Rakwa.com coverage expansion, sourced from Rakwa.com's Arab American business directory and not yet individually verified.",
   },
 ];
 
